@@ -1,0 +1,578 @@
+{"text":"<|user|> Classify the emotions of: '- Megölne, ha hallaná.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: '- Ne légy szentimentális!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Várjatok csak egy percig'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Óvodás koruk óta ismerem őket.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Nem hagyná itt Oroszországot!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Szarházi!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Akkor miben segíthetek? Árulja el, hol van Theresa Rubel!'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Azt a gallérost vették el?'\n<|assistant|> 1, 4, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Mennyire kívánlak.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ne kockáztass a lóval, Turo.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Remélem, veszítesz!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Sosem találnak rám.'\n<|assistant|> 1, 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Büszke vagy erre az állatra a családban?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Tudod, mivel a tábornokokra, konzervatívokra és republikánusokra gondolsz, mint akik teljesen a hadsereg és az üzlet mellett foglalnak állást.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Én fogom megölni! Enyém a kutya, hogy megöljem!'\n<|assistant|> 1, 2, 3"}
+{"text":"<|user|> Classify the emotions of: 'Engedjük ki!'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: '-Én megérzem, ha valaki hazudik nekem.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nem tudom. Mi csak... barátok lettünk.  Aztán, annál többek is.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Nem!'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ennek ellenére, eléggé helytelen fenyegetozni. Nem így bánunk egy közkatonával.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Pofa be, vagy úgy végzed, mint a barátod!'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Kiemelkedő!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Mikor csináltad, kölyök?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ehhez mit szólsz? Mi lenne, ha sosem hívnál?  !'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Megadom, és emelem 2500-zal.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nem hinném!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Szegény fejem'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- Kikötünk...'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Itt vagyok, hogy megvitassam az úgynevezett repülő csészealjakat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem tudom, hogy miért gyúrsz még, mert szerintem te máris kész vagy.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Menjünk.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Uraim, Rockwell Torrey admirálisra.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Kivéve az, hogy megnyomtad a dudát.'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nem kapok levegőt!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Van fogalma róla, mit művel szegény asszonnyal?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nagyon rosszul éreztem magam.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nehéz olvasmány egy ifjú embernek.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Persze, hogy nem, Uram.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'És Broderick admirális, uram?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Nem a mi hatáskörünk, igaz?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'itt van Eufémia'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Vigyen haza.'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: 'Rocky, megbeszélhetnénk néhány dolgot?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Lewis vissza.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Miért nem tudják ezt zavarni?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Semmi sem adható el jobban a bokszvilágban, mintha nagy hírveréssel visszatér egy peches hófehérke a ringbe.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nincs szükségünk a maga vigasztalására Seamus atya'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Egy csatahajó megnyugtatóbb lenne.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Shooter tudja, mit csinál!'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Az a férfiak kedvenc témája.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Az már valami!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Foglalj helyet, és higgadj le!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Igen, nem sietek.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Japcsik!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Hölgyeim, maradjanak lent.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Na elég, mert elkésel az iskolából.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Csak mondj neki valamit.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Rajta.'\n<|assistant|> 1, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'A hülye húga elesett a kádban, és neki ment segíteni.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ez majd megállítja.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Ez én vagyok, te bolond!'\n<|assistant|> 1, 3, 5"}
+{"text":"<|user|> Classify the emotions of: 'Igen, emberek. Nagyon jó.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Martinique-ra megyek egy milkával a seggemen ha nem cseszed el, mert akkor mind a sittre jutunk.'\n<|assistant|> 1, 3, 4"}
+{"text":"<|user|> Classify the emotions of: '- Megnéznénk megint a 26-ost?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Tetszik a parti, Torrey kapitány? - Igen, köszönöm.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Elmehetnénk a Fairmontba.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Jól bántál vele.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Uram!'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Üsd, Apa.'\n<|assistant|> 1, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Elnézést uram. Figyelmetlen voltam.'\n<|assistant|> 2, 3, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nem lehet.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Végre itt vagy megint!'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Van elképzelésünk.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Kiderült, hogy az életemet nem is én irányítottam az elmúlt 20 évben.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Mily nagyon vágytam rá, hogy a karomban tarthassam!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Te megőrültél'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Szóval, próbálok segíteni.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem ér vissza!'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Semmi meggondolatlanság, vagy velük együtt meghal!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Nem egészen.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hogy lehet, hogy a vagyonkezelői alap Jane nevén volt eredetileg?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Mit felelsz?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Pihenned kéne.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Gyere, ülj csak le.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Igen. Azt mondta, hogy visszalépnek.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: '- Helló, tengerész!'\n<|assistant|> 5, 7, 8"}
+{"text":"<|user|> Classify the emotions of: '- Igen, hogyne. - Nem hagyhatsz cserben.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Megszerezted az erőt.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'A későbbi pedig újra leszek, mert sikeresen megoldottam, hogy csak egy államban legyen új választás.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Hülyeség.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Tegye le! Mozgás!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'De jól végzi a munkáját.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Történelem.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'A tolerancia eltűnt, és a hit haraggá változott.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ezt nem fogják hagyni.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'És most elveszítették.'\n<|assistant|> 1, 5, 6"}
+{"text":"<|user|> Classify the emotions of: 'Kísérlet miatt emel vádat? Azt mondta, a kerületi ügyészség történelmében sosem fordult elő.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ő semmit nem gondol.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Elég. - Már hallottam róla.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Tombstone-ban arra kényszerített, hogy egy szál gatyában meg kalapban sétálgassak.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'De már van egy vacsora meghívásom.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- És egy megaverdát. - Micsodát?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Azt hittem, hogy a társam elveszítette a józan eszét.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Akkor már fogyatkoznak!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mihelyt Oroszországba érsz, meg tudlak védeni.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Lődd le!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nem szokott hozzá a környékhez.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A bestiák az autóikkal!'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Azt se tudom, ki vagy...'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Miért lenne ez gyengeség?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Kész!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ó, sajnos ma nem hiszem, hogy lenne elég időm rá.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Picsába!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Adja ide!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A tanúvallomásuk történelmet írhatna.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: '- Még mindig haragszol London miatt?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Megbízhatatlan kormányosom nem tájékoztatott.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Cserben hagytalak.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ő, aki a gyűrűt viseli... Help!'\n<|assistant|> 4, 5"}
+{"text":"<|user|> Classify the emotions of: '- Mind kiütött!'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Vagy eljössz, és megegyezünk, vagy kicsináljuk a családodat.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Szeretlek.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nem tudok semmit Martinique-ról.'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'És még több is van.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Bassza meg!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Azok sosem voltak ott, ez sosem történt meg.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Gúnyolódsz velem?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Kelly Burkhardt az?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Adott egy nagyon szép sálat.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Látott valaki más is?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Nem fognak hinni nekünk.'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Hála az égnek, hogy jól vannak.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nem ő mondta önnek, hogy az inasok ették meg az epret?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ők eldöntik.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Őszintén szólva...'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Ha le akarnakjönni a pincébe, vagy mostjönnek le, vagy soha!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Játszanod kell vele!'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'A legénység kedves volt.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Harding zászlós felhívott.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Addams?'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mr. Tusk sok pénzt adományozott Will kampányának.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Jó, bemegyek.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'És minden egyes emlék, amit olyan elkeseredetten próbálnak előhúzni a sérült agyából, pontosan azzá teheti újra.'\n<|assistant|> 3, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Identitásuk lényegétől megfosztva nem csoda, ha mind öngyilkosok lesznek.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ez... nem lesz semmi gond.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Hol van Graham? Kit érdekel!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Gondolod, van esélyem ellene?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Rocky, én nem csinálok.'\n<|assistant|> 1, 2, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Néhány fejes fia bajba jutott, s most beugrót keresnek.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Pedig az igazán szép.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ígérd meg, hogy vigyázol magadra.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Igyunk...'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: '- Emögé kell néznünk.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ez az idióta?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Hát mostmár jobb is így.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Amikor először megcsókoltalak.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- és tényleges kár nélkül...'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- A pénz egyáltalán nem fontos. - Hogyan?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Miért nem mondanak el mindent?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Chiang nagyúr!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Megengeded, hogy bemenjünk?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Az leterítette.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Az egész sztori arról, hogyan került Louis neve a falra, kamu volt.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Érdekelnek a csendes fickók.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Megtalálták az ügyfelem DNS-ét az áldozaton?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ártatlan családokat mészárolnak le, miközben az emberi jogokat emlegetik.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nem kell szeretned, csak csináld!'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'ezek lenyelik a nyelvüket, de nem beszélnek.'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: 'Nagy pácban vagyunk.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Nos szerintem nagyon. De én...'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Rajtakapták, hogy fejadagokat lopott. - Értem.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Ez totál kudarc!'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Mondja el, hová vitte!'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ha megütsz, beperellek.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Megtörténik mindenkivel, megöregedünk.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'És most, ha...'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Túl sok idő.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Hogy áll a ruhátok?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nincs beleszólásom a birodalmi huzavonákba.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Meg akarod mondani, hogy bánjak a lányommal?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Jegyezzük fel, amit mond. Útmutatásra készül.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nagyon sok mindent elérhetünk majd ezelatt, mi hárman.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Hagyják abba!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Tudna tenni még egy próbát? Kérem!  Nézze meg, mit tehet.'\n<|assistant|> 2, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Fufu, aranyszívű kutyus!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Miért ne innánk?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Felaprították.'\n<|assistant|> 4, 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- Ki ő?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Bárcsak én is ezt mondhatnám.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: '- Miért nem fogja be a pofáját?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ez igazi? Ez igazi disznó?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Rossz ember az a bohóc?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Amikor jól működik a csapat, mindenki nyer.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Minden percben távolabb kerül.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Szeretlek!'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Beszélne Önnel.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Te nagyon félsz ettől a helytől.'\n<|assistant|> 2, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Egy furgon hajtott felém.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Minden rendben!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'El kéne mennünk, mielőtt túl késő.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Üss, üss oda!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Drágám!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Szia apa!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Elnézést a kényelmetlenségért, uram.'\n<|assistant|> 3, 4, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nem kéne hívni?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Utálom a bőgőmasinákat!'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ne magyarázkodj.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Hé, ez itt Paul?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Tudom.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Aztán kérdezze meg, hogy ki adta parancsba, hogy minden embernek a táborban fognia kell napi 20 legyet. És ezeket naponta személyesen nekem kell összegyujtenem, leszámolnom és elszállítanom önhöz.'\n<|assistant|> 1, 2, 3"}
+{"text":"<|user|> Classify the emotions of: 'Azt mondta, nem áll készen még egy igazi kapcsolatra, meg mindazzal, ami ezzel együtt jár.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Tudod, aggódom a gyerekért.'\n<|assistant|> 5, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Így már jó.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Lehet, hogy nincs több esélyed.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Az istenit!'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ez nem Juliette hibája volt.'\n<|assistant|> 3, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Húzza a csuklójára! - Mi ez?'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Elment a lányt keresni.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Figyelj rám! Akárki is voltam, az már nagyon régen volt.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Biztos, hogy igen tizedes.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Borden halott.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Szüksége van egy...'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nem hiszek neked.'\n<|assistant|> 1, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Én szeretlek téged.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nem beszélhetek róla.'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mi nem vagyunk éhesek.'\n<|assistant|> 2, 3, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Honnan szerezte ezt?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'A nejem nem hordana ilyet mint ez.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: '- Le kell nyugöznöm a britet.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Az nem elég.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ha elérjük, hogy bejöjjenek és szembenézzenek velünk, akkor talán legyőzhetnénk őket és megszökhetnénk.'\n<|assistant|> 2, 3, 5"}
+{"text":"<|user|> Classify the emotions of: 'Festékszóró? Ezt nálatok fegyvernek hívják?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Jól van, fiúk, tovább.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Vicces.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nyugi tesó.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'A magáé véget fog, mert maga is olyan, mint minden bunözo, kapzsi.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Őrült gyilkos volt, senki sem hiányolja. Tudja, mi vár Larisszára?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Megint valami hülyeség?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Most kérem, nagyon jól figyeljen rám.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Köszönöm'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Megtennél nekem valamit?'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Jefe, kelj fel!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Mi baj?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Itt kell, hogy legyen!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Mostanában nem, asszonyom.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'De legalább, hagytuk őket összebarátkozni.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Három hónapig nincs eltávozás.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Megkedveltem Briant.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Siessenek.'\n<|assistant|> 1, 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Ha Ön lesz az elnök, akkor is Claire Underwood marad az alelnök?'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mi a hézag?'\n<|assistant|> 2, 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Hamarosan perkálhatsz nekünk, dagadt!'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Annyira lefoglal a gondolat, hogy máris fut a ló, hogy gondolkozni se bírok. Tegnap hívtál fel a sittről.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nem szeretném hogyha udvariatlannak találnának.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mi a baj?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Többet nem ér.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Helló, Kid.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Elmondta, hogy kemény dolgokon mentél át.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'És van egy nagy gondom. Ma egy bűnténynek voltam a szemtanúja és nem mondtam el a rendőrségnek'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Remélem meghallgatja majd.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem akar meglátogatni?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem akarok zárt ajtőt látni köztem és közte!'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Kelj fel, fiam, Mickey szeret téged.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Valóban? - Igen.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Hold!'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nekem nem lecke kell.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nem hiszem, hogy megkérdezheted.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nem! Meghibbantál?'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hiszen ők Underwood zsebében vannak.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nagyon kedves tőled.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Aztán az anyámnak is.'\n<|assistant|> 1, 3, 4"}
+{"text":"<|user|> Classify the emotions of: '- Hogyne. Elnézést a zavarásért.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Na és ez milyen?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Hát értesz a mágiához.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Meg tudod csinálni!'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Na mi lesz? Hozod már?  !'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Kockáztatni akar?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Többen voltak?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Igen, ne vicceld el!'\n<|assistant|> 4, 7, 8"}
+{"text":"<|user|> Classify the emotions of: '- Erre nem gondoltam.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'A földre!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Remek a reflexem!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Háromarc!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Powell szerint ön két hónapja rájött a stratégiára.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Szívesen.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Különben is miért izgat annyira?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Majd így folytatta.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'A főnököm majd elintézi!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nem ismernek el, hogy létezik.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Egyetértek uram, de tudja a koldusoknak nincs választásuk uram.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Keressük meg Atreyu-t.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: '- Nem én írtam.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- Megünnepeljük?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nem. Ezúttal nem.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nézze!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Remélem, diszkrét leszel.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: '- Honnan tudnád, hogy mit akarok?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- Bocs, hogy megütöttem!'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: '- Nem nagyon, de kedveltem.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Jelenleg jó esélyük van, hogy lógjanak.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Elkúrták...'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Nem is tudom.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Hagyja csak!'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Tudnom kell, hol lakik Chavez.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Olyan bátor.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Mit csinálsz még itt?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ennek annyi!'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Neked gyerek kéne, Phyllis.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Hol az anyám? - Rougemont-ban.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Egy kicsit most egyedül hagyom.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Sok jelenlegi képviselő veszítheti el a székét emiatt.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ne kívül keresse a magyarázatot, hogy hova tűnt a fia hanem belül.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Az, nem igaz?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Köszönöm, Randy.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Bíznak bennem.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Azért jöttünk, hogy meggyőzzük őket.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Jól csinálja.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Jó móka lesz a detektívesdi.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mi volt ez a lövöldözés, Chip?'\n<|assistant|> 2, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Elvesztettük Ben-t, menj vissza!'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nem volt alkalmam kérdezősködni.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ti britek könnyen sértõdtök. És egyik gané sem akar pénzt keresni.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Köszönöm, Kölyök.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nem viccelek.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'Úgy félek.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Közlöm vele, hogy Jere a jegyesem.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Most jobb?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Remélem, uram.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Akkor vegye vissza.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Igaza van, de nem én voltam uram.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Vért izzadtam, hogy ennyit is szerezzek.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Igyunk az új barátokra.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Bámulatos!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Minden tőlem telhetőt megteszek, hogy ne kelljen kirúgnom téged.'\n<|assistant|> 1, 3, 8"}
+{"text":"<|user|> Classify the emotions of: '- Drágám, te vagy az?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ma reggel meglátogattam.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Honnan tudod, hogy kell ezeket megcsinálni?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Rosalee-vel vagyok. Kihangosítalak.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Egy hazugság.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Uraim?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Tettenérés!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Honnan a fenéből tudta, hogy nincs királyom vagy ászom?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Erre iszom!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ne mondd, hogy Shooter a legrégebbi és a legjobb barátod!'\n<|assistant|> 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'A gazdag emberek szeretik az egyenruhásokat.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Nagy hibát követ el, Burkhardt.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Hol van anyu?'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Látom, jobban érzi magát.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: '- Apa!'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: '- Szép.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Tökéletes vagy.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Le onnan!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Őrizzétek a hármat, akit elfogtunk.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Tudod, Loomis, késésben vagyunk.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nehogy én, mint újsütetű menedzser elszúrjam a dolgot.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ne állj le vele verekedni.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ugorjon be egy italra!'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: '- Nekem nincs szükségem...'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: '- Hol van a nő?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Ki a fenének dolgozik?'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: '- Nem, dehogy. Csak szóbeszéd.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Szerintem szívás. - Mi szívás?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ez vicces.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Kérem, várjon!'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Szemet szemért!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Akkor még csak zászlós voltam.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Esetleg kitakarítaná a lakókocsimat, amíg távol vagyok?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Mindenki bogaras a maga módján.'\n<|assistant|> 2, 3, 5, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Szóval ne is törjem rajta a fejem, ez csak a maga dolga?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mielőtt a bomba tegnap felrobbant, látta ezt a férfit?'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: '- Gratulálok, Elnök úr. - Köszönöm, Cathy.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Ez egy idióta.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Aha, ezt mondta a Tábornoknak is?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Csak keressék meg.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Csak a szokásos.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Apám, elárulhat!'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Szeretném, ha olyan figyelne, aki megérti a helyzetet.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Tudod, hogy megváltoztam. - Miben?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Jó fej volt.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Abszolút.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Legtöbbször elbotlottam a saját lábamban.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Eric! Gyertek már ide, bassza meg!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Üdvözlöm Önöket az Ellysium mezején.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Az egész csapat ezen dolgozik, rendben, és meg fogjuk találni.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Egy kis mókára vágyok, ki tudsz segíteni?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem értek egyet.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hozzá se nyúltál.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ha feláll, meglát minket.'\n<|assistant|> 2, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Láttak valamit, amit nem kellett volna látniuk.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ez nem fog megtörténni.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Ne fordítsd felém azt a szart! Vidd innen!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Zárás után nem ér rá?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Milyen gonosz tervet szolgálsz?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Slade. - Nem találja kissé zavarónak?'\n<|assistant|> 3, 4"}
+{"text":"<|user|> Classify the emotions of: '- Ez megöl.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Most vajúdik?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Úgy látom, buli van a harmadikon.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Várjon a sorára!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Engem keres.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nincs más mondanivalóm, érted?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Sok mindenen mentünk keresztül együtt, és nem akarom, hogy nélkülem tegyél meg valami olyat, amiben a segítségem kellene.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Na, Tommy.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Doug, hallasz?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Mr.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Voltak olyan testek, amelyek ezen néhány lezuhanás résztvevői voltak.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Én nem mondtam semmit sem. Na helló!'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nem szerencsés benne hagyni.'\n<|assistant|> 3, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Áruljon el valamit! Érdekében áll hazautazni New Yorkba?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Hatalmas különbséget fedeztem fel Dirk Harrisman tervezett számításai és a tényleges költségvetés között a közel-keleti piacon.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Az élet?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Majd én elintézem.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'De csak egyszer hibázzon, csak egyszer... és majd meglátjuk, hogy mennyi ideig bírja majd a zárkámban.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Állítsa le! - Azért többet érdemelnénk...!'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'A zsaruk nem zavartak sok vizet, ugye, Duffy?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Szörnyű!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Ez meg az? - Igen.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: '- Helló fiúk.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Örülök, hogy elbeszélgettünk.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Tudom. A manhattani lakások sokkal drágábbak, mint...'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Figyuzd a sapkáját, haver!'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'A nagybácsim meghalt, esküszöm.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Azt hiszi, hogy ismer.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Hol voltál kedvesem?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nem kapják meg a beleegyezésemet.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Te hülye...'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Na, hogy ízlik?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ide, ide, ide!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Hacsak nincs egy terve.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'És rólad, és Diane-ről, és az ivászatról és erről az egészről.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Remek, Hal!'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Honnan?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nem semmi látvány. És micsoda hangélmény.  Érdekes szófordulatokat tanul az ember.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Az idegenek nem hagyják, hogy megtörténjen!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Várd ki, amíg megmutatom nekik, mire vagyok képes!'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Nemsokára beérünk az állomásra.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Visszafizetsz mindent, amivel tartozol, méghozzá kamatostul.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Hogy került Jane nevére a számlaszám először is?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Azt beszélik, borospincéje van, de én nem hittem el.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Gondolkodj gyorsan.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Üdvözlöm. - Megengedi?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Óramű pontossággal.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Az isten szerelmére, Johnnie.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Rohadt zsaruk.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Elvégre abban nincs semmi kihívás.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Állítsd meg az autőt!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Valaki elmozdította.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Aztán kicsinállak.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Ő egy igazi úrhölgy.'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Megmenekültünk!'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Tiltakozom, a védő kiforgatja a szavaimat.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Elvitték Juliette holttestét?'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Megkukkantod?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Várj egy kicsit. Ne most.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: '- Ma csak levesszük.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Közeledik az éves ellenőrzés, és úgy gondoltam, hogy maradnom kellene.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Remélem, ki is tart.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Szia, Paulie bácsi.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ennek ellenére, eléggé helytelen fenyegetõzni. Nem így bánunk egy közkatonával.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ismét elintézzük őket.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Igen, úgy láttam, jól szórakozott.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ez egy remek comberősítő gyakorlat.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nagyon sok bizonyítékunk van.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'A kurva életbe!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ne nyomjon!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Álljon meg a menet!'\n<|assistant|> 1, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Mint egy hadiflotta parancsnoka, a hajója fedélzetén.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Hogy eltakarítson.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Elhomályosítja az emlékezetet.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Jajj, ne már. Táncoljunk egyet.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Aztán ne maradj fenn túl sokáig, jó?'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mondtam neki, hogy a bejegyzés nem igazolja a felmentést. És hogy zendüléssel fognak vádolni.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Hogy ismersz?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Isabelle. Isabelle, jól van?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Miért tenne ilyet Chavez?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Te vagy az igazi bajnok.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ribanc!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Micsoda?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Majd én megmutatom!'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ez az egész, túl sok, így egyszerre. Tudod, én csak...'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Valaki ki akarja fizetni a város adósságát.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Nálatok az ébrenlét vicces?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Mi volt ez?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Mit gondolsz?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Ne nyúljatok hozzá! Forró.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Belőlem nem csinálnak hülyét.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mi a franc?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Megegyezhetünk.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Nem veheti be.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Igen, így kellett lennie!'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Beszélnünk kell. - Menjenek innen.  Mozgás.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Milyen jó kis kése van.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Ezt még megbánjátok!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Igen, uram, elnézést.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'És te végig röhögtél rajta.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Semmi esélyetek.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Meg tudjuk csinálni, ha ővatosak vagyunk.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nem lehet, basszus.'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Mi keresnivalójuk van itt?'\n<|assistant|> 2, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Remélem nem azt mondja, hogy a választmányunknak nem lehet beleszólása a nemzetközi kérdésekbe.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Megpróbálta beszervezni.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'Fütyülök rá, nem az enyém'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mind meg fogunk halni!'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: '- Rendben.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Vörös.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Milyen kár.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Köszönöm, hogy vigyázott rám, Mac.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Csak erre koncentrálj!'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Biztos?'\n<|assistant|> 2, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ő az, ott!'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hogy fogjuk pároztatni õket?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Figyelj oda, te idióta!'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Junior Golyhó hadnagyot mondott?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hagyj üzenetet. Szia, drágám.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Mindegyik?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Maga is hipochondernek gondol?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ki fogunk iktatni... És mindez...'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Hogyan vegyem le?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Komolyan. Megint ezt csináljuk?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nem tudom elhinni, hogy Katie meghalt.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Sir Harry Percival?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Szállj le rólam!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Miről van szó? - Beszélnünk kell.  Ennyi az egész.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Aki túl sokat tudva kényelmetlennek, vagy nyugtalanítónak tűnik.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Szóval ez a terv?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '15,000 dollárt költöttél ebédre?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Igen, nagyon vonzó.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Meg fogom azt tenni újra.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Gyilkos!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'ldióta!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ne hagyd!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Még repetát is kértél.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Maggie!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Meg akarta állítani őket.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Még csak most kezdtünk el átnézni, igazgató úr és rengeteg anyagot át kell fésülnünk.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Azt hittem, tetszik.'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Még be se jött. - Mondd meg, hogy ne adjon be semmit!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Feljelenti Mary nővért a rendőrségen?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Egy adó van ebben a kunyhóban uram.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Csak zagyvaságokat hallottam.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Mondd el, mi van, talán segíthetek.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Adj még egyet.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Hihetetlen!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Találnunk kell valakit vagy valamit, ami ehhez a csoporthoz köti.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Abszolúte röhejes!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'De ahogy ez felrobbant szükséges volt valamilyen típusú detonátor.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Szeretném megtisztítani a pártot. A mi pártunkat.  És emiatt néha elvetem a sulykot.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Nem lehet.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: '- Mi van oda?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Adtak neki egy gépet, és nem ellenőrizték a hadműveletnél?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Kapjuk el őket!'\n<|assistant|> 1, 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Adalind vajúdik.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'De terjedelmes mennyiségű bizonyíték van rá, hogy ők a mi ellenségeskedésünk miatt aggódnak.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: '- Ez a vonat merre megy?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Hát, bassza meg a brit.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Különben is, ti speciális hírszerző tisztek, mikor csináljátok azt, amit csinálnotok kéne?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Persze, hogy tudta. Nem mintha változnának.'\n<|assistant|> 2, 3, 8"}
+{"text":"<|user|> Classify the emotions of: 'Mi a fenét csinálunk itt?'\n<|assistant|> 1, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'A népszerűségével sokat keresne.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Holnapra legyen egy stóc az asztalomon a költségvetésekről, kutatásokról és pénzügyekről.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Azt mondtam... Égjetek el a pokolban!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Hajlandó vagyok a tárgyalásokat folytatni, - de addig is...'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'De nekünk nincs rá szükségünk.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Lágyabbat?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Muszáj melléjük ülnünk?'\n<|assistant|> 3, 4"}
+{"text":"<|user|> Classify the emotions of: '- Ki vagy rúgva, Jeffries.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'A hadsereg az, amely használja a háborús gépeket és igazolja őket. És aztán a hírszerzési közösség, ami nem is igazán egy hírszerző közösség, hanem egy titkos műveleti közösség felfegyverkezve hadi és nukleáris fegyverekkel.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: '- Szállásmester, mit tud maga errõl?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Szerintük neked sikerül.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Csak hogy tudjam.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- A Bastille ostroma!'\n<|assistant|> 1, 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Minket?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A szerencsétlen.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mi köze a vonathoz?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Az élete utolsó két évében, odaadta a vagyona nagy részét... nagy, névtelen felajánlásokban az alapítványodnak.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Még mindig nem emlékszem semmire.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Maga rejtette el a poloskát?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'És lehet, hogy sikerül meggyógyítanunk'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Harcállásokat elfoglalni!'\n<|assistant|> 2"}

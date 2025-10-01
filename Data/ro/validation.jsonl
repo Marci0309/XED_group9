@@ -1,0 +1,947 @@
+{"text":"<|user|> Classify the emotions of: 'Iti bati joc de mine?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Ba da, putem.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Vreau doar o şansă.'\n<|assistant|> 2, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Priveşte entuziasmul. Aceasta este Caine.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu trage!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'O să merg la ea după asta. Repede, dă-mi mâna.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai dansează?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ce-ai zice de o gură?'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Am să mă joc eu pe scăfârlia ta!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'E gol.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu. Nu.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'În timp ce-l verificăm pe acest Reilly. Probabil e doar o cacealma.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai avem timp.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu-i asa ca e frumos?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Iti amintesti de seara in care mi-ai facut propunerea?'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Vezi ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu ar trebui sa fii aici.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Opreşte!'\n<|assistant|> 1, 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Taci dracu din gura!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ii ieseau scantei din nas.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Plec acasă. Nu mă simt bine.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Şefule Wham, du-te !'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Percepţia extrasenzorială există.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Odată îmi păreai o femeie încântătoare.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Sunt mai beat ca tine, deci va fi o bătaie echidistantă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ce este asta?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Hector Eubanks e motorul micului nostru cocon.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Tony Vasquez a fost împuşcat, aparţine de noi, biroul de Omucideri.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ei sunt aici.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Si daca m-as droga?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Eşti aici să-ţi recunoşti păcatele, nu?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nimic nu se poate vinde mai bine în box, când un renumit revine ca o cenuşăreasă ghinionistă în ring.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Da, da, da, acum.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ce mama...'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Stii ce îmi place la tine ?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'ln pozitie!'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Păi, cred... Cred că lucrurile au mers prea departe.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Peştele care a scăpat e întotdeauna cel mai mare.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Nu, te mint ,Te iubesc !'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'În regulă, totuşi, nu?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Am înţeles. Bună, scumpo.'\n<|assistant|> 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'Am destule periuţe de dinţi.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Te ascult, dar nu pot garanta pentru cât timp.'\n<|assistant|> 1, 2, 4, 7, 8"}
+{"text":"<|user|> Classify the emotions of: '- Ştiu perfect în ce situaţie sunt ! Eu cred că nu !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Esti asa cum mi te-am închipuit.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ok. Verific.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Eu merg.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Sigur !'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'E portabil, cu bătaie lungă, foarte scump.'\n<|assistant|> 2, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Domnule! Aţi uitat harta!'\n<|assistant|> 1, 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Credeam că sunt îndrăgostită.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- De ce nu mi-ai zis înainte?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ştii cât de mult îmi place stilul tău elevat de joc.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'De ce sa o risipim pe aceste animale tampite de companie?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu vrei asta, nu?'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Idioţi.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Să mai încercăm o dată.. A fost odată bătrânul Nemo'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Şaptesprezece la tine, Philly.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Mă simt excelent.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Îmi împrumuţi pistolul tău ?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Ştiu şi eu să citesc.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Cineva a mutat-o.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Ia loc, Francis. - Mulţumesc.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Am putea să ieşim din Calgary vreo câteva zile.'\n<|assistant|> 1, 5"}
+{"text":"<|user|> Classify the emotions of: '- Cunosc multe fete drăguţe.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Dl Tusk a fost un donator important în campania lui Will.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Eşti arestat.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Adu-mi arma cind te intorci!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu merita loialitatea noastră.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu, nu este.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Am spus că e închis, Bozo.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'E nebună, rămâne?'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu, n-ai vrea.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Bine domnilor.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Lewis, lasă arma.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Acesta este compartimentul nostru.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Ai fost fantastic.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Fă cărţile, Shooter.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Bine!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu merită loialitatea noastră.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Specialistul la creşă.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu poti sa vii la showul meu magic.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu e negociabil, Sandy.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Sunteţi avocatul nostru?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Toată lumea vine aici.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu sunteţi fantome reale !'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'Scoate-l din apă. Uşor.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ce s-a întâmplat? O doamnă s-a lovit de-un arbore.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Rover, aici John Paul.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'M-am săturat de asta.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Cred că am o karma negativă. Înţeleg la ce te referi.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Aceasta este doar oribil.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu cred că mulţi dintre noi s-au gândit că ar putea fi vorba despre o soră sau un frate.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Decedatul e un bărbat caucazian trecut de 20 de ani.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ar trebui să-l asculţi pe frate-tu.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Pornim după ei. - De ce nu?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu asta am planuit timp de 6 luni in domitorul tau?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Styles Court este un loc vechi şi glorios!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Bingo.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Spune-mi ce-ai dat să-l!'\n<|assistant|> 1, 3, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Se simte bărbat.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'De ce nu-i ceri sa danseze?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Da? Ultima dată când m-ai asigurat, am pierdut oameni buni în Peninsula Kola.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Mai am destule. Eu sunt un regizor american, şi i-am propus sorei dv. să meargă în America să joace în filme.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Doar aşa te poţi face auzit, doar aşa poţi aduce o schimbare.'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Când dai peste el, să-i zici că vreau să-l văd.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Eram o epavă.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Juniorule, când ai să înveţi diferenţa dintre o piatră şi un nas?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Loveşte-l doar. -Vrei să îl loveşti ?  !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Eşti în regulă?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Tu eşti cel serios.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Am dreptate, dnă?'\n<|assistant|> 1, 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Fusese o explozie şi casele se prăbuşeau.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Simte-te bine.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Bun venit, Rocky.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'În caz că ai uitat, trebuie să fii la post la 8:30.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu poate sa imi iasa din cap ca Junior a fost responsabil de chestia din camping.'\n<|assistant|> 1, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'E gata cafeaua!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Mă-ta ar fi trebuit să te înveţe să baţi la uşă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Mulţumesc, amirale.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ce-as putea sa-ti spun? Ca este... chipes, înalt, bun, amabil, mândru, etc.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Hotii!'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: '- Sa ardem niste broscute.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Decoratorul acela e mai greu de găsit decât primarul însuşi.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Dar dinamita?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Haide tată.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'O artista? Cine te-a invatat?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Primesc un rahat ca duce o afacere bună.'\n<|assistant|> 1, 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Eu deja încuiasem servieta dnei Inglethorp în dimineaţa morţii ei.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Îndepărtat si util.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Te cam grăbeşti, Dante.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Este o idee bună.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Încercam numai să mă aranjez puţin.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Domnilor, dacă nu sunt obiecţii, eu voi face cărţile.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu-ţi aduci aminte nu-i aşa ?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Poţi să-l iei cu tine în California.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ei...'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Doi ani frumoşi pentru mine, în orice caz.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Du-te şi cereţi scuze.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mi-ai luat Demerolul si ai adormit. Atat de putin atragatoare ma gasesti?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu vreau lecţii, Shooter.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Tony Vasquez a fost împuscat, aparţine de noi, biroul de Omucideri.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: '- Ești țicnit!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Pentru că nu aveti încredere în mine?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Se simte mai bine in public decat in viata privata.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă simt foarte bine. Nu vă reţin mult.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Avand in vedere ce bag in mine, sunt peste poate de sensibila.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ramolitul Helmsman nu m-a avertizat.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Vreo 10... 20 din ei in spatele masini.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Mă duc direct la Johnson.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Continuă-ţi drumul !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Îmi pare rău. Da...'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ia-ţi mâinile de pe mine!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Dar am plătit un pret urias.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Îmi cer scuze, da?'\n<|assistant|> 1, 4, 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- Un cuirasat m-ar linişti mai mult.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'De asta tu îmbătrâneşti iar ea devine mai tânără!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Desigur aveți de gând în.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Apoi am mers la magazinul de băuturi, am luat o sticlă şi am început să beau.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Dacă vrei să intri în pivniţă, intră acum sau uită de asta!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Acum închid, pentru că trebuie să îi omor pe toţi.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Te rog uită-te la mine.'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: '- Federalii au găsit casa de pe lac!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Nu întreba.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'M-aţi chemat în legătură cu barba?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu e atât de simplu să ucizi pe cineva şi să scapi cu faţa curată.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ai avut dreptate despre Morse.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Au jurat toţi?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Dacă oamenii si popoarele ar avea bunătatea de care am vorbit, as fi gata să împărtăsesc toate astea... lucrările mele, totul.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Am înţeles, dle.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Fratele tău nu te poate ajuta?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Unchiul meu este mort, Jur.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Perfect.'\n<|assistant|> 1, 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Cred că şi eu te iubesc.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ascultă Tommy.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu pretinde niciodată bani, dar nu ştiu cum se face că mereu îi ajută pe cei bogaţi şi recunoscători.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Nu e prietenul nimănui.'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: '- Da, impuscati. Inchide Usa!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Clovnul lucreaza si el pentru Lombino?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu, mama.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'N-am făcut nimic greşit.'\n<|assistant|> 1, 5"}
+{"text":"<|user|> Classify the emotions of: 'Date fiind circumstanţele, îl sfătuiesc pe Rusty să nu răspundă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Se va prezenta la proces pentru acest caz?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Si acum...'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Si de asta omul asta ,este REGELE.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Bă, Starlete !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A spus cineva vânătoare?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Chestii de macho latini.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Războiul din Londra.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'O să pun capăt acestui lucru.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate ar putea dansa încă o dată, doar pentru astă-seară.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Scuza-ma?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Repetam un pic scena?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ce importanţă are ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Vreau sa ajut oamenii care imi plac.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Opreşte totul, Russell.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Voi sta alături de tine, până eşti pregătită.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'N-am de gând să mă retrag încă.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Hai sa-l omoram.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Sunt ceea ce arăt !'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Încă un minut.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Dar o face. Ar trebui să-mi iau rămas bun.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'O, Doamne, no. O, nu.  Nu...!'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Vor să închidă uşa.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Sunt ultima piedică, iar asta mă nelinişteşte.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Cum asa \"ce\"?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'şi acum avem nevoie de o unitate a legii capabilă să întâlnească duşmanul pe terenul său şi să aibă destule arme de foc ca să facă treaba.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Sfârşit.'\n<|assistant|> 3, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ai dreptate.'\n<|assistant|> 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Domnilor, nu înţelegeţi.'\n<|assistant|> 5, 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Sau maxim trei.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Dă-mi geaca !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Un cal foarte bun.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Mersi, Rock.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Vrei să spui că a fost monstrul?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'CINCI RANI e porecla.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Tu nu întelegi situatia. Sunt fanatici religiosi.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Eu vorbesc despre onoare, nu despre ideologie.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'N-ai auzit ce am spus? Ai spus ca petrecerea s-a sfârsit.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mama spune că el a fost... Băga-mi-aş!'\n<|assistant|> 1, 3, 4"}
+{"text":"<|user|> Classify the emotions of: 'Te voi concedia! Te voi lăsa pe pistă!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Da, 3.400 de dolari sunt mai mult decât mi-aş putea permite.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Specialist la creșă.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Mi-am reconsiderat poziţia referitoare la oferta de achiziţie.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Aşa ceva am învăţat de la el, şi dacă vrei, aş vrea să te învăţ şi pe tine.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să fie nişte arme in acesta casa.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'De ce te interesează dacă am dus o femeie, un bărbat, sau o pipiţă moscovită ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Iese din raza de acţiune!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Fără Tom, nu ajungem nicăieri.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Spune noapte bună...'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Morales a întârziat două minute.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Lancey?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Asteptati!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Hei !'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Cum adică doar un campion de hârtie ?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Oricum nu l-am agreat.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Miscă-ti fundul încoace !'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: '- Glumeşte, doar.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu le port pică. Mi-e milă de dânşii.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Capabil?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ştii cine era, Kid?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Face parte dintr-o proprietate numită Whiteshore.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Vei fi tata.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Şi ştiţi ce ?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'E normal să fi avut emoţii.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Iar eu nu-ţi cer permisiunea!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Pentru că am o veste bună si una proastă pentru tine. Vestea bună e...'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Baga-l in masina.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ea a spus că nu este într-un cap-spațiu pentru o relație, cu tot ceea ce se întâmplă în lume. - Oh.  - Mm, mm-mm.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Facultate. Şi dacă mă duc la facultate la Rio?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu facem o jucărie, Johnson.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă simt bine.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Gragule, eşti prea curios.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Trădătorii nu merită nici resturi.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'S-o ştergem!'\n<|assistant|> 1, 2, 3, 4, 5"}
+{"text":"<|user|> Classify the emotions of: 'Am văzut că au venit, dar ce puteam face?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'E de încredere.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Dacă o faceţi, să n-o facetia aici.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'După o săptămână de trudă ... Ideea e să ai un loc.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Era în dizgratia partidului.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Dacă tot sunt propriul meu şef, am să închid ochii de data asta.'\n<|assistant|> 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ia să-l scoatem la lumină...'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Aproape mi-ai rupt mina.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Sunt sigură că Tibey ar dori să mai rămâi.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'E cineva în pericol?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Vor muri oameni, dnă preşedinte.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Lăsaţi-o în pace.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Asta ar fi satisfăcut-o? Ce anume?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Mie însă nu.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Hei,Asteapta!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Şi n-ai fi pariat o para chioară pe şansele lui, după felul în care repeta tot timpul că el a omorât-o pe bătrână.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'N-am fost acasă la Christine.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ave, fraţi! Fraţi mulţi!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '¶ Si reci din iarbă de mare,'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Te-am recepţionat, clar.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'S-a dovedit că viaţa mea n-a fost a mea în ultimii 20 de ani.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Da ?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Iar el şi-a făcut drum acolo cu o ţeava de canal, şi ţi-a salvat viaţa. Iar tu acuma, negi asta când el e mort?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Am tăcut ca să nu aibă probleme.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Eu deja incuiasem servierta dnei Inglethorp în dimineaţa morţii ei.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu este vorba de gelozie.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Numai printr-un miracol, Billy mai e azi în viată.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Voi fi ok.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Sigur nu vor să scape de tine.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Am aflat la jurnalul de la ora 11 cine era M. Tarlow. Era avocatul acestui renumit mafiot,'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ai adus doi trăgători din Miami.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Imbecilul ăsta a trişat tot jocul.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Toata lumea in seif.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Lansaţi echipamentul pentru detectarea minelor.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Sper să piezi.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Asta nu trebuia să se întâmple.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Aceasta este sansa ta de a obține un răspunsuri.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu vrei să intri la răcoare, nu ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mai întâi mă întrebam de ce am fugit.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Dacă erai rus, n-ai fi păstrat tăcerea, corect ?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Tatăl a fost achitat, pe motiv de legitimă apărare.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Îmi aminteşte iar de ce am jefuit banca.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Taigen.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Cred că îi place.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Poate chiar e nevoie să facem asta.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Şi-a vândut sufletul diavolului, în schimbul unui singur moment de fericire. Şi cum s-a sfârşit?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Uite ce mare e!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Un chelner mi-a spus că vrea să-şi păstreze reputaţia.'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: '- E o parte din cadru.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu e rău.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nici nu ma indoiam. \"The Enquirer\" ,\"Star\",\" Variety\".'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Încet. Ce s-a întâmplat ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Voi avea grijă de el.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai vreau aşa ceva. Nici măcar un minut.'\n<|assistant|> 1, 2, 3"}
+{"text":"<|user|> Classify the emotions of: 'Deci nu a mai văzut-o niciodată ?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Aspus ca nu are nevoie de pilot.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Deci cum e?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Vezi arma din mâinile lui?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Urăşti tipii ca mine, nu-i aşa?'\n<|assistant|> 3, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ne-ai recuperat pachetul.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Shooter ştie ce face.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'N-am o nepoată.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: '- Cu placere.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Aşa e!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Când se întâmplă, Kit ?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Hai, sus, mare erou.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Soţul meu, Sid Roth.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Se mai întâmplă...'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Da, asta e.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'La vârsta asta încă mai lucrez la teză mea. E ridicol.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Te superi dacă-mi scot cizmele ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Anul trecut nu aveam probe. A fost un informator care era dispus sa-si vânda si mama pentru a scapa.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Unde vă e minunata fiică?'\n<|assistant|> 5, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Dacă oamenii ne vor uita nimeni nu se va mai gândi la lucruri distractive pe care să le facă Junior.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: '- M-au chemat aseară.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Îmi promiţi că te vei gândi ?'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'E clar că n-am avut încredere să ni le spunem.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Ce zici la Gobernador?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Să ne întoarcem la Hollywood, să facem filmul ăsta.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Da, sunt bine, tata.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Dacă stai zece ani aici, o să ştii să faci diferenţa dintre un avion şi un pescăruş.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Se poate să fi devenit, cum spui tu, obsedat de numele nostru, de trecutul nostru, şi de absenţa viitorului nostru.  De tablourile noastre.'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Pare să le ştie pe toate.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Sa ne întoarcem la Hollywood, sa facem filmul asta.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Hei, înţeapă !'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Te-am avertizat sa nu bei prea mult. Patru ani, dar acum s-a terminat.  patru ani am invitat oameni, am pregatit petrecerile, am facut pe bufonul, am facut curat, am platit servitorii, politia, ziarele si invitatii.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: '- Prinde-l.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Opreşte, Raoul.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Că este... chipeş, înalt, bun, amabil, mândru, etc.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Mulţumesc pentru seara asta.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să renunţăm la caz.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ascultă-mă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu pretinde niciodata bani, dar nu stiu cum se face ca mereu îi ajuta pe cei bogati si recunoscatori.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Backpage a refuzat cooperarea în investigaţia subcomisiei.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Mult mai drăguţă decât mi-aş fi imaginat.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Până și de plâns, plânge ca o femeie.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Îl doare capul şi învârte nişte bile de oţel. Ce dacă?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai sta pe hol, George.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'De ce nu ai făcut publică informaţia?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu fi prost.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nimeni nu m-a acceptat vreodata!'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Am vomitat pe familia mea.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Suntem în impas.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie sa inlocuiasca drogurile cu ceva.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu ma lua cu tampenii din astea pustiul e un monstru!'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nemernicul ăla scapă.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'De ce nu vă odihniţi?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Bine? Da...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Important e sa stai acolo si sa iti incerci sansa, OK?'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ajung la birou într-o oră.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Bilele acelea, frazele incoerente, migrenele cămăşile în pantaloni şi discursul din această seară: Mă îngălbenesc, dar câinele meu mă place şi aşa.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'N-am vrut să-i fac rău.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Cei mai scumpi.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Şi o vestă n-o să fie suficientă.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'E o forma de politete. Iar acum începi sa faci pe prostul.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Ce ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă lua cu de-astea. Ştiu destule despre măsuri şi greutăţi ca să ştiu că nu sânt admise găuri de corecţie.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Aşa e expresia.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Ai banii potriviti?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Repede. Avem 6 minute până creierul devine inutil.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Ar trebui să ai un copil, Phyllis.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ştii ce trebuie să faci ?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Serios.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'E prietena mea, Aretha.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu, tata, am adoptat.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Doare!'\n<|assistant|> 1, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Dacă mori, specia ta va dispărea.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Aş putea totuşi.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai zic nimic dacă râzi. Îmi promiţi?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu ştiu dacă ai dreptul să mă întrebi aşa ceva.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Luat?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ţin minte că odată am pus canarul mamei în cuptor.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Mă aşteptam la ceva urât.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Vreau o listă cu toate datele contabile ale tuturor pe biroul meu, mâine.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ucideti si vorbiti de drepturile umane!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Să plecăm de aici !'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Acuma vin sa va duc la petrecerea mea.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Vezi ceva care îţi place?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Mai important, ce dracului fac eu aici?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Va urez o calatorie placuta ! - Si dumneavoastra la fel !'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'De ce ţii asta aici jos ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate v-aţi culcat împreună din când în când.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'De-a lungul interogatoriului a insistat să fie numit Pavel Antipov. A refuzat să răspundă Ia numele de Strelnikov.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Dacă întâIneşti pe cineva cunoscut...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Da!'\n<|assistant|> 1, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Tot nu înţelege.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Eu unde ar trebui să mă duc?'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: 'Asta îmi distruge cariera.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'În visele mele am văzut o lumină peste Oraşul de Argint şi mi-am dat seama că mai este speranţă.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu-l pot salva pe Iakov.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'David, poţi să iei tu biletele la meciurile echipei Giants.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Înţeleptule, tu ne poţi salva.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Iar apoi a zis, Sper că era vinovat. Apoi a râs.'\n<|assistant|> 1, 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'In cazul in care nu ne omoara CASEY,o vor face Triadele.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A, Muldoon, esti un vrajitor.'\n<|assistant|> 5, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ştii, Kid, eşti cel mai bun jucător pe care l-am văzut în 35 de ani de experienţă.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Daţi-mi drumul din gaura asta!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'În orice domeniu, Lombino e Rege.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ca marinar în Marina Americană, veţi merge pe mare ca să vă luptaţi în cel mai dur conflict din istorie.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Atenţie!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Spune-mi că e ceva important.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Pe aici, dle Lewis.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Amuzantă şi înfricoşătoare.'\n<|assistant|> 4, 5"}
+{"text":"<|user|> Classify the emotions of: '- Felicitări.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'M-au filmat, iar acum ameninţă că vor depune acuzaţii.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nancy, sunt Al.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Trimite un mesaj la Pearl.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Din toate punctele de vedere, o îmbunătăţire faţă de original. Am marea plăcere să vi-l prezint pe...  RoboCop 2.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Întreabă-l!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Da, mă deranjează.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Restul pot pleca.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'N-am vrut să îţi stric seara.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Şi ce ai să faci?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Îi cunosc pe copiii ăia de când erau la grădiniţă.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Grozav !'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Majoritatea erau distruse, dar am reuşit să recuperez datele de pe unul dintre ele.'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Iti voi da un minut si 28 secunde.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Din acelea din sticle. Du-te.'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Vrei să te gândeşti ?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Înteleg.... !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu mi-ai spus niciodată că tatăl tău e...'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Cât timp voi doi, puşlamalelor, vă felicitaţi reciproc, aţi face bine să vă daţi seama că poate îi veţi risca viaţa lui Brennan.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Atunci încep să se îndepărteze.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Dacă-mi mai vorbeşti vreodată aşa... o să am grijă să nu mai câştigi alegerile niciodată.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'E un pic supărat acum.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Credeaţi că am murit şi eu, nu? Trebuie să mă întorc la treabă.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Da, asta e, te iubesc Ri-Ri.'\n<|assistant|> 4, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Sentimentul de vinovăţie şi ruşinea... M-am luptat mult cu ele.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Bastian!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Iar tu eşti de acord ? - Da, şi tu eşti.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Pentru ceva.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu poţi împuşca un copil, nu, nenorocitule?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Tommy are să discute ceva personal cu tine.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu-mi pasă ce e, atât timp cât pluteste.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Răspundeam la nenumărate reclame şi aflam că, de fiecare dată, era cineva care se prostitua sau care fusese vândut de traficanţi.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Îmi place fundul meu.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Încă îi mai simt aroma.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Cu ce vă pot fi de folos ?'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Cum a început asta?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Bob, asta este o listă de întrebări care ne poate dezvălui secretele militare sovietice şi care ne va ajuta să învingem în cursa înarmărilor.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Este posibil ca, ultimă doză, să fie fatală.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Care?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Aşa-i mai bine.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'As fi vrut sa stiu cum sa ti-o spun.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'TERMINA-TI CU GALAGIA!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- La dracu' cu procesul!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Ai avut curaj.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu-l recunosc pe cel de la vioară.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: '- Da?'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Asta la rapus.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- S-a pariat destul şi pe tine.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'E o minciuna. Mi-a fost aspirata.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Pacea să fie cu tine.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate e mai bine să-mi amintesc.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Putem vorbii despre el la noapte.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'De ce durează aşa de mult ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Apuca-l.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A fost foarte greu.'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ce tot vorbeşti?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Dacă vrei să ştii, am fost la Woodstock!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Masa vă va fi servită imediat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Evident, nu eşti ca restul.'\n<|assistant|> 5, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Pe cel mai bun.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Tu ai fost ăla ?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Adică... n-am mai fost părăsită niciodată, pentru că... nu se simţea grozav.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ai un client.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: '- Brian! Astia vor sa va omoare!  - Pleaca de aici!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Este un gând eroic, Barley.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Si insula este înconjurată de nave de război.'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: '- Îi plătesc eu biletul.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Dar n-o voi cauta acum.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Frate-meu v-a luat toate ţigările? Mai am un pachet.'\n<|assistant|> 1, 6, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Viaţa este haotică. Greşelile pot fi mereu corectate.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Doar nu te aşteptai să stau deoparte?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Banda de motociclisti ? Sigur !'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Ai venit să te droghezi?'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Eram nerăbdătoare să vorbesc cu fiica mea. Ce nume neobişnuit, Aretha..'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Cum e cu şcoala ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Inima sa era ca de hârtie. Dar a ţinut totul pentru el.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ştiu ce crezi despre mine.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Şi cine spionează şi se întoarce trăieşte să mai spioneze şi în altă zi.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Crystal, uite ce frumuseţe.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Acum poţi să-i arăţi lui tata câteva trucuri.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Sângele ți se va îngroșa.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu crezi că mă descurc cu un bimotor, la zece kilometri altitudine, în zbor liniar deasupra zonei rurale?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Acum este şansa noastră, haide !'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ar fi trebuit să mă ucizi când ai avut şansa.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu poti închiria un print!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Tu ce vrei?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'N-ai avut nici o şansă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Am să-ţi spun ceva ce n-am mai spus nimănui.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Drăguţă, nu-i aşa?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Pe un tip ca asta nu-l uiti.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: '¶ She swapped me for a trout'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Băieţii vor să petrecem.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Atâta aşteptam!'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să le cerem tuturor din Fantasia să ne ajute.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: '- Opreste-te! - Mincinosule, m-ai ajutat să car cufărul.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Le-am făcut.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Vinnie, întârziem.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Dacă mă faci să par idiot, esti mort.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Vrei să mai încerci o dată? Te rog.  Vezi ce poţi face.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Cel mai lung joc al meu a fost în voiajul inaugural al \"Mauritaniei.\"'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu e civilizat !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Mi-a dat o eşarfă frumoasă.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nick nu ar inventa asta, şi cu siguranţă nu ne-ar fi spus asta dacă nu era adevărat.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'De acord.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Lumea o sa-i vada într-o zi portretul, portretele noastre, si va spune: \"Ce pacat ca au murit fara sa lase nimic în urma.\"'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu ştiu ce...'\n<|assistant|> 1, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Trei dintre vecini au fost uciși noaptea trecută.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'N-am vrut să te sperii.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Încerca primăria să facă o învoială cu mahării drogurilor?'\n<|assistant|> 1, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Salut. Te servesc cu ceva?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Atunci ar trebui să mai ascultăm de înţelept ?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Toate viziunile au această soartă.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'La ce te gindesti in seara asta?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Să devii un ucigaş?'\n<|assistant|> 3, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Toata lumea afara!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Acum, pleacă de aici.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Noi...mai avem câteva întrebări.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Slab Da?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A scăpat câinele.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Ce s-a mai întâmplat acum ?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Dar el ce ţi-a spus să-mi spui ?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Sunt demoni la Curte, aşa că trebuie să mă amestec în afaceri de stat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate de aceea nu pot avea copii.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Fă o greşeală, doar una şi vom vedea cît timp vei supravieţui în cuşca mea.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: '- Prostii!'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Acolo se duce!'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Marina se aşteaptă la erori din partea mea, dar n-am de gând să le fac.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Apari, apari, oriunde te-ai afla... stiu că esti acolo...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Tu ai fi dura.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Judecătorii care iau aceste decizii vor rămâne în istorie.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Cât am tânjit să îmbrăţişez acest copil.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Sunteţi de pe fregata care m-a atacat, nu-i aşa ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Asta e o prostie, Francis.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Si un singur lucru l-ar putea face pe dl. Kirk Edwards sa vina aici tocmai de la Roma.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- E ipotetic.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'E fum negru.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nenorocitul de Hu ne-a trădat.'\n<|assistant|> 1, 3, 4"}
+{"text":"<|user|> Classify the emotions of: 'Habar n-aveam! Spun şi eu o dată adevărul!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'L-am ucis pe omul pe care-l uram, astăzi.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Minţi că strângi bani pentru Ligă şi comunitatea trebuie să se calmeze?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Doar dacă nu vrei să rămân.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă uita, Bastian.'\n<|assistant|> 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Opreste masina!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'El urăşte pe toată lumea.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Ştii când mi-am dat seama de asta?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Bineînţeles, dl. Edwards va acoperi toate cheltuielile în legătură cu proba.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Mie însă nu.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Îţi mulţumesc.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Ce vrei ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Oamenii cu bani o propulsasera în capul afisului.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Doreşte-ţi ceva pentru vieţile noastre!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Te vrei într-o bandă de motociclişti şi nu ştii să conduci o motocicletă ?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Băiatul sărac care a reuşit, fost poliţist.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Cu mulţi ani în urmă, biserica i-ar fi trimis să fie arşi pe rug pe cei ca voi.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Am petrecut ceva timp să o fac, ştii.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Slavă Domnului că eşti bine!'\n<|assistant|> 2, 4, 5, 7"}
+{"text":"<|user|> Classify the emotions of: '¶ On nights like tis wit te moon above'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Puneţi-vă asta. - Ce e asta?'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Și auzi, de fapt. Limba este ceva sunteți niciodată să uit.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'E parte integrală a apărării.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Da, îi cunosc.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Cântaţi despre altceva.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Cum păşesc în Rat Catcher, primul lucru pe care îl remarc, pe lângă mirosul de bere râncedă şi urină stătută, e tensiunea.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'E singura ta şansă să primeşti răspunsuri.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'sănătatea, dezvoltarea şi comunitatea.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ce sistem e ăsta ?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'N-am zis c-am venit să ucid pe cineva, da ?'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Sau ce?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Sună alarma!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Mai aveţi nevoie de maşină astă seară ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate va dura câteva luni, poate un an.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ai ratat!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Vi-l pot fura, dle. Poirot?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu, de la tine de acasă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Dati-ne drumul!'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'N-am nicio bază şi nicio poziţie pentru a continua dacă o fac.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: '- Maiestate.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu încercam să evadăm.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- De ce te uiţi la mine?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Te salvez eu !'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'O femeie care bea, e deja destul de rau.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Oricine poate greşi.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Unde ai găsit aşa ceva?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Fata asta înseamnă mai mult pentru mine decât orice pe lume, Shooter.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Asculta,astazi e ziua mea de nastere,si fetele dau o petrecere Veti veni si voi?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu-i ăsta un loc grozav? Drogul \"Shangri-la\"...'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Când îmi vei aduce programul, Nina va fi eliberată.'\n<|assistant|> 1, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu îţi mai pune jacheta!'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu! Nu!  Nu!'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Vă cunoaşteţi ordinele. Am înţeles.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Jurnalistii si lupii ma asaltau zi si noapte.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie sa fie niste arme in acesta casa.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Aveti ceva propuneri?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Indiferent de ceea ce se sa întâmplat, acest copil este de gând să nevoie de tine.'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ştii câţi oameni mor acolo?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'REPOSEDATĂ traducerea: florin_bun adaptarea: valgog'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Mulţumim, domnule Alvarado.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Coboară mâncarea mai uşor.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'D-le profesor!'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Întotdeauna voi putea să-mi cumpăr un sprijin.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- A fost Brennan.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Faceţi ce vă spun. Dacă nu, îl omor.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Adică cel pe care l-a lăsat înăuntru a deschis ferestrele să pară intrare prin efracţie?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Egan, desfăşoară harta la care am lucrat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A apelat la noi şi ne-a întrebat'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Nu vezi ce se întâmplă ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu e o discuţie. Interogatoriu.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate că tot el l-a ucis pe Elefant.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Am văzut un tip în bar acum o oră.'\n<|assistant|> 2, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'A sunat telefonul?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Da, ma deranjeaza.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'O vei bea pe toată, Seth Dove.'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Uite pe cine am găsit.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: '- Circuitul e supraîncarcat.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Semnalul e slab.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Oamenii cu bani o propulsaseră în capul afişului.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Eram în căutarea a ceea ce numim cu fineţe \"un chip nou\".'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Privilegiile, îngâmfarea lor.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ţie îţi pare rău?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Cum a ajuns fondul fiduciar pe numele lui Jane?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Aşa că au considerat oferta ta o insultă.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Mireasa batuta de ploaie.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Deci, îţi vei face loc printre gangsteri?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ai cunoscut mulţi avocaţi.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Suntem priviţi, de amândouă părţile.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu-mi vine să cred.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'O forţă a naturii capabilă de-a da naştere tuturor lucrurilor rele?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Tată!'\n<|assistant|> 2, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'Poate trebuia să-i spui că o iubeşti.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Cum?'\n<|assistant|> 1, 5, 7"}
+{"text":"<|user|> Classify the emotions of: 'În regulă, în regulă, în regulă.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Eu îţi spun foarte clar. Vreau să fiu de faţă când Underwood anunţă suplimentarea serviciilor medicale.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'A cerut-o în căsătorie, după război.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Contra-atacă ? E vulpe bătrână.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ştiu. Să pornesc alarma?'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Încearcă să o salveze pe Katya.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu eşti omul care a fost tatăl tău, Reilly.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'De asta plec acum.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Orice ai nevoie, sun administraţia şi autorizez biletele.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Te rog nu pleca.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Dar, ineluctabil, vine timpul sa ne trezim, chiar si noi.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A acceptat să-i cumpăr un costum. Şi să-i obţin o slujbă la vechiul spital.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Un om să o salveze pe împărăteasa Childlike (asemănătoare unui copil).'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Aşa ceva nu putem permite.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Dar, nu avem de ales.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Tu vii cu mine, singur, Și plecăm în 20 de minute.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu, nu vezi!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Si sa treci la altceva.'\n<|assistant|> 2, 5, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Adalind a intrat în travaliu.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Absolut.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'I-am spus că eşti bun.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Bună treabă, Isabelle.'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ungaria?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Pune-te cu burta pe cărţi diseară şi te voi asculta mâine.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Chiar e verişorul nostru?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Poţi să-mi faci rost de nişte calmante puternice?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Câtă măiestrie !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Te aşteaptă.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Pe curând!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A sosit secretarul de stat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poliţia va dori să eliberez pe unii dintre voi în semn de bună credinţă.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'O vedetă care nici măcar nu fumează.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Chiar asta mă pregăteam să fac, dragă.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Poftim!'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Eşti cumva mama mea?'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Acum că ne-am cunoscut, vă dau aceeaşi şansă.'\n<|assistant|> 1, 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- Acuma cotu' sus.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Aruncaţi tot balastul.'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă mai împinge, camarade.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Adică, îmi dau seama tu nu trebuie să-mi răspunzi, Dar nu uita am ajutat te în această lume, bine?'\n<|assistant|> 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Cum îţi petreci timpul la Lisabona, Barley ?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: '- Eu vreau coniac. - Dră Dorne?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'O, Doamne! Nu-i spune asta Larei!'\n<|assistant|> 3, 4"}
+{"text":"<|user|> Classify the emotions of: 'Florence nu o sa nasca.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Dar el nu dădea o ceapă digerată.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Cum vă pot face să mă credeţi ?'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: 'Promit.'\n<|assistant|> 2, 8"}
+{"text":"<|user|> Classify the emotions of: 'Şi trebuie să-i lovim în ouă de fiecare dată când vor să se ridice.'\n<|assistant|> 1, 2, 3"}
+{"text":"<|user|> Classify the emotions of: 'Şi mă simt rău pentru asta.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ţine scriptele.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Sau cum sa ramanem in viata?'\n<|assistant|> 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu e Sergei?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Curtea nu vă aude.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Am crezut că vor închide Directoratul S. Şi cu toate astea...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Toţi prietenii mei vor fi acolo.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Kelly e moartă?'\n<|assistant|> 4, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Hei !'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nici măcar n-am recunoscut-o.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Am înteles, domnule.'\n<|assistant|> 2, 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu pot începe să mă port ca un tată acum.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'M-ai costat milioane si milioane de franci.'\n<|assistant|> 1, 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'E poliţa magazinului. Acum du aceste becuri în spate şi nu le sparge.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Chiar îţi place de ea, Carlos ?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ai auzit despre asta, Al?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Doar un lucru.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '-Doamne! Câinele lui Hawkins?  -Ai zis că e porc.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Credeam că sunt condamnat.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Şi dacă nu o face, o vor ucide?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Asta e minunat.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'A fost... bine.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Prostii.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'A doua zi am sunat-o pe Samantha Kiles.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'M-au ales.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '-Îmi pare bine.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Salut Stevie.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Japonezi!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu-ţi dai seama !'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Dar se întâmplă!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Tată, nu mă înveţi să mă bat ?'\n<|assistant|> 1, 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Bun!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Acum este şansa noastră, haide!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Vreau să mai ai încredere în mine încă o dată. Când spun fugi, fugi.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Le vom intari mai tirziu.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Ar trebui să vii.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Ştiu unde e.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu o sa vedeti apusul de acolo.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'E extenuată, dar e bine.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Pregătiţi-vă.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Vrei să zici că a fost răpită?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Parcă spuneai că pe el l-au transferat.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Acuzaţia împotriva lui va fi anulată, aşa!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Să mai încercăm o dată. Oh, haide.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Adrian, n-aş crede că ar fi rău, dacă copilul ştie nişte...'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A fi serios e o glumă în lumea voastră?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Vor învăţa repede.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Vreau o bere. - Minunat.  Ia un loc.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ai intârziat, poponarule.'\n<|assistant|> 1, 5"}
+{"text":"<|user|> Classify the emotions of: 'Pai, tata, uite un indiciu.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Spune-i că nu te vei duce, nici mâine, nici altădată.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Ai idee ce îi faci bietei femei?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Oare lumea nu mă vede doar ca o copie ieftină, sau un escroc de mâna a doua, care a ajuns la titlu doar din noroc ?'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: '- Bine. Sunt persoane care nu agreează metaforele mele.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Ea a spus ca va veni.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Ce ghinion !'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Binecuvanteaza-ma Parinte, caci am pacatuit.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Încercaţi să mă ucideţi. Aşa-i?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Tu şi afurisita ta de agendă.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Protejam un stand cu fructe, un salon de lustruire a pantofilor.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Kirk nu-mi aruncase nici măcar o privire.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Veti fi pe radarul israelienilor si sirienilor.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Sunt bun ca Balboa, şi nu sunt marioneta lui !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Fără pistoale, nu mai reprezintă nimic.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Stai jos.'\n<|assistant|> 1, 3, 4"}
+{"text":"<|user|> Classify the emotions of: 'De când e aşa?'\n<|assistant|> 1, 3, 4, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Specialistul nostru de zbor ne poate spune daca suntem urmariti ?'\n<|assistant|> 1, 4, 7"}
+{"text":"<|user|> Classify the emotions of: 'Înţeleg.'\n<|assistant|> 6, 8"}
+{"text":"<|user|> Classify the emotions of: 'Un individ neindentificat vine şi spune că ruşii sunt foarte înapoiaţi, că nu pot face nimic, iar noi putem lăsa garda jos.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu vreau să mor!'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Pai, ce-mi pasa mie.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'La dracu, injtra aici!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'De ce nu ai adus-o pe Melanie, ca să fii sigur că telefonul funcţionează?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ia-ţi o vacanţă, lasă lucrurile să se liniştească.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Rocky, îţi pierzi familia !'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: '- Aproape mi-ai rupt mâna.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Te încearcă o emoţie subită... că persoana iubită trăieşte în aceeaşi lume cu tine.'\n<|assistant|> 2, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Refuz să răspund la întrebarea dv.'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'O sa terorizam tot statul.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Uitaţi-vă la mulţimea asta.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Fiindcă oamenii mor atunci, când nu mai vor să trăiască.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Ai venit să-mi spui că refuzi să-mi publici cartea ?'\n<|assistant|> 1, 3, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Am venit să am grijă de tine şi de fratele tău...'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Am venit să ne distrăm.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nimic neobişnuit ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să ne întâlnim cu Fracţiunea Neagră din Congres.'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: '- Nu integral.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu sunt plătit pentru munca sub acoperire, aşa că lucrez la garaj toată ziua.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Esti gata sa sarbatorim?'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: '- De ce, de parcă obişnuiai ?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu poti sa te asezi.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Procedăm corect.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu foarte ciudat, doar că eşti aşa diferit de fiul dumitale. - Fiul meu?'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Deci, care-i problema ta?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'El era tehnologia.'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu sunt omul care ai crezut.'\n<|assistant|> 3, 6"}
+{"text":"<|user|> Classify the emotions of: 'Domnule Urs te gadili?'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Eu ies primul.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Acum sunt Haimana.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Au încercat.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- La naiba cu el.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Pe oamenii aceştia.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Pentru mine?'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ce e?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Nu, sunt Oscar.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Dar felul în care a explodat aceasta a necesitat un detonator.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să fi curăţat locul ăsta.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Complicaţi problema.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Hastings, nu ţi se pare ciudat, da dl Lawrence Cavendish a sugerat că mama sa a fost otrăvită accidental?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'E un mic gentleman.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'N-o să ghiceşti unde am fost.'\n<|assistant|> 2, 7"}
+{"text":"<|user|> Classify the emotions of: '- Generalul e un trădător. O ştii şi tu.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Ce fel de personalitate?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Ai respectul şi tăcerea mea, da, Alberto?'\n<|assistant|> 1, 4, 8"}
+{"text":"<|user|> Classify the emotions of: 'Faptul ca tu nu bei e un motiv suficient sa ma îmbat.'\n<|assistant|> 1, 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Te învăţ eu tot ce ai de spus şi totul va fi bine.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Taiati! Scuza-ma, Lowell.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Îngerii uciși nu ajung în Rai.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'On nights like this with the moon above'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Sunt epuizată.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu, nu.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Crezi că tu eşti altfel?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Dragă, tu eşti?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Însăşi dna Inglethorp!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'E de acord cu asta?'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Au fost impuscaturi in strada,si o bomba a explodat.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'S-a dat în faţa unui glonţ pentru mine, l-a prins în mâna stânga, şi i l-a băgat în dos la fraier.'\n<|assistant|> 3, 7"}
+{"text":"<|user|> Classify the emotions of: 'E nervos, nu ?'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Dumnezeule, intră. Dumnezeule.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Trebuie să mă întorc.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Incerc.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Vrei să te gândeşti? - Da.  E în regulă, David.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Profanatoare sau dezgustătoare ?'\n<|assistant|> 1, 2, 3"}
+{"text":"<|user|> Classify the emotions of: 'Haideţi!'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poti sa iei ceasul.'\n<|assistant|> 5, 7"}
+{"text":"<|user|> Classify the emotions of: '- De ce nu?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Poate că nu vrei să recunoşti, dar tu mă iubeşti.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'El plăteşte.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ştiţi ce este 4-10-12?'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Ar putea dura câteva zile să se finalizeze, dar da. Se întâmplă.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Destul !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A trebuit sa o testam pentru alcoolemie. Multumesc.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Eu doar urmez nişte ordine.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu-ţi face griji, am folosit alt nume.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: '- Mulţumesc.'\n<|assistant|> 2, 5, 6, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Poate aflăm acum.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Va fi în siguranţă cu mine.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Mike Brennan e cel mai bun poliţist pe care l-am văzut vreodată.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu mai eşti persoana aia.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'E ca şi cum toată viaţa mea aş fi trăit într-un loc întunecat, şi totul s-a luminat într-o clipă.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Cred că te-am vindecat.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Dacă ajungeţi preşedinte, Claire Underwood rămâne vicepreşedinte?'\n<|assistant|> 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'M-au contactat ca să afle ce părere am şi să-mi spună ce oameni minunaţi sunt, ce tipi grozavi sunt fondatorii lor din Greenwich Village şi cât de puţine ştiam despre asta.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu orice avocat are parte de aşa ceva.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Era un joc de boşorogi, e drept, dar ne ocupa timpul.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'E uşa de biserică.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: '- Şi ce?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Am ajuns până în inima vasului, sistemul de propulsie.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ai fost cumva în legătură cu Brennan...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Care?'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Hei!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Eben, ai să plângi?'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'In cele din urma.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'E o idee foarte bună, dle Howard.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Te simti capabil?'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Deci, d-le funcţionar, ce ziceţi de planul meu?'\n<|assistant|> 1, 2"}
+{"text":"<|user|> Classify the emotions of: 'Uită-te bine.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Ati venit ca dusmani, să mă distrugeti.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Da, m-au făcut knock-out în pub, după ce m-au lovit cu puşca în cap.'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: 'Eşti încă în custodia FBI-ului.'\n<|assistant|> 1, 8"}
+{"text":"<|user|> Classify the emotions of: 'Nu înţelegi?'\n<|assistant|> 1, 4"}
+{"text":"<|user|> Classify the emotions of: 'Dacă ne-am aproviziona de la respiraţia lui, ar ajunge pentru toată lumea! Dacă am putea...'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'De aceea n-am putut să iubesc pe nimeni până acum.'\n<|assistant|> 5, 6, 8"}
+{"text":"<|user|> Classify the emotions of: '- Nu-mi poţi ordona să fac asta.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Vrei să omori un locotenent de poliţie?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A sosit timpul pentru familia Torlato-Favrini să părăsească această lume.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Toată suflarea să se învrednicească'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'E un lunetist în turnul de sud-est!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ai plecat ca sa te culci cu ala. Nu e cuvantul potrivit.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Foo-Foo e un căţel bun.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Lasă-mă să-ţi spun. - Ridicaţi asta.  Circulaţi.'\n<|assistant|> 1, 6"}
+{"text":"<|user|> Classify the emotions of: 'Venise la Moscova ca să-si caute copilul. Am ajutat-o cât am putut.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: '- Cine a fost?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'A fost suspicios la început, dar ai avut dreptate. când i-am spus că m-ai păcălit cu crima lui Nelly Benin, m-a crezut..  cum spui tu...cârlig, fir, plută.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Urăsc transportul în comun.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: '- Azi doar îl dăm pe ăsta jos.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'În bucătărie. Nu, nu, nu.  Nu asta vreau să zic.'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Dar nu va fi ultimul, va fi intermediarul.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Oricum, sunt scârbit că o viaţă de om a fost irosită.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Însă oamenii îl respectau, îi respectau...'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ce? Nu, nu poţi pleca, eşti cel mai de treabă de aici.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Fără tine, Harry.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Ăsta merită bătut la fund.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Pentru ca asa am zis eu.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Asta nu e totul.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: '- Nu pot, mi-e frica !'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: '- Aşa să îmi ajute Dumnezeu!'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu eşti decât o fetiţă, diavole!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu, nu, nu, nu, nu.'\n<|assistant|> 1, 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Credeam că pot schimba ceva.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Harvey, ce e aia?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- L-ai inpuscat pe domnul McGruder!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Hei, clovnule!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Piesa aia nu se potriveşte acolo.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Statul Arizona se află la graniţă şi e tranzitat adesea de traficanţii de persoane.'\n<|assistant|> 6"}
+{"text":"<|user|> Classify the emotions of: 'Nu suport asta.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Ce voiaţi să faceţi? Nu ştiu.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Sunt multe tâmpenii legale...'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Trebuie să o văd pe împărăteasa Copilă.'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Haide, sa facem niste prostii.'\n<|assistant|> 2, 5"}
+{"text":"<|user|> Classify the emotions of: 'Nu vei mai amăgi pe nimeni vreodată!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'La recevedere, Junior!'\n<|assistant|> 5, 6"}
+{"text":"<|user|> Classify the emotions of: 'Ce dracu se intampla?'\n<|assistant|> 1, 7"}
+{"text":"<|user|> Classify the emotions of: '- Bine. Nu face asta !'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'A ieşit şi a plecat. Am rămas cu el.'\n<|assistant|> 5, 8"}
+{"text":"<|user|> Classify the emotions of: '- Ne-au întins o cursă !'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Am satisfacţia că a făcut numai filme proaste de când nu i le mai scriu eu.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Nu pricepi ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Evan, îmi pasă de femeia asta.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Marş de-aici !'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- Hei. Bună treabă.'\n<|assistant|> 5"}
+{"text":"<|user|> Classify the emotions of: 'Dacă mă laşi să rezolv asta, dintre mine şi Brennan, nu veţi mai auzi vreodată de mine.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Nu eşti doar un hot dar şi un criminal.'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Ia stai!'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Ce aţi face dacă ar fi copilul vostru?'\n<|assistant|> 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Willie, sunt îngrijorată.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Prinde vâsla.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Shooter, Lady Fingers şi cu mine le-am adus până aici.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'A murit cineva?'\n<|assistant|> 2, 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu vreau să aud asta!'\n<|assistant|> 1, 3, 6, 7"}
+{"text":"<|user|> Classify the emotions of: 'Ce doriţi?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Dezbracă-te, fă o baie, leagă-te la ochi şi hai în pat!'\n<|assistant|> 2, 4, 7, 8"}
+{"text":"<|user|> Classify the emotions of: 'Dă-mi înapoi costumul.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Promite-mi.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Dumnezeu ştie.'\n<|assistant|> 4"}
+{"text":"<|user|> Classify the emotions of: 'Ti-aduci aminte ca spuneai cândva ca viata scrie scenarii proaste?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Aşteaptă până o să fii tu sub lupa lui.'\n<|assistant|> 3, 4"}
+{"text":"<|user|> Classify the emotions of: 'Nu e jurisdicţia noastră, nu-i aşa? Da.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Ştii să cânţi la balalaică ?'\n<|assistant|> 2"}
+{"text":"<|user|> Classify the emotions of: 'Nu mă lua ca pe un dealer de la colţul străzii!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Numai discuţii.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'De ce eşti aşa nervos?'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Îl imploră pe Siegfried să-i cruţe viaţa şi îi oferi lancea sa.'\n<|assistant|> 4, 6"}
+{"text":"<|user|> Classify the emotions of: 'Îţi este complet loial.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Un amărât fiu de căţea care taxa publicul cu neruşinare... a plătit PA pentru a i se anula cazul.'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: 'Uriaşi !'\n<|assistant|> 7"}
+{"text":"<|user|> Classify the emotions of: 'Dacă vrei să supravieţuieşti, trebuie să te fereşti de pumni.'\n<|assistant|> 8"}
+{"text":"<|user|> Classify the emotions of: 'Închide trapa!'\n<|assistant|> 1"}
+{"text":"<|user|> Classify the emotions of: '- A minţit!'\n<|assistant|> 1, 3"}
+{"text":"<|user|> Classify the emotions of: 'Vorbeste Muldoon A fost o înmormântare ratata, daca se poate spune asa.'\n<|assistant|> 3"}
+{"text":"<|user|> Classify the emotions of: 'Chiar daca treci de mine, afara te asteapta 50 de politisti.'\n<|assistant|> 4, 8"}
