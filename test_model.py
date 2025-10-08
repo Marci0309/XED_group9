@@ -4,16 +4,10 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
 import os
-
-# ==========================================
-#  ⚙️ DEVICE SETUP
-# ==========================================
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
-# ==========================================
-#  🧩 MODEL & TOKENIZER LOADING
-# ==========================================
+
 # Base model and adapter paths
 base_model_name = "mistralai/Mistral-7B-Instruct-v0.1"
 adapter_path = "lora_mistral_emotions/checkpoint-800"  # your fine-tuned adapter folder
@@ -44,9 +38,6 @@ if tokenizer.pad_token is None:
 
 print("Model and tokenizer loaded successfully.\n")
 
-# ==========================================
-#  💬 SAMPLE PROMPTS TO TEST
-# ==========================================
 samples = [
     "Classify the emotions of: 'weren't you reprimanding a seaman for having his shirt-tail out, while the ship turned 360 degrees?'",
     "Classify the emotions of: 'He's such a sweet thing.'",
@@ -54,9 +45,6 @@ samples = [
     "Classify the emotions of: 'Oh wow, that’s such a beautiful surprise!'",
 ]
 
-# ==========================================
-#  🚀 INFERENCE LOOP
-# ==========================================
 for text in samples:
     prompt = f"<|user|> {text}\n<|assistant|>"
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
@@ -71,7 +59,7 @@ for text in samples:
         )
 
     decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    print(f"🗣️ Input: {text}")
-    print(f"💡 Model output: {decoded}\n{'-'*60}\n")
+    print(f"Input: {text}")
+    print(f"Model output: {decoded}\n{'-'*60}\n")
 
-print("✅ Testing complete.")
+print("Testing complete.")

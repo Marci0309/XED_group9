@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
 #SBATCH --mem=8000
@@ -10,4 +10,4 @@ source LLMenv/bin/activate
 
 module load CUDA/11.7.0
 module load Boost/1.79.0-GCC-11.3.0
-python test_model.py
+python train_lora_llm.py

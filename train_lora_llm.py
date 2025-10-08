@@ -11,23 +11,10 @@ from peft import LoraConfig, get_peft_model
 from datasets import load_dataset
 import os
 
-print("==== GPU STATUS CHECK ====")
-print(f"CUDA available: {torch.cuda.is_available()}")
-if torch.cuda.is_available():
-    print(f"Device count: {torch.cuda.device_count()}")
-    for i in range(torch.cuda.device_count()):
-        print(f"  • GPU {i}: {torch.cuda.get_device_name(i)}")
-    print("==========================\n")
-else:
-    print("⚠️ No GPU detected — training will run on CPU (very slow).")
-    print("==========================\n")
-
-
-
 dataset = load_dataset("json", data_files={
-    "train": "Data/en/train.jsonl",
-    "validation": "Data/en/validation.jsonl",
-    "test": "Data/en/test.jsonl"
+    "train": "data/en/train.jsonl",
+    "validation": "data/en/validation.jsonl",
+    "test": "data/en/test.jsonl"
 })
 
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"
@@ -69,20 +56,20 @@ def tokenize_function(examples):
         examples["text"],
         truncation=True,
         padding="max_length",
-        max_length=512
+        max_length=256
     )
 
 tokenized_datasets = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 training_args = TrainingArguments(
-    output_dir="./lora_mistral_emotions",
+    output_dir="./lora_mistral_emotions_endof",
     eval_strategy="steps",
     eval_steps=200,
     save_strategy="steps",
     save_steps=200,
     logging_steps=50,
-    learning_rate=2e-4,
+    learning_rate=2e-5,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
     gradient_accumulation_steps=8,
@@ -111,8 +98,8 @@ trainer = Trainer(
 
 trainer.train()
 
-model.save_pretrained("./lora_mistral_emotions")
-tokenizer.save_pretrained("./lora_mistral_emotions")
+model.save_pretrained("./lora_mistral_emotions_endof")
+tokenizer.save_pretrained("./lora_mistral_emotions_endof")
 
 results = trainer.evaluate(tokenized_datasets["test"])
 print("Test Results:", results)
