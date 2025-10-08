@@ -1,533 +1,533 @@
-{"text":"<|user|> Classify the emotions of: 'Jorgensen ...?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Professor... een ogenblik.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Moesten we het daar maar bij laten?'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Bekwaam?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik begon me eenzaam te voelen boven.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik weet niet of je leeft, maar daar wil ik in geloven.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik zei, \"kom op\".'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Dat denk jij.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Hij wil dat wij vechten.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Maakt niet uit.'\n<|assistant|> 1, 8"}
-{"text":"<|user|> Classify the emotions of: 'Was dat de telefoon?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Hé, Kapitein.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Oké, we moeten Oliver's vader onmiddellijk traceren.'\n<|assistant|> 2, 4"}
-{"text":"<|user|> Classify the emotions of: 'Ontslagen als bewaker omdat je een woekeraar bent?'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Vaarwel, Juliette.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ze moet op iets gebotst zijn.'\n<|assistant|> 4, 5"}
-{"text":"<|user|> Classify the emotions of: 'De dingen die we toch moeten doen in die heidense landen. Er moet toch een makkelijker manier zijn om een val te zetten!'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Dat ligt in de kast.'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ja, ik was uitgeschakeld in een kroeg nadat ik een pistool tegen mijn hoofd heb gehad.'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Hij wist niet...'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Geregeld.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Dus we hebben nog even de tijd.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Hij redde het schip. Drie marinepsychiaters hebben Queeg bij z'n verstand verklaard.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Je lijkt wel een persoonlijk belang te hebben.'\n<|assistant|> 2, 7"}
-{"text":"<|user|> Classify the emotions of: 'Sta nou op.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Je moet rustig gaan zitten of je gaat hem wakker te maken.'\n<|assistant|> 6, 7, 8"}
-{"text":"<|user|> Classify the emotions of: 'Carlos mag je wel.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Jij zou een goed woordje voor me kunnen doen.'\n<|assistant|> 2, 4, 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb hem dat speciaal gevraagd en ik moest je dit doorgeven.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: '- Wat is er aan de hand?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Moet je kijken.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Trouwens, we willen graag weten of z'n buurman morgen eens geld gaat verdienen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wil je wat voor me doen?'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ze krijgen nog instructies.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Monroe, Rosalee, het is Trubel.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '- Begeleid hem het gebouw uit.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Fuck.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Als Jack niet weg is?'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Ik moet vliegen. - Echt?'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Oh, verdomme. Alleen ik en...'\n<|assistant|> 2, 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Kijk eens wie ik gevonden heb.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Tommy, de baby?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ze ontkenden het en draaiden eromheen.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Ken ik jou niet ergens van?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Misschien heeft zij zelfs mijn partner Chris Amador gedood.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Een walvisgroot verhaal of twee... over een wapperende vis en de meisjes waarvan ik hield.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Riep iemand om z'n ouwe heer?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ongelooflijk dat ik eraf ben.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Wat was er aan de hand?'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik wil feesten, kun je me helpen?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Het heeft veel tijd gekost, maar hier zijn we dan.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Uw boek is briljant... maar het heeft gebrek aan draagwijdte.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Maar in dit geval lopen we voor op ons schema.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Roman...'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'We hadden 'm kunnen steunen.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Misschien ben ik wel te nauw betrokken.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'We bouwen 'n nieuwe stad op de plek waar Detroit nu staat.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Alstublieft.'\n<|assistant|> 4, 5, 6"}
-{"text":"<|user|> Classify the emotions of: 'Gemakkelijk Wat is het?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik ontsla je. Ik laat je achter op de landingsbaan.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Is het belangrijk?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Noodsnelheid, alle motoren'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Tot ik dat zelf beëindigde.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Dit bevalt me helemaal niet.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Wilt u een boodschap achterlaten?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'We hebben nog drie innings.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Kan je eraan wennen?'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Nee, ik ging van huis omdat ik er even uit moest.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik wist niet dat Kenneth dat zou doen. Je had mij moeten doden.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik kom er aan.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Je steekt je grote neus te diep in mijn zaken.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hij neemt 't te makkelijk op.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Egan is gesneuveld.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Je bent een van de vreemde jongeren, niet?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Herinnert u zich dan niet het gesprek met luitenant Harding ?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik breng je naar huis.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Toch niet meteen, dat is niet eerlijk.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ik maak geen grapje. Als ik zeg dat we tegen elkaar spelen, dan doen we dat.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'En ik moet echt iets drinken.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Het is een wonder, man.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Hoe dan ook, ik zoek hulp om het te vertalen.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Aangezien ik het hier alleen moet doen, zal ik het mezelf deze keer vergeven.'\n<|assistant|> 6, 8"}
-{"text":"<|user|> Classify the emotions of: 'We gaan vijf dagen zon tegemoet.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Anders zal ik je eens verbouwen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Afgezien ik geen... ik kan 't niet veroorloven om $ 500. te verliezen.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'De mensen met het geld hadden haar groot gemaakt.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Tot zover het oude nieuws.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Samenwerken met president Petrov is altijd een vergissing.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Vanavond niet.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Aangenomen dat Queegs gedrag van slecht inzicht getuigde, staat dat dan haaks op uw diagnose?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'De politie lieten het na twee jaar gaan. Een verloren tijd, maar het was het waard om je vader te laten betalen voor mijn verlies.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Je hebt ons geholpen.'\n<|assistant|> 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Alles wat je zegt kan en zal tegen je gebruikt worden tijdens een rechtszaak.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'We zijn geen vrienden, je bent m'n baas.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Vermaakt u zich?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb het zelf ook meegemaakt. Maar we zitten in hetzelfde schuitje.'\n<|assistant|> 1, 2, 5, 6"}
-{"text":"<|user|> Classify the emotions of: 'Hoe lang moeten we wachten?'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Ze vertrouwen me.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik kan niet geloven dat ik me weer moet verdedigen voor de daden van 'n crimineel.'\n<|assistant|> 1, 4, 7"}
-{"text":"<|user|> Classify the emotions of: 'Wees voorzichtig, Danny.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wat jij en Tony gedumpt hebben. - We dumpten niet.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Van uitgeverij Abercrombie and Blair, dronken of nuchter.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Je verhaal over hoe Louis zijn naam op de deur heeft gekregen is onzin.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Je hebt me gehoord.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'De moordenaarzet zijn dagelijkse moordpartij voort.'\n<|assistant|> 1, 4, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik wist het.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Hoe weet jij, dat jij er wel bij bent?'\n<|assistant|> 2, 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Nick verzint dat niet en hij zou ons zeker niet bellen als het niet waar is.'\n<|assistant|> 1, 8"}
-{"text":"<|user|> Classify the emotions of: '-Waarom heb je m'n jas aan?'\n<|assistant|> 2, 7"}
-{"text":"<|user|> Classify the emotions of: 'Gebruikte hij 'n granaat?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Als z'n boeken een indicatie geven, heeft hij nogal een leven gehad.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Rocky, up!'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '-Hallo, oom Paulie.'\n<|assistant|> 2, 5, 7"}
-{"text":"<|user|> Classify the emotions of: '- Hij beschuldigde me van verraad.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Kop op!'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Mag ik vragen waarom ?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Dit is hemels.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'We zijn je kwijt. Blijf uitzenden.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik haat het om uit een goed vliegtuig te springen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'De scheepsschrijver wiens getuigenis ons bijna de kop kostte.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik zoek JR.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Klootzak.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben korporaal Torrey.'\n<|assistant|> 4, 7"}
-{"text":"<|user|> Classify the emotions of: 'We terroriseren de hele staat.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Die onzin weer.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '-Laat 'm met rust.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Geniet je er niet van?'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Help!'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Bespottelijk.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Het is lang geleden, Mayii.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'En dat is prima. Je had me toch niet kunnen krijgen.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'En, meneer de financieel adviseur, wat vind je van mijn plan?'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Burgemeester Kuzak.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben zo trots op jou.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Vertel mij waar Theresa Rubel is. Theresa Rubel.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'We komen er wel.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik zal Eddington vertellen dat ik verloofd ben.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '-Als je van iemand houdt, dan leef je met ze en voor ze.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Wat probeer je te zeggen?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'We doen niets?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Dat was mijn meisje. Wacht.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik wil graag een Underwood-regering.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: '-Op?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '- Nu!'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'En nu ga je er verdomme aan.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Marshmallows roosteren.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Uw snorharen kietelen Laat me je snorharen zien Hé, je zou je moeten scheren, liefje'\n<|assistant|> 2, 5, 7"}
-{"text":"<|user|> Classify the emotions of: '-Van hem heb ik het gehoord.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Ik werkte voor jou.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Hij liet mijn hand los. Hij liet mijn hand los.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Heb je hem zomaar een vliegtuig gegeven?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb de hele tijd gehuild.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik wacht.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Niemand heeft me ooit zo omlaag gehaald als jij vandaag.'\n<|assistant|> 1, 3, 6"}
-{"text":"<|user|> Classify the emotions of: 'Pas maar op als dat schatje jouw kant op komt.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Misschien weet hij dat al, of wil hij het niet weten.'\n<|assistant|> 2, 3, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Een sterveling die de Kinderkeizerin komt redden ?'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Ze redde m'n leven.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'O shit!'\n<|assistant|> 1, 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'En een sterke wil om te ontsnappen Wie, ik ?'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik bedoel, ik weet dat... toespraken schrijven ook schrijven is... maar het is niet wat ik echt wil doen.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Als je Donna niet aanklaagt, klagen wij jullie niet aan.'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Mr Tusk was een grote donateur bij Wills campagne.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Waardoor ze beste vriendjes werden.'\n<|assistant|> 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb hier een man die op de Golden Arrow gezeild heeft en het overleefde om het verder te vertellen.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Waren ze niet te lastig?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik moet indruk maken op de Britten.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik vond 't een goede toespraak.'\n<|assistant|> 5, 6"}
-{"text":"<|user|> Classify the emotions of: '- Dat gaat niet gebeuren.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Jazeker.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Als dat zo is, dan zullen ze nooit meer iets anders zien.'\n<|assistant|> 1, 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Maar ik zal altijd een moordenaar blijven.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Waar beschuldig je me van?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Noem het immigratie als je wilt.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Niet friemelen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Onvoldoende.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Er is een goede kans dat ze zal antwoorden.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Blijkbaar vertrouwen we elkaar niet.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Vanavond niet.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Dan komen de vragen boven drijven.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Er kwam een vrachtwagen op me af.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'We persen ons er wel in.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Slechte verliezer. Hij weigert 187.000 dollar te betalen.'\n<|assistant|> 1, 3, 7"}
-{"text":"<|user|> Classify the emotions of: 'Vanochtend barstte het hier van de boeken.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Wat is er, Meatball?'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Herinnert u zich dan niet het gesprek met luitenant Harding?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Afgelegen en nuttig.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'We draaien naar de wind.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'De röntgenfoto's komen er aan.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: '-Zeg, 't is de zoete inval niet.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'De nieuwe openheid heeft hem geinspireerd.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'We zijn de hartslag van de baby kwijt.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben hier niet gekomen om mijn verdriet te bespreken. Ik ben hier voor mijn erfenis.'\n<|assistant|> 3, 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben er alleen niet zeker van dat het de juiste manier is.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Yakov is gepakt.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Je hebt nooit een greintje lef getoond.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Goed. - Nu.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'De banden van Blair worden versleuteld, per satelliet naar Londen gestuurd en ontcijferd in 'n kwestie van minuten.'\n<|assistant|> 7, 8"}
-{"text":"<|user|> Classify the emotions of: 'Queeg bracht mensenlevens in gevaar.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Het is bijna beangstigend hoe verliefd ze op je is.'\n<|assistant|> 3, 7"}
-{"text":"<|user|> Classify the emotions of: 'Dat is juist Het moet zijn'\n<|assistant|> 4, 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik mag er niks over zeggen.'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Tommy had me nodig.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben degene die de kelen oversnijdt van de Communisten.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Haal haar.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hebben we zicht op binnenin, Patterson?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Bij 3 langzaam loslaten.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Raak me niet aan.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Zoutzuur ?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Je gaat met mij mee, alleen, we gaan over 20 minuten weg.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Doen mensen altijd wat je zegt?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Dat kan nu niet.'\n<|assistant|> 4, 7"}
-{"text":"<|user|> Classify the emotions of: '- Waar heb je het over?'\n<|assistant|> 2, 7"}
-{"text":"<|user|> Classify the emotions of: '- Pardon? - Morgenochtend ga ik naar Cannes.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Hij begint...'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Dat is normaal.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: '- Willie, hou op.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Alles komt in orde jongen.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Twee verdachten zijn aangehouden.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Nee, ik ben er zo weer, oké?'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik vind mezelf knap genoeg, maar zo'n ster wil ik niet zijn.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Je kunt het, knul.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Was ze echt ziek?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Commando voeren is eenzaam. Het is moeilijk om beslissingen te nemen.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'En wat ik verder wil zeggen, is keurig en volledig uitgetypt op dit velletje papier.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Wat niet te stoppen is, hou je niet tegen.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'En vergeet de kluis niet.'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Het spijt me van je kleine verlies.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Nu doe je met opzet stom.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Is er geen school vandaag?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Wat is dat?'\n<|assistant|> 4, 7"}
-{"text":"<|user|> Classify the emotions of: 'Underwood heeft ze in z'n zak.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Is Juliette echt dood?'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: '- Een ware slachting, inspecteur.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Er is niks mis met hondenvlees.'\n<|assistant|> 5, 7, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik vind dit niks.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb iets.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ondeugende knul.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Pa?'\n<|assistant|> 2, 4"}
-{"text":"<|user|> Classify the emotions of: 'Ik probeer hem de hele dag al te bereiken.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wat doe jij nog hier?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Het is ontzettend dom van me ...'\n<|assistant|> 1, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb weer last van m'n rug.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'We gaan met een groot schip over de oceaan heen en brengen je naar huis.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Elk risico heeft zes kanten en twaalf redenen om het niet te nemen.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Je zou dinsdag komen.'\n<|assistant|> 1, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Strelnikov is dood.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Mag ik het zien?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Blijkbaar is mijn leven niet dat van mij zoals de afgelopen 20 jaar.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Howard.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Kijk ?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ze is uitgeput, maar ze is in orde.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik krijg wat van afscheid nemen. Het beste.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Toen brak hij met haar voor een andere vrouw.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wacht, dat gaat niet vanaf hier.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Het is Skyhook. U had dit blijkbaar al geraden.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Oscar, de telefoon.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik stond verbaasd hoever zijn reputatie ging.'\n<|assistant|> 2, 4, 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'En dat willen we niet, toch?'\n<|assistant|> 2, 4"}
-{"text":"<|user|> Classify the emotions of: 'We zochten wat zo subtiel \"een nieuw gezicht\" heet.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Afgekot voor deze oliën jongens, er zal gratis grog zijn voor elk paar handen Indien ik het kon slikken bovenop dit...'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb u dat briefje gegeven.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: '- Hou toch op.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hoorde je me?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Neem dit extraatje ook maar mee.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Elise, alsjeblieft.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Wat?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hoe voel je je?'\n<|assistant|> 2, 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Beste beul, bevalt de gevangenis?'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'En ik word steeds nijdiger.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'De röntgenfoto doen we over een uur en morgenochtend de echo.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: '- Een erg gemene hand.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Het ga je goed, Ronnie.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Waar is Graham ?'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Aangenomen dat Queegs gedrag van slecht inzicht getuigde... - staat dat dan haaks op uw diagnose ?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ze sloegen de plank mis...'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Tuthill, operaties.'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Maar wat als...'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Kleine rotzak.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Was u alleen? - Ja.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Als ik een Luger had...'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ga m'n kantoor uit.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Kom mee.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Zag kapitein Queeg er ziek uit ?'\n<|assistant|> 4, 7"}
-{"text":"<|user|> Classify the emotions of: 'Wie doet er nou zoiets?'\n<|assistant|> 1, 2, 7"}
-{"text":"<|user|> Classify the emotions of: 'Let maar eens op, in de rechtbank.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik zie je morgen dan wel.'\n<|assistant|> 2, 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Zeg hen dat je gesloten bent.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Mensen zullen sterven.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'In je persoonlijke leven. En dat ze zich echt zorgen om je maakt.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Dat is toch zo, Max?'\n<|assistant|> 3, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Weet je, ik wilde...'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Er is zo veel meer.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik hoor in Hollywood achter een typemachine te zitten... terwijl ik dit alles verzin voor een film.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Hij moet hem meenemen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Niemand trekt zich er iets van aan.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Help hem, Rexer.'\n<|assistant|> 2, 4"}
-{"text":"<|user|> Classify the emotions of: '- Hij heeft weer een vrouw.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik kan dit niet blijven doen.'\n<|assistant|> 3, 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik had nooit weg moeten gaan.'\n<|assistant|> 1, 3, 6"}
-{"text":"<|user|> Classify the emotions of: 'Wacht op mij'\n<|assistant|> 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Hij gaat nooit weg uit Rusland.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Je bent nog jong. Je komt er wel achter.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Ik kom zo.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Velen van jullie dragen geen gevechtstenue.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: '- We hebben nog geen namen.'\n<|assistant|> 2, 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Zelfs in een script van jou had ik dit glas naar 'm gegooid.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hij wil keurige mensen op 't witte doek.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'De idioot zette zijn tv harder en ik kon niet...'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: '- Die pikken dit niet.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Wat zijn jullie toch ingewikkeld allebei.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Nog één krasje, en je carrière bij de marine zit erop.'\n<|assistant|> 1, 2, 3"}
-{"text":"<|user|> Classify the emotions of: '- Ik weet niet meer wat Tom is.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ze is inderdaad erg knap.'\n<|assistant|> 2, 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Zullen we naar binnen gaan?'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Wat bent u van plan?'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'De vorige keer had je ook geen misdaad begaan om te winnen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'De vorige keer liet deze heks de prinses zich in haar vinger prikken waarna ze 100 jaar sliep.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Maar Trubel schoot haar neer.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Wat heeft dat met ons te maken?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Kurt, hij mag hier niet komen.'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Wel, hij heeft echt zijn monster gevonden, niet ?'\n<|assistant|> 1, 5"}
-{"text":"<|user|> Classify the emotions of: 'Je zat er met je neus bovenop.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Als officier in de Amerikaanse marine... - gaan jullie naar zee om een ernstig conflict uit te vechten.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Die veranderen ex-burgers in hersendode mannen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hij is dood, toch?'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Je kunt vast maar moeilijk geloven dat dit geen droom van lang geleden is.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Is dit de harem van de admiraal?'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Onzin.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wat weet jij hiervan?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik wil dat je voor me zorgt.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Oog om oog, tand om tand.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Waarom? - Omdat ze er niet voor ging.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik vind dat m'n zoon zakgeld moet krijgen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Hallo, matroos.'\n<|assistant|> 5, 7, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ze wachten op je.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: '- Mooie kont.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'En ik ben er ziek van.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Hij moet hier zijn. Help me.  - Hij moet daar zijn.'\n<|assistant|> 1, 4"}
-{"text":"<|user|> Classify the emotions of: 'Zoiets heb ik nog nooit gedaan.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Je moeder voelde zich niet goed en ze had tijd nodig om beter te worden.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Toen ze het was omarmde ze het wel.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'We lossen je over een paar uur af.'\n<|assistant|> 2, 6"}
-{"text":"<|user|> Classify the emotions of: 'We zouden het liefst onder úw bevel op een onbewoond eiland stranden.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'U bent maar niet dood te krijgen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '-O ja, dat ben jij.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Maar de manier waarop ze ontplofte, vereist een soort ontsteker.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: '- Heb je ze? De telefoon is afgebroken.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Niks gevonden.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Hoelang kennen jullie elkaar al?'\n<|assistant|> 2, 7, 8"}
-{"text":"<|user|> Classify the emotions of: 'Maar u gaat veel vaker naar Rusland dan naar Amerika.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik wist toch ook niet dat 't zo zou gaan?'\n<|assistant|> 2, 7"}
-{"text":"<|user|> Classify the emotions of: '- Twaalf stekeblinde schepen.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Natuurlijk .'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Dat hij lang, knap, goed, aardig, trots enzovoorts is?'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik wou dat ik hem kon vertellen hoeveel ik het waardeer.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Had je gehoopt hier onopgemerkt te blijven?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'En we zitten vast.'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Wat je ook nodig heb, je krijgt het.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Doe me een lol.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'En...'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Hou je kop en ga naar huis.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Ik heb gefaald.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Ik was heel kwaad op hem.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '-Kom, Paulie.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik wil dit niet meer.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik spoel hem terug.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Hou de rest maar.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Omdat ik Jane heb zien doorstaan, wat jij nu ook allemaal doorstaat.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Jouw hoer.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik zie je binnen.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben een beetje uit mijn doen.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Hé, ze ze doen de deur dicht'\n<|assistant|> 4, 7"}
-{"text":"<|user|> Classify the emotions of: '- M'n oog ligt eruit.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- De rondleiding was interessant.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Je staat op de speaker.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'En dit is mijn kleine broer Lenny.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: '- Straks worden we zelf nog de dupe.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ben je hier al lang?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Hij trouwt over 30 minuten.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Hij klinkt geweldig.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Wat probeer je te zeggen? Voor de dag ermee.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Zorg snel voor 'n goed verhaal.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Wie ben jij?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '-Mooi liedje, hè?'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Als officier in de Amerikaanse marine gaan jullie naar zee om een ernstig conflict uit te vechten.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Mrs Healy, dit is de geweldigste man van de hele wereld.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Waar heb je haar opgedoken?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: '- Commandant, we hebben problemen.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Goede reis, Barley.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: '- Bekent u?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb je gewaarschuwd!'\n<|assistant|> 1, 3, 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Nee ? Stop ermee'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben hier om te zeggen dat 't duidelijk is.'\n<|assistant|> 6, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik ben zwanger, weet u.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Was je bevriend met de overledene?'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Met de kruisboog, voordat ze mij zou doden.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Jay, kan ik binnenkomen?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Je kunt niet wegrennen.'\n<|assistant|> 1, 5"}
-{"text":"<|user|> Classify the emotions of: 'Er zit wel iets in wat de verdediging zegt.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Rover, dit is John Paul.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Omdat ik zeker weet dat hij alleen staat in zijn ideeën.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Hij identificeert zich met jou.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'We zijn je kwijt.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: 'Ze hebben de sporen gewist.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Niki drong erop aan dat ik belde.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Goed toch?'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Pardon.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Ze was toch in de helikopter?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Dit was mijn kamer.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Hij weet alles nog.'\n<|assistant|> 5, 7, 8"}
-{"text":"<|user|> Classify the emotions of: '- Laat het iemand anders zijn dan haar.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ik weet bijna zeker dat China liegt over een Amerikaan aan boord.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'En een heel lekker, o. Dank u.'\n<|assistant|> 5, 7"}
-{"text":"<|user|> Classify the emotions of: 'Het draait niet om één kwestie.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Waarover ? De wereld.  De liefde.'\n<|assistant|> 4, 6"}
-{"text":"<|user|> Classify the emotions of: '- U bedoelt morgen?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Jullie lachen erom maar je doet je familie verdriet.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Welke naam zou je willen?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '- Ga mee die smeris pesten.'\n<|assistant|> 1, 2, 3, 5"}
-{"text":"<|user|> Classify the emotions of: 'Hij tekent bezwaar aan, zij steunt het, elke keer weer.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Mijn onbetrouwbare roerganger vergat me te waarschuwen.'\n<|assistant|> 1, 6"}
-{"text":"<|user|> Classify the emotions of: 'Heb je nog maar pas vleugels ?'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: '- Je hebt tot vijf uur de tijd.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Zal ik doen.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: 'Wat moet ik nu?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Zet hem in zijn kajuit'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Luister, ik heb harddrives gevonden van Sandstorm.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Je was smoorverliefd op haar.'\n<|assistant|> 5, 6, 8"}
-{"text":"<|user|> Classify the emotions of: 'Ze komen hierheen, naar Portland.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Ik vergat even wie ik was.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik kon het niet doen.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Dat zeg je wel telkens, maar hier zit je dan... je werk voorbereiden in plaats van voor je geliefde te vechten.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Ja, dat moet wel.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Sta stil.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ben je stom?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hij heeft geen kans!'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Wanneer heb je dat gedaan, knul?'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik heb een bericht van de Hawaïan Sea Frontier.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Junior, wanneer leer je eindelijk het verschil... tussen een steen... en een neus ?'\n<|assistant|> 1, 7"}
-{"text":"<|user|> Classify the emotions of: 'Dit bevalt me niet, Paul.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Heeft je ma je niet leren kloppen?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik haat deze plek.'\n<|assistant|> 1, 3, 4"}
-{"text":"<|user|> Classify the emotions of: 'Dit kun je niet maken. - Dat zie je toch.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Mr Becker, heeft u iemand waar u mee kunt praten?'\n<|assistant|> 1, 2, 4"}
-{"text":"<|user|> Classify the emotions of: 'Je hebt me bestolen toen ik gokte.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Dit is van meet af aan een zootje.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Dus laat ons met rust en wie wil, die krijgt 't.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Zoals ik zei hebben we grotere problemen.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Hou je kop! - Ik wil erdoor.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Iemand die we kennen?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Wat is er, jongens?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Dat respecteer ik wel.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Ik lees graag.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Goed, maar ik zet geen voet meer in dit huis.'\n<|assistant|> 1, 8"}
-{"text":"<|user|> Classify the emotions of: 'Je vermoord anders mijn kinderen!'\n<|assistant|> 1, 3, 4"}
-{"text":"<|user|> Classify the emotions of: 'Zouden ze hem uitlachen?'\n<|assistant|> 4, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Onze assistent staat op beeld te snuffelen.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '-Kan ik iets voor je doen?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ben je klaar? - Een momentje nog.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Je hebt een grote fout gemaakt, Burkhardt.'\n<|assistant|> 1, 3, 6"}
-{"text":"<|user|> Classify the emotions of: 'Raad eens.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Geef ze terug.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Alle posten klaar.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '- Denk jij dat ook? - Ja, en jij ook.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Jullie noemen jezelf liever opportunisten dan anarchisten.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Hoeveel eenvoudiger zou het voor ons zijn, als Kirk Edwards niet op zoek was geweest naar 'n nieuw gezicht.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ja, doodvallen.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Wel, ik kan je er niet van beschuldigen... het ons niet aangenaam te maken, Kapitein.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: '- Zeg het maar.'\n<|assistant|> 1, 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Hij is de enige die ooit aardig tegen me is geweest.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: '- Ik ga het ook vertellen.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik voel me nutteloos omdat ik zonder ben geboren.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: '- Nee, ik weet hoe dat moet.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Je weet hoe belangrijk dat is.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: '- Is dat oneerlijk ?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ja. Alles in orde.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Zoals elke dag daarvoor. Het gewoonlijke?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Blijkt te zijn... dat mijn vader en zijn zakenpartner betrokken waren bij een Ponzi verduistering.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Kom mee.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'De voodoopriester van een aantal bendes in Los Angeles.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Sleepmateriaal te water.'\n<|assistant|> 1, 2"}
-{"text":"<|user|> Classify the emotions of: 'Waarom respecteer je me dan niet meer?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Het deed me denken over ons allemaal en over hoe we vroeger waren.'\n<|assistant|> 6"}
-{"text":"<|user|> Classify the emotions of: 'Dat levert banen op om trots op te zijn.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Dat komt wel.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Wie is ze?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik vind het zo geweldig.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Waarom heb je die niet opgeblazen toen je de kans had ?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Ik raak helemaal verstijfd.'\n<|assistant|> 4, 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Durf je dit ook bij de gezondheids- inspectie te vertellen ?'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Kate Baldwin had nooit met hem mogen gaan praten.'\n<|assistant|> 1, 3, 6"}
-{"text":"<|user|> Classify the emotions of: 'Die Britten kunnen doodvallen.'\n<|assistant|> 1, 3"}
-{"text":"<|user|> Classify the emotions of: 'Ik ga hulp halen.'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: 'Kun je balalaika spelen?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik moet hem spreken.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Wat is er nu gebeurd?'\n<|assistant|> 2, 7"}
-{"text":"<|user|> Classify the emotions of: 'Van Montana naar Mexico Stad, stront vervoeren voor klootzakken.'\n<|assistant|> 3"}
-{"text":"<|user|> Classify the emotions of: '- Hoe is dat anders dan bij mij?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Wat heb je met 'm gedaan?'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: '- Wie zei dat? - Het doel is losgesneden.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Ik verwijt jou ook niks.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: '- Wat doe ik hier, Clark?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Jij kunt me die miljoenen laten vergeten.'\n<|assistant|> 2, 6"}
-{"text":"<|user|> Classify the emotions of: 'Hector Eubanks was de vuurbol van onze cocon.'\n<|assistant|> 5, 8"}
-{"text":"<|user|> Classify the emotions of: '- Een riem die je onzichtbaar maakt.'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'We hopen...'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Waarom dacht je dat dat gepast was?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Wat is er?'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: 'Is dat niet waar dit allemaal om gaat?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Ik wilde m'n blijdschap met je delen, Little Ben.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: '- Ik ben benieuwd naar hun gezichten.'\n<|assistant|> 2"}
-{"text":"<|user|> Classify the emotions of: '- Het drinken, de drugs, dat is niet iets normaal voor mij.'\n<|assistant|> 6, 7"}
-{"text":"<|user|> Classify the emotions of: 'Nee, deze keer niet.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Allemaal?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Het is gelukkig geen echt goud.'\n<|assistant|> 3, 8"}
-{"text":"<|user|> Classify the emotions of: '- Typisch!'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Dat is ook prima.'\n<|assistant|> 6, 8"}
-{"text":"<|user|> Classify the emotions of: 'Hou je me voor de gek?'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: '- Lachen.'\n<|assistant|> 2, 5"}
-{"text":"<|user|> Classify the emotions of: 'Onze agenda?'\n<|assistant|> 1, 3, 7"}
-{"text":"<|user|> Classify the emotions of: 'Er wachten je betere dingen als je weer vrijkomt.'\n<|assistant|> 2, 8"}
-{"text":"<|user|> Classify the emotions of: 'Onder water ?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Wie nam haar lichaam mee?'\n<|assistant|> 7"}
-{"text":"<|user|> Classify the emotions of: 'Clang heeft de hele tempel hierheen getransporteerd... .  Voor jouw offering.'\n<|assistant|> 1"}
-{"text":"<|user|> Classify the emotions of: 'Nou... Het is dan wel niet Frans, maar...'\n<|assistant|> 4, 8"}
-{"text":"<|user|> Classify the emotions of: '- Bedankt, paps.'\n<|assistant|> 5"}
-{"text":"<|user|> Classify the emotions of: 'Verklaart u 's waarom u besloot niet terug te gaan en de raketten op te blazen.'\n<|assistant|> 1, 2, 3"}
-{"text":"<|user|> Classify the emotions of: 'Je bent op de Syrische en Israëlische radar vanaf dat je opstijgt.'\n<|assistant|> 4"}
-{"text":"<|user|> Classify the emotions of: 'Maar het is niet genoeg.'\n<|assistant|> 8"}
-{"text":"<|user|> Classify the emotions of: 'Ik bel me suf.'\n<|assistant|> 1, 8"}
-{"text":"<|user|> Classify the emotions of: 'Zei je net 'luitenant 3e klasse'?'\n<|assistant|> 1, 2, 4, 7, 8"}
-{"text":"<|user|> Classify the emotions of: '- Ik doe verdomme wat ik wil!'\n<|assistant|> 1, 5, 8"}
+{"text":"<|user|> Classify the emotions of: 'Jorgensen ...?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Professor... een ogenblik.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Moesten we het daar maar bij laten?'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Bekwaam?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik begon me eenzaam te voelen boven.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik weet niet of je leeft, maar daar wil ik in geloven.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik zei, \"kom op\".'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Dat denk jij.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Hij wil dat wij vechten.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Maakt niet uit.'\n<|assistant|> joy, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Was dat de telefoon?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Hé, Kapitein.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Oké, we moeten Oliver's vader onmiddellijk traceren.'\n<|assistant|> trust, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ontslagen als bewaker omdat je een woekeraar bent?'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Vaarwel, Juliette.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ze moet op iets gebotst zijn.'\n<|assistant|> surprise, sadness"}
+{"text":"<|user|> Classify the emotions of: 'De dingen die we toch moeten doen in die heidense landen. Er moet toch een makkelijker manier zijn om een val te zetten!'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Dat ligt in de kast.'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ja, ik was uitgeschakeld in een kroeg nadat ik een pistool tegen mijn hoofd heb gehad.'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Hij wist niet...'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Geregeld.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Dus we hebben nog even de tijd.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Hij redde het schip. Drie marinepsychiaters hebben Queeg bij z'n verstand verklaard.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Je lijkt wel een persoonlijk belang te hebben.'\n<|assistant|> trust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Sta nou op.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Je moet rustig gaan zitten of je gaat hem wakker te maken.'\n<|assistant|> disgust, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Carlos mag je wel.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Jij zou een goed woordje voor me kunnen doen.'\n<|assistant|> trust, surprise, sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb hem dat speciaal gevraagd en ik moest je dit doorgeven.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Wat is er aan de hand?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Moet je kijken.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Trouwens, we willen graag weten of z'n buurman morgen eens geld gaat verdienen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wil je wat voor me doen?'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ze krijgen nog instructies.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Monroe, Rosalee, het is Trubel.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '- Begeleid hem het gebouw uit.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Fuck.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Als Jack niet weg is?'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ik moet vliegen. - Echt?'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Oh, verdomme. Alleen ik en...'\n<|assistant|> trust, sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Kijk eens wie ik gevonden heb.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Tommy, de baby?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ze ontkenden het en draaiden eromheen.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Ken ik jou niet ergens van?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Misschien heeft zij zelfs mijn partner Chris Amador gedood.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Een walvisgroot verhaal of twee... over een wapperende vis en de meisjes waarvan ik hield.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Riep iemand om z'n ouwe heer?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ongelooflijk dat ik eraf ben.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Wat was er aan de hand?'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik wil feesten, kun je me helpen?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Het heeft veel tijd gekost, maar hier zijn we dan.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Uw boek is briljant... maar het heeft gebrek aan draagwijdte.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Maar in dit geval lopen we voor op ons schema.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Roman...'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'We hadden 'm kunnen steunen.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Misschien ben ik wel te nauw betrokken.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'We bouwen 'n nieuwe stad op de plek waar Detroit nu staat.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Alstublieft.'\n<|assistant|> surprise, sadness, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Gemakkelijk Wat is het?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik ontsla je. Ik laat je achter op de landingsbaan.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Is het belangrijk?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Noodsnelheid, alle motoren'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Tot ik dat zelf beëindigde.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Dit bevalt me helemaal niet.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Wilt u een boodschap achterlaten?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'We hebben nog drie innings.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Kan je eraan wennen?'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Nee, ik ging van huis omdat ik er even uit moest.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik wist niet dat Kenneth dat zou doen. Je had mij moeten doden.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik kom er aan.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Je steekt je grote neus te diep in mijn zaken.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hij neemt 't te makkelijk op.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Egan is gesneuveld.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Je bent een van de vreemde jongeren, niet?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Herinnert u zich dan niet het gesprek met luitenant Harding ?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik breng je naar huis.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Toch niet meteen, dat is niet eerlijk.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ik maak geen grapje. Als ik zeg dat we tegen elkaar spelen, dan doen we dat.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'En ik moet echt iets drinken.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Het is een wonder, man.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Hoe dan ook, ik zoek hulp om het te vertalen.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Aangezien ik het hier alleen moet doen, zal ik het mezelf deze keer vergeven.'\n<|assistant|> disgust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'We gaan vijf dagen zon tegemoet.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Anders zal ik je eens verbouwen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Afgezien ik geen... ik kan 't niet veroorloven om $ 500. te verliezen.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'De mensen met het geld hadden haar groot gemaakt.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Tot zover het oude nieuws.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Samenwerken met president Petrov is altijd een vergissing.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Vanavond niet.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Aangenomen dat Queegs gedrag van slecht inzicht getuigde, staat dat dan haaks op uw diagnose?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'De politie lieten het na twee jaar gaan. Een verloren tijd, maar het was het waard om je vader te laten betalen voor mijn verlies.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Je hebt ons geholpen.'\n<|assistant|> sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Alles wat je zegt kan en zal tegen je gebruikt worden tijdens een rechtszaak.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'We zijn geen vrienden, je bent m'n baas.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Vermaakt u zich?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb het zelf ook meegemaakt. Maar we zitten in hetzelfde schuitje.'\n<|assistant|> joy, trust, sadness, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hoe lang moeten we wachten?'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Ze vertrouwen me.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik kan niet geloven dat ik me weer moet verdedigen voor de daden van 'n crimineel.'\n<|assistant|> joy, surprise, anger"}
+{"text":"<|user|> Classify the emotions of: 'Wees voorzichtig, Danny.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wat jij en Tony gedumpt hebben. - We dumpten niet.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Van uitgeverij Abercrombie and Blair, dronken of nuchter.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Je verhaal over hoe Louis zijn naam op de deur heeft gekregen is onzin.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Je hebt me gehoord.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'De moordenaarzet zijn dagelijkse moordpartij voort.'\n<|assistant|> joy, surprise, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik wist het.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Hoe weet jij, dat jij er wel bij bent?'\n<|assistant|> trust, sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Nick verzint dat niet en hij zou ons zeker niet bellen als het niet waar is.'\n<|assistant|> joy, anticipation"}
+{"text":"<|user|> Classify the emotions of: '-Waarom heb je m'n jas aan?'\n<|assistant|> trust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Gebruikte hij 'n granaat?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Als z'n boeken een indicatie geven, heeft hij nogal een leven gehad.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Rocky, up!'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '-Hallo, oom Paulie.'\n<|assistant|> trust, sadness, anger"}
+{"text":"<|user|> Classify the emotions of: '- Hij beschuldigde me van verraad.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Kop op!'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Mag ik vragen waarom ?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Dit is hemels.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'We zijn je kwijt. Blijf uitzenden.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik haat het om uit een goed vliegtuig te springen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'De scheepsschrijver wiens getuigenis ons bijna de kop kostte.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik zoek JR.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Klootzak.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben korporaal Torrey.'\n<|assistant|> surprise, anger"}
+{"text":"<|user|> Classify the emotions of: 'We terroriseren de hele staat.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Die onzin weer.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '-Laat 'm met rust.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Geniet je er niet van?'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Help!'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Bespottelijk.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Het is lang geleden, Mayii.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'En dat is prima. Je had me toch niet kunnen krijgen.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'En, meneer de financieel adviseur, wat vind je van mijn plan?'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Burgemeester Kuzak.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben zo trots op jou.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Vertel mij waar Theresa Rubel is. Theresa Rubel.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'We komen er wel.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik zal Eddington vertellen dat ik verloofd ben.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '-Als je van iemand houdt, dan leef je met ze en voor ze.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Wat probeer je te zeggen?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'We doen niets?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Dat was mijn meisje. Wacht.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik wil graag een Underwood-regering.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: '-Op?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '- Nu!'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'En nu ga je er verdomme aan.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Marshmallows roosteren.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Uw snorharen kietelen Laat me je snorharen zien Hé, je zou je moeten scheren, liefje'\n<|assistant|> trust, sadness, anger"}
+{"text":"<|user|> Classify the emotions of: '-Van hem heb ik het gehoord.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ik werkte voor jou.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hij liet mijn hand los. Hij liet mijn hand los.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Heb je hem zomaar een vliegtuig gegeven?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb de hele tijd gehuild.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik wacht.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Niemand heeft me ooit zo omlaag gehaald als jij vandaag.'\n<|assistant|> joy, fear, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Pas maar op als dat schatje jouw kant op komt.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Misschien weet hij dat al, of wil hij het niet weten.'\n<|assistant|> trust, fear, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Een sterveling die de Kinderkeizerin komt redden ?'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ze redde m'n leven.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'O shit!'\n<|assistant|> joy, surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'En een sterke wil om te ontsnappen Wie, ik ?'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik bedoel, ik weet dat... toespraken schrijven ook schrijven is... maar het is niet wat ik echt wil doen.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Als je Donna niet aanklaagt, klagen wij jullie niet aan.'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Mr Tusk was een grote donateur bij Wills campagne.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Waardoor ze beste vriendjes werden.'\n<|assistant|> sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb hier een man die op de Golden Arrow gezeild heeft en het overleefde om het verder te vertellen.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Waren ze niet te lastig?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik moet indruk maken op de Britten.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik vond 't een goede toespraak.'\n<|assistant|> sadness, disgust"}
+{"text":"<|user|> Classify the emotions of: '- Dat gaat niet gebeuren.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Jazeker.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Als dat zo is, dan zullen ze nooit meer iets anders zien.'\n<|assistant|> joy, trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Maar ik zal altijd een moordenaar blijven.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Waar beschuldig je me van?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Noem het immigratie als je wilt.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Niet friemelen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Onvoldoende.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Er is een goede kans dat ze zal antwoorden.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Blijkbaar vertrouwen we elkaar niet.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Vanavond niet.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Dan komen de vragen boven drijven.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Er kwam een vrachtwagen op me af.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'We persen ons er wel in.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Slechte verliezer. Hij weigert 187.000 dollar te betalen.'\n<|assistant|> joy, fear, anger"}
+{"text":"<|user|> Classify the emotions of: 'Vanochtend barstte het hier van de boeken.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Wat is er, Meatball?'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Herinnert u zich dan niet het gesprek met luitenant Harding?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Afgelegen en nuttig.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'We draaien naar de wind.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'De röntgenfoto's komen er aan.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: '-Zeg, 't is de zoete inval niet.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'De nieuwe openheid heeft hem geinspireerd.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'We zijn de hartslag van de baby kwijt.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben hier niet gekomen om mijn verdriet te bespreken. Ik ben hier voor mijn erfenis.'\n<|assistant|> fear, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben er alleen niet zeker van dat het de juiste manier is.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Yakov is gepakt.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Je hebt nooit een greintje lef getoond.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Goed. - Nu.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'De banden van Blair worden versleuteld, per satelliet naar Londen gestuurd en ontcijferd in 'n kwestie van minuten.'\n<|assistant|> anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Queeg bracht mensenlevens in gevaar.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Het is bijna beangstigend hoe verliefd ze op je is.'\n<|assistant|> fear, anger"}
+{"text":"<|user|> Classify the emotions of: 'Dat is juist Het moet zijn'\n<|assistant|> surprise, sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik mag er niks over zeggen.'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Tommy had me nodig.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben degene die de kelen oversnijdt van de Communisten.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Haal haar.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hebben we zicht op binnenin, Patterson?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Bij 3 langzaam loslaten.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Raak me niet aan.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Zoutzuur ?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Je gaat met mij mee, alleen, we gaan over 20 minuten weg.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Doen mensen altijd wat je zegt?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Dat kan nu niet.'\n<|assistant|> surprise, anger"}
+{"text":"<|user|> Classify the emotions of: '- Waar heb je het over?'\n<|assistant|> trust, anger"}
+{"text":"<|user|> Classify the emotions of: '- Pardon? - Morgenochtend ga ik naar Cannes.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Hij begint...'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Dat is normaal.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Willie, hou op.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Alles komt in orde jongen.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Twee verdachten zijn aangehouden.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Nee, ik ben er zo weer, oké?'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik vind mezelf knap genoeg, maar zo'n ster wil ik niet zijn.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Je kunt het, knul.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Was ze echt ziek?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Commando voeren is eenzaam. Het is moeilijk om beslissingen te nemen.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'En wat ik verder wil zeggen, is keurig en volledig uitgetypt op dit velletje papier.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Wat niet te stoppen is, hou je niet tegen.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'En vergeet de kluis niet.'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Het spijt me van je kleine verlies.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Nu doe je met opzet stom.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Is er geen school vandaag?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Wat is dat?'\n<|assistant|> surprise, anger"}
+{"text":"<|user|> Classify the emotions of: 'Underwood heeft ze in z'n zak.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Is Juliette echt dood?'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: '- Een ware slachting, inspecteur.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Er is niks mis met hondenvlees.'\n<|assistant|> sadness, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik vind dit niks.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb iets.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ondeugende knul.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Pa?'\n<|assistant|> trust, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ik probeer hem de hele dag al te bereiken.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wat doe jij nog hier?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Het is ontzettend dom van me ...'\n<|assistant|> joy, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb weer last van m'n rug.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'We gaan met een groot schip over de oceaan heen en brengen je naar huis.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Elk risico heeft zes kanten en twaalf redenen om het niet te nemen.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Je zou dinsdag komen.'\n<|assistant|> joy, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Strelnikov is dood.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Mag ik het zien?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Blijkbaar is mijn leven niet dat van mij zoals de afgelopen 20 jaar.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Howard.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Kijk ?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ze is uitgeput, maar ze is in orde.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik krijg wat van afscheid nemen. Het beste.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Toen brak hij met haar voor een andere vrouw.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wacht, dat gaat niet vanaf hier.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Het is Skyhook. U had dit blijkbaar al geraden.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Oscar, de telefoon.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik stond verbaasd hoever zijn reputatie ging.'\n<|assistant|> trust, surprise, sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'En dat willen we niet, toch?'\n<|assistant|> trust, surprise"}
+{"text":"<|user|> Classify the emotions of: 'We zochten wat zo subtiel \"een nieuw gezicht\" heet.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Afgekot voor deze oliën jongens, er zal gratis grog zijn voor elk paar handen Indien ik het kon slikken bovenop dit...'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb u dat briefje gegeven.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: '- Hou toch op.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hoorde je me?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Neem dit extraatje ook maar mee.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Elise, alsjeblieft.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Wat?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hoe voel je je?'\n<|assistant|> trust, sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Beste beul, bevalt de gevangenis?'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'En ik word steeds nijdiger.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'De röntgenfoto doen we over een uur en morgenochtend de echo.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: '- Een erg gemene hand.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Het ga je goed, Ronnie.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Waar is Graham ?'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Aangenomen dat Queegs gedrag van slecht inzicht getuigde... - staat dat dan haaks op uw diagnose ?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ze sloegen de plank mis...'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Tuthill, operaties.'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Maar wat als...'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Kleine rotzak.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Was u alleen? - Ja.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Als ik een Luger had...'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ga m'n kantoor uit.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Kom mee.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Zag kapitein Queeg er ziek uit ?'\n<|assistant|> surprise, anger"}
+{"text":"<|user|> Classify the emotions of: 'Wie doet er nou zoiets?'\n<|assistant|> joy, trust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Let maar eens op, in de rechtbank.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik zie je morgen dan wel.'\n<|assistant|> trust, sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Zeg hen dat je gesloten bent.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Mensen zullen sterven.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'In je persoonlijke leven. En dat ze zich echt zorgen om je maakt.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Dat is toch zo, Max?'\n<|assistant|> fear, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Weet je, ik wilde...'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Er is zo veel meer.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik hoor in Hollywood achter een typemachine te zitten... terwijl ik dit alles verzin voor een film.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Hij moet hem meenemen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Niemand trekt zich er iets van aan.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Help hem, Rexer.'\n<|assistant|> trust, surprise"}
+{"text":"<|user|> Classify the emotions of: '- Hij heeft weer een vrouw.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik kan dit niet blijven doen.'\n<|assistant|> fear, surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik had nooit weg moeten gaan.'\n<|assistant|> joy, fear, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Wacht op mij'\n<|assistant|> sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Hij gaat nooit weg uit Rusland.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Je bent nog jong. Je komt er wel achter.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ik kom zo.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Velen van jullie dragen geen gevechtstenue.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: '- We hebben nog geen namen.'\n<|assistant|> trust, surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Zelfs in een script van jou had ik dit glas naar 'm gegooid.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hij wil keurige mensen op 't witte doek.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'De idioot zette zijn tv harder en ik kon niet...'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: '- Die pikken dit niet.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Wat zijn jullie toch ingewikkeld allebei.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Nog één krasje, en je carrière bij de marine zit erop.'\n<|assistant|> joy, trust, fear"}
+{"text":"<|user|> Classify the emotions of: '- Ik weet niet meer wat Tom is.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ze is inderdaad erg knap.'\n<|assistant|> trust, sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Zullen we naar binnen gaan?'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Wat bent u van plan?'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'De vorige keer had je ook geen misdaad begaan om te winnen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'De vorige keer liet deze heks de prinses zich in haar vinger prikken waarna ze 100 jaar sliep.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Maar Trubel schoot haar neer.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Wat heeft dat met ons te maken?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Kurt, hij mag hier niet komen.'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Wel, hij heeft echt zijn monster gevonden, niet ?'\n<|assistant|> joy, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Je zat er met je neus bovenop.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Als officier in de Amerikaanse marine... - gaan jullie naar zee om een ernstig conflict uit te vechten.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Die veranderen ex-burgers in hersendode mannen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hij is dood, toch?'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Je kunt vast maar moeilijk geloven dat dit geen droom van lang geleden is.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Is dit de harem van de admiraal?'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Onzin.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wat weet jij hiervan?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik wil dat je voor me zorgt.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Oog om oog, tand om tand.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Waarom? - Omdat ze er niet voor ging.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik vind dat m'n zoon zakgeld moet krijgen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Hallo, matroos.'\n<|assistant|> sadness, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ze wachten op je.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Mooie kont.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'En ik ben er ziek van.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Hij moet hier zijn. Help me.  - Hij moet daar zijn.'\n<|assistant|> joy, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Zoiets heb ik nog nooit gedaan.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Je moeder voelde zich niet goed en ze had tijd nodig om beter te worden.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Toen ze het was omarmde ze het wel.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'We lossen je over een paar uur af.'\n<|assistant|> trust, disgust"}
+{"text":"<|user|> Classify the emotions of: 'We zouden het liefst onder úw bevel op een onbewoond eiland stranden.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'U bent maar niet dood te krijgen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '-O ja, dat ben jij.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Maar de manier waarop ze ontplofte, vereist een soort ontsteker.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: '- Heb je ze? De telefoon is afgebroken.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Niks gevonden.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hoelang kennen jullie elkaar al?'\n<|assistant|> trust, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Maar u gaat veel vaker naar Rusland dan naar Amerika.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik wist toch ook niet dat 't zo zou gaan?'\n<|assistant|> trust, anger"}
+{"text":"<|user|> Classify the emotions of: '- Twaalf stekeblinde schepen.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Natuurlijk .'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Dat hij lang, knap, goed, aardig, trots enzovoorts is?'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik wou dat ik hem kon vertellen hoeveel ik het waardeer.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Had je gehoopt hier onopgemerkt te blijven?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'En we zitten vast.'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Wat je ook nodig heb, je krijgt het.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Doe me een lol.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'En...'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Hou je kop en ga naar huis.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Ik heb gefaald.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ik was heel kwaad op hem.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '-Kom, Paulie.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik wil dit niet meer.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik spoel hem terug.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Hou de rest maar.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Omdat ik Jane heb zien doorstaan, wat jij nu ook allemaal doorstaat.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Jouw hoer.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik zie je binnen.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben een beetje uit mijn doen.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hé, ze ze doen de deur dicht'\n<|assistant|> surprise, anger"}
+{"text":"<|user|> Classify the emotions of: '- M'n oog ligt eruit.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- De rondleiding was interessant.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Je staat op de speaker.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'En dit is mijn kleine broer Lenny.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Straks worden we zelf nog de dupe.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ben je hier al lang?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Hij trouwt over 30 minuten.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Hij klinkt geweldig.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Wat probeer je te zeggen? Voor de dag ermee.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Zorg snel voor 'n goed verhaal.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Wie ben jij?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '-Mooi liedje, hè?'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Als officier in de Amerikaanse marine gaan jullie naar zee om een ernstig conflict uit te vechten.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Mrs Healy, dit is de geweldigste man van de hele wereld.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Waar heb je haar opgedoken?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: '- Commandant, we hebben problemen.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Goede reis, Barley.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: '- Bekent u?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb je gewaarschuwd!'\n<|assistant|> joy, fear, surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Nee ? Stop ermee'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben hier om te zeggen dat 't duidelijk is.'\n<|assistant|> disgust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik ben zwanger, weet u.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Was je bevriend met de overledene?'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Met de kruisboog, voordat ze mij zou doden.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Jay, kan ik binnenkomen?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Je kunt niet wegrennen.'\n<|assistant|> joy, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Er zit wel iets in wat de verdediging zegt.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Rover, dit is John Paul.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Omdat ik zeker weet dat hij alleen staat in zijn ideeën.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hij identificeert zich met jou.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'We zijn je kwijt.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Ze hebben de sporen gewist.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Niki drong erop aan dat ik belde.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Goed toch?'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Pardon.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Ze was toch in de helikopter?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Dit was mijn kamer.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hij weet alles nog.'\n<|assistant|> sadness, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Laat het iemand anders zijn dan haar.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ik weet bijna zeker dat China liegt over een Amerikaan aan boord.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'En een heel lekker, o. Dank u.'\n<|assistant|> sadness, anger"}
+{"text":"<|user|> Classify the emotions of: 'Het draait niet om één kwestie.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Waarover ? De wereld.  De liefde.'\n<|assistant|> surprise, disgust"}
+{"text":"<|user|> Classify the emotions of: '- U bedoelt morgen?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Jullie lachen erom maar je doet je familie verdriet.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Welke naam zou je willen?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '- Ga mee die smeris pesten.'\n<|assistant|> joy, trust, fear, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Hij tekent bezwaar aan, zij steunt het, elke keer weer.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Mijn onbetrouwbare roerganger vergat me te waarschuwen.'\n<|assistant|> joy, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Heb je nog maar pas vleugels ?'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Je hebt tot vijf uur de tijd.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Zal ik doen.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Wat moet ik nu?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Zet hem in zijn kajuit'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Luister, ik heb harddrives gevonden van Sandstorm.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Je was smoorverliefd op haar.'\n<|assistant|> sadness, disgust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ze komen hierheen, naar Portland.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Ik vergat even wie ik was.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik kon het niet doen.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Dat zeg je wel telkens, maar hier zit je dan... je werk voorbereiden in plaats van voor je geliefde te vechten.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Ja, dat moet wel.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Sta stil.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ben je stom?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hij heeft geen kans!'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Wanneer heb je dat gedaan, knul?'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik heb een bericht van de Hawaïan Sea Frontier.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Junior, wanneer leer je eindelijk het verschil... tussen een steen... en een neus ?'\n<|assistant|> joy, anger"}
+{"text":"<|user|> Classify the emotions of: 'Dit bevalt me niet, Paul.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Heeft je ma je niet leren kloppen?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik haat deze plek.'\n<|assistant|> joy, fear, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Dit kun je niet maken. - Dat zie je toch.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Mr Becker, heeft u iemand waar u mee kunt praten?'\n<|assistant|> joy, trust, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Je hebt me bestolen toen ik gokte.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Dit is van meet af aan een zootje.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Dus laat ons met rust en wie wil, die krijgt 't.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Zoals ik zei hebben we grotere problemen.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Hou je kop! - Ik wil erdoor.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Iemand die we kennen?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Wat is er, jongens?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Dat respecteer ik wel.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Ik lees graag.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Goed, maar ik zet geen voet meer in dit huis.'\n<|assistant|> joy, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Je vermoord anders mijn kinderen!'\n<|assistant|> joy, fear, surprise"}
+{"text":"<|user|> Classify the emotions of: 'Zouden ze hem uitlachen?'\n<|assistant|> surprise, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Onze assistent staat op beeld te snuffelen.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '-Kan ik iets voor je doen?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ben je klaar? - Een momentje nog.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Je hebt een grote fout gemaakt, Burkhardt.'\n<|assistant|> joy, fear, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Raad eens.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Geef ze terug.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Alle posten klaar.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '- Denk jij dat ook? - Ja, en jij ook.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Jullie noemen jezelf liever opportunisten dan anarchisten.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Hoeveel eenvoudiger zou het voor ons zijn, als Kirk Edwards niet op zoek was geweest naar 'n nieuw gezicht.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ja, doodvallen.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Wel, ik kan je er niet van beschuldigen... het ons niet aangenaam te maken, Kapitein.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Zeg het maar.'\n<|assistant|> joy, trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Hij is de enige die ooit aardig tegen me is geweest.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Ik ga het ook vertellen.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik voel me nutteloos omdat ik zonder ben geboren.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: '- Nee, ik weet hoe dat moet.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Je weet hoe belangrijk dat is.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: '- Is dat oneerlijk ?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ja. Alles in orde.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Zoals elke dag daarvoor. Het gewoonlijke?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Blijkt te zijn... dat mijn vader en zijn zakenpartner betrokken waren bij een Ponzi verduistering.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Kom mee.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'De voodoopriester van een aantal bendes in Los Angeles.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Sleepmateriaal te water.'\n<|assistant|> joy, trust"}
+{"text":"<|user|> Classify the emotions of: 'Waarom respecteer je me dan niet meer?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Het deed me denken over ons allemaal en over hoe we vroeger waren.'\n<|assistant|> disgust"}
+{"text":"<|user|> Classify the emotions of: 'Dat levert banen op om trots op te zijn.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Dat komt wel.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Wie is ze?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik vind het zo geweldig.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Waarom heb je die niet opgeblazen toen je de kans had ?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Ik raak helemaal verstijfd.'\n<|assistant|> surprise, disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Durf je dit ook bij de gezondheids- inspectie te vertellen ?'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Kate Baldwin had nooit met hem mogen gaan praten.'\n<|assistant|> joy, fear, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Die Britten kunnen doodvallen.'\n<|assistant|> joy, fear"}
+{"text":"<|user|> Classify the emotions of: 'Ik ga hulp halen.'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Kun je balalaika spelen?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik moet hem spreken.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Wat is er nu gebeurd?'\n<|assistant|> trust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Van Montana naar Mexico Stad, stront vervoeren voor klootzakken.'\n<|assistant|> fear"}
+{"text":"<|user|> Classify the emotions of: '- Hoe is dat anders dan bij mij?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Wat heb je met 'm gedaan?'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Wie zei dat? - Het doel is losgesneden.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Ik verwijt jou ook niks.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: '- Wat doe ik hier, Clark?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Jij kunt me die miljoenen laten vergeten.'\n<|assistant|> trust, disgust"}
+{"text":"<|user|> Classify the emotions of: 'Hector Eubanks was de vuurbol van onze cocon.'\n<|assistant|> sadness, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Een riem die je onzichtbaar maakt.'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'We hopen...'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Waarom dacht je dat dat gepast was?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Wat is er?'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: 'Is dat niet waar dit allemaal om gaat?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Ik wilde m'n blijdschap met je delen, Little Ben.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: '- Ik ben benieuwd naar hun gezichten.'\n<|assistant|> trust"}
+{"text":"<|user|> Classify the emotions of: '- Het drinken, de drugs, dat is niet iets normaal voor mij.'\n<|assistant|> disgust, anger"}
+{"text":"<|user|> Classify the emotions of: 'Nee, deze keer niet.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Allemaal?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Het is gelukkig geen echt goud.'\n<|assistant|> fear, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Typisch!'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Dat is ook prima.'\n<|assistant|> disgust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Hou je me voor de gek?'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: '- Lachen.'\n<|assistant|> trust, sadness"}
+{"text":"<|user|> Classify the emotions of: 'Onze agenda?'\n<|assistant|> joy, fear, anger"}
+{"text":"<|user|> Classify the emotions of: 'Er wachten je betere dingen als je weer vrijkomt.'\n<|assistant|> trust, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Onder water ?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Wie nam haar lichaam mee?'\n<|assistant|> anger"}
+{"text":"<|user|> Classify the emotions of: 'Clang heeft de hele tempel hierheen getransporteerd... .  Voor jouw offering.'\n<|assistant|> joy"}
+{"text":"<|user|> Classify the emotions of: 'Nou... Het is dan wel niet Frans, maar...'\n<|assistant|> surprise, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Bedankt, paps.'\n<|assistant|> sadness"}
+{"text":"<|user|> Classify the emotions of: 'Verklaart u 's waarom u besloot niet terug te gaan en de raketten op te blazen.'\n<|assistant|> joy, trust, fear"}
+{"text":"<|user|> Classify the emotions of: 'Je bent op de Syrische en Israëlische radar vanaf dat je opstijgt.'\n<|assistant|> surprise"}
+{"text":"<|user|> Classify the emotions of: 'Maar het is niet genoeg.'\n<|assistant|> anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Ik bel me suf.'\n<|assistant|> joy, anticipation"}
+{"text":"<|user|> Classify the emotions of: 'Zei je net 'luitenant 3e klasse'?'\n<|assistant|> joy, trust, surprise, anger, anticipation"}
+{"text":"<|user|> Classify the emotions of: '- Ik doe verdomme wat ik wil!'\n<|assistant|> joy, sadness, anticipation"}

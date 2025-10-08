@@ -10,11 +10,34 @@ files = {
     "ro": "Data/!OriginalData/ro-projections.tsv"
 }
 
+# number → Plutchik emotion mapping
+NUM_TO_EMO = {
+    "1": "joy",
+    "2": "trust",
+    "3": "fear",
+    "4": "surprise",
+    "5": "sadness",
+    "6": "disgust",
+    "7": "anger",
+    "8": "anticipation"
+}
+
+def convert_labels(label_str: str) -> str:
+    """Convert comma-separated numbers into comma-separated emotion words."""
+    numbers = [n.strip() for n in label_str.split(",")]
+    emotions = [NUM_TO_EMO.get(n, n) for n in numbers if n]  # skip empty
+    return ", ".join(emotions)
+
 def load_tsv(path):
     df = pd.read_csv(path, sep="\t", header=None, names=["text", "labels"])
-    df["labels"] = df["labels"].apply(lambda x: str(x))  # keep as string "1, 4"
+    df["labels"] = df["labels"].apply(lambda x: str(x))  # keep as string
+    # convert numbers to emotion words
+    df["labels"] = df["labels"].apply(convert_labels)
     # turn into LLM-friendly format
-    df["text"] = df.apply(lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']}", axis=1)
+    df["text"] = df.apply(
+        lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']}",
+        axis=1
+    )
     df = df[["text"]]  # keep only text field
     return df
 
@@ -43,3 +66,4 @@ for lang, path in files.items():
         print(f"  Saved {split_name} to {outfile}")
 
 print("LLM-ready data saved inside Data/<language>/ folders.")
+

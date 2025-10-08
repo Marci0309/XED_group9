@@ -1,0 +1,118 @@
+import torch
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    BitsAndBytesConfig,
+    TrainingArguments,
+    Trainer,
+    DataCollatorForLanguageModeling
+)
+from peft import LoraConfig, get_peft_model
+from datasets import load_dataset
+import os
+
+print("==== GPU STATUS CHECK ====")
+print(f"CUDA available: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"Device count: {torch.cuda.device_count()}")
+    for i in range(torch.cuda.device_count()):
+        print(f"  • GPU {i}: {torch.cuda.get_device_name(i)}")
+    print("==========================\n")
+else:
+    print("⚠️ No GPU detected — training will run on CPU (very slow).")
+    print("==========================\n")
+
+
+
+dataset = load_dataset("json", data_files={
+    "train": "Data/en/train.jsonl",
+    "validation": "Data/en/validation.jsonl",
+    "test": "Data/en/test.jsonl"
+})
+
+model_name = "mistralai/Mistral-7B-Instruct-v0.1"
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16
+)
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    quantization_config=bnb_config,
+    device_map="auto",
+    torch_dtype=torch.bfloat16
+)
+
+lora_config = LoraConfig(
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
+    lora_dropout=0.05,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
+
+model = get_peft_model(model, lora_config)
+model.enable_input_require_grads()
+model.gradient_checkpointing_enable()
+model.print_trainable_parameters()
+
+def tokenize_function(examples):
+    return tokenizer(
+        examples["text"],
+        truncation=True,
+        padding="max_length",
+        max_length=512
+    )
+
+tokenized_datasets = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
+data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
+
+training_args = TrainingArguments(
+    output_dir="./lora_mistral_emotions",
+    eval_strategy="steps",
+    eval_steps=200,
+    save_strategy="steps",
+    save_steps=200,
+    logging_steps=50,
+    learning_rate=2e-4,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
+    gradient_accumulation_steps=8,
+    num_train_epochs=5,
+    warmup_ratio=0.05,
+    weight_decay=0.01,
+    lr_scheduler_type="cosine",
+    bf16=True,
+    tf32=False,
+    gradient_checkpointing=True,
+    optim="paged_adamw_8bit",
+    save_total_limit=2,
+    report_to="none",
+    ddp_find_unused_parameters=False,
+    dataloader_num_workers=2
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=tokenized_datasets["train"],
+    eval_dataset=tokenized_datasets["validation"],
+    data_collator=data_collator,
+    tokenizer=tokenizer
+)
+
+trainer.train()
+
+model.save_pretrained("./lora_mistral_emotions")
+tokenizer.save_pretrained("./lora_mistral_emotions")
+
+results = trainer.evaluate(tokenized_datasets["test"])
+print("Test Results:", results)

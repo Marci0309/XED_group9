@@ -1,0 +1,74 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+`torch_dtype` is deprecated! Use `dtype` instead!
+Using device: cuda
+Loading base model...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.71s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.82s/it]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading LoRA adapter...
+Model and tokenizer loaded successfully.
+
+🗣️ Input: Classify the emotions of: 'weren't you reprimanding a seaman for having his shirt-tail out, while the ship turned 360 degrees?'
+💡 Model output: <|user|> Classify the emotions of: 'weren't you reprimanding a seaman for having his shirt-tail out, while the ship turned 360 degrees?'
+<|assistant|> joy, fear, anger, anticipation, disgust, anger, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger,
+------------------------------------------------------------
+
+🗣️ Input: Classify the emotions of: 'He's such a sweet thing.'
+💡 Model output: <|user|> Classify the emotions of: 'He's such a sweet thing.'
+<|assistant|> sadness, anticipation, anger, disgust, anticipation, anger, anticipation, anticipation, anger, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation,
+------------------------------------------------------------
+
+🗣️ Input: Classify the emotions of: 'Are you sure they're here? CHAVEZ:  They're here.'
+💡 Model output: <|user|> Classify the emotions of: 'Are you sure they're here? CHAVEZ:  They're here.'
+<|assistant|> trust, sadness, anger, anticipation, disgust, anticipation, anger, anticipation, anticipation, anticipation, anger, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation, anticipation, anticip
+------------------------------------------------------------
+
+🗣️ Input: Classify the emotions of: 'Oh wow, that’s such a beautiful surprise!'
+💡 Model output: <|user|> Classify the emotions of: 'Oh wow, that’s such a beautiful surprise!'
+<|assistant|> sadness, anger, anticipation, disgust, anger, anticipation, sadness, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger, anticipation, anger,
+------------------------------------------------------------
+
+✅ Testing complete.
+
+###############################################################################
+Hábrók Cluster
+Job 22794650 for user s5542332
+Finished at: Sun Oct  5 18:57:00 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 22794650
+Name                           : python_batch.sh
+User                           : s5542332
+Partition                      : gpushort
+Nodes                          : a100gpu6
+Number of Nodes                : 1
+Cores                          : 16
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-10-05T18:51:39
+Start                          : 2025-10-05T18:56:01
+End                            : 2025-10-05T18:56:55
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:00:54
+Used CPU time                  : 00:00:49 (Efficiency:  5.65%)
+% User (Computation)           : 82.29%
+% System (I/O)                 : 17.71%
+Total memory reserved          : 8000M
+Maximum memory used            : 1.88G
+Requested GPUs                 : 2
+Allocated GPUs                 : a100=2
+Max GPU utilization            : 43%
+Max GPU memory used            : 7.68G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
