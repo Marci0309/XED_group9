@@ -1,16 +1,14 @@
-# === TEST SCRIPT FOR FINE-TUNED LoRA MODEL ===
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
 import os
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
-
 # Base model and adapter paths
 base_model_name = "mistralai/Mistral-7B-Instruct-v0.1"
-adapter_path = "lora_mistral_emotions/checkpoint-800"  # your fine-tuned adapter folder
+adapter_path = "lora_mistral_emotions_endof"  # your fine-tuned adapter folder
 
 # 4-bit config for GPU loading (optional, saves VRAM)
 bnb_config = BitsAndBytesConfig(
@@ -32,17 +30,18 @@ print("Loading LoRA adapter...")
 model = PeftModel.from_pretrained(base_model, adapter_path)
 model.eval()
 
+# Tokenizer setup
 tokenizer = AutoTokenizer.from_pretrained(adapter_path)
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
+tokenizer.eos_token = "<|endoftext|>"  # Set <|endoftext|> as eos token
+tokenizer.eos_token_id = tokenizer.convert_tokens_to_ids(tokenizer.eos_token)  # Get token ID for <|endoftext|>
 
 print("Model and tokenizer loaded successfully.\n")
 
 samples = [
-    "Classify the emotions of: 'weren't you reprimanding a seaman for having his shirt-tail out, while the ship turned 360 degrees?'",
-    "Classify the emotions of: 'He's such a sweet thing.'",
-    "Classify the emotions of: 'Are you sure they're here? CHAVEZ:  They're here.'",
-    "Classify the emotions of: 'Oh wow, that’s such a beautiful surprise!'",
+    "Classify the emotions of: '- That\"s OWynn he\"s sitting with.'",  # trust, sadness
+    "Classify the emotions of: 'All right, I'm coming in.'",  # joy
+    "Classify the emotions of: 'The prosecutor will explain everything when you see him.'",  # trust, sadness
+    "Classify the emotions of: 'No, it isn't. Because right now, I have to decide whether he should stay at the firm.'"  # disgust
 ]
 
 for text in samples:
@@ -55,7 +54,7 @@ for text in samples:
             max_new_tokens=50,
             do_sample=False,
             temperature=0.0,
-            pad_token_id=tokenizer.eos_token_id
+            eos_token_id=tokenizer.eos_token_id  # Ensure stopping at <|endoftext|>
         )
 
     decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)

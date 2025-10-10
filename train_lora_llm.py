@@ -65,15 +65,15 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 training_args = TrainingArguments(
     output_dir="./lora_mistral_emotions_endof",
     eval_strategy="steps",
-    eval_steps=200,
+    eval_steps=400,
     save_strategy="steps",
-    save_steps=200,
+    save_steps=400,
     logging_steps=50,
     learning_rate=2e-5,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
     gradient_accumulation_steps=8,
-    num_train_epochs=5,
+    num_train_epochs=10,
     warmup_ratio=0.05,
     weight_decay=0.01,
     lr_scheduler_type="cosine",
@@ -98,7 +98,7 @@ trainer = Trainer(
 
 trainer.train()
 
-model.save_pretrained("./lora_mistral_emotions_endof")
+model.save_pretrained("./lora_mistral_emotions_endof", create_model_card=False)
 tokenizer.save_pretrained("./lora_mistral_emotions_endof")
 
 results = trainer.evaluate(tokenized_datasets["test"])

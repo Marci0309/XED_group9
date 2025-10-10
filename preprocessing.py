@@ -4,10 +4,10 @@ import os
 
 # file paths
 files = {
-    "en": "Data/!OriginalData/en-projections.tsv",
-    "hu": "Data/!OriginalData/hu-projections.tsv",
-    "nl": "Data/!OriginalData/nl-projections.tsv",
-    "ro": "Data/!OriginalData/ro-projections.tsv"
+    "en": "!OriginalData/en-projections.tsv",
+    "hu": "!OriginalData/hu-projections.tsv",
+    "nl": "!OriginalData/nl-projections.tsv",
+    "ro": "!OriginalData/ro-projections.tsv"
 }
 
 # number → Plutchik emotion mapping
@@ -35,11 +35,13 @@ def load_tsv(path):
     df["labels"] = df["labels"].apply(convert_labels)
     # turn into LLM-friendly format
     df["text"] = df.apply(
-        lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']}<|endoftext|>",
+        lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']} </s>",
         axis=1
     )
     df = df[["text"]]  # keep only text field
+    print(df.head(1))
     return df
+
 
 def split_dataset(ds, seed=42):
     train_test = ds.train_test_split(test_size=0.2, seed=seed)
