@@ -33,7 +33,7 @@ def load_tsv(path):
     df["labels"] = df["labels"].apply(lambda x: str(x))  # keep as string
     # convert numbers to emotion words
     df["labels"] = df["labels"].apply(convert_labels)
-    # turn into LLM-friendly format
+    # turn into LLM-friendly formatw
     df["text"] = df.apply(
         lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']} \n<|endoftext|>",
         axis=1

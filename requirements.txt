@@ -4,4 +4,5 @@ peft
 datasets
 bitsandbytes
 pandas
+scikit-learn
 

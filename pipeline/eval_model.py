@@ -13,7 +13,7 @@ if multilang:
     ADAPTER_PATH = "mistral_multi"
 else:
     LANGS = ["en"]
-    ADAPTER_PATH = "mistral_single"
+    ADAPTER_PATH = "models/lora_mistral_finetune"
 DATA_ROOT = "data"
 BASE_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 BATCH_SIZE = 4
