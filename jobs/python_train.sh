@@ -4,7 +4,7 @@
 #SBATCH --gpus-per-node=h100_80gb_hbm3_1g.10gb:2
 #SBATCH --mem=10000
 module purge
-module load Python/3.10.4-GCCcore-11.3.0
+module load Python/3.11.5-GCCcore-13.2.0
 
 source .venv/LLM/bin/activate
 

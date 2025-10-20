@@ -7,8 +7,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
 # Base model and adapter paths
-base_model_name = "mistralai/Mistral-7B-Instruct-v0.1"
-adapter_path = "models/lora_mistral_finetune"  # your fine-tuned adapter folder
+base_model_name = "tiiuae/Falcon3-7B-Base"
+adapter_path = "models/lora_falcon_finetune"  # your fine-tuned adapter folder
 
 # 4-bit config for GPU loading (optional, saves VRAM)
 bnb_config = BitsAndBytesConfig(

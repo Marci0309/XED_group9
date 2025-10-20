@@ -1,0 +1,76 @@
+# ===========================
+# Config file for fine tuning
+# ===========================
+
+project:
+  multi_language: false         # train on one or multiple languages
+  language: "en"                # set to en, nl, hu or ro
+  data_root: "data"             # root for all data files
+  output_root: "models"         # root for all run outputs
+  seed: 42
+  train: true
+  test: false
+
+
+runtime:
+  device_map: "auto"
+  dtype: "bfloat16"            # fallback to fp16 in code if bf16 not supported
+  tf32: true
+  dataloader_num_workers: 2
+  ddp_find_unused_parameters: false
+  ignore_kernel_warn: true
+
+tokenization:
+  truncation: true
+  padding: "max_length"
+  max_length: 256
+
+models:
+  mistral:
+    pretrained: "mistralai/Mistral-7B-Instruct-v0.1"
+    output_dir: "${project.output_root}/lora_mistral_finetune"
+  falcon:
+    pretrained: "tiiuae/Falcon3-7B-Base"
+    output_dir: "${project.output_root}/lora_falcon_finetune"
+  llama2:
+    pretrained: "meta-llama/Llama-3.1-8B"
+    output_dir: "${project.output_root}/lora_llama2_finetune"
+  pythia:
+    pretrained: "EleutherAI/pythia-6.9b"
+    output_dir: "${project.output_root}/lora_pythia_finetune"
+
+quantization:
+  enabled: true
+  load_in_4bit: true
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+
+lora:
+  r: 16
+  lora_alpha: 32
+  target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+training:
+  num_train_epochs: 4
+  learning_rate: 2e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 8
+  lr_scheduler_type: "cosine"
+  save_total_limit: 2
+  logging_steps: 50
+  eval_strategy: "steps"       # HF 4.44+: use evaluation_strategy
+  eval_steps: 250
+  save_strategy: "steps"
+  save_steps: 500
+  bf16: true                   # your code can switch to fp16 if bf16 unsupported
+  fp16: false
+  gradient_checkpointing: true
+  optim: "paged_adamw_8bit"
+  report_to: "none"
