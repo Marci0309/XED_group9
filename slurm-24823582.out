@@ -1,0 +1,90 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.2.0 => GCCcore/11.3.0
+  2) XZ/5.4.4-GCCcore-13.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  3) binutils/2.40-GCCcore-13.2.0 => binutils/2.38-GCCcore-11.3.0
+  4) bzip2/1.0.8-GCCcore-13.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  5) zlib/1.2.13-GCCcore-13.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading base model...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:13<00:13, 13.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.41s/it]
+Loading LoRA adapter...
+Predict en:   0%|          | 0/196 [00:00<?, ?it/s]Predict en:   1%|          | 1/196 [00:19<1:04:35, 19.88s/it]Predict en:   1%|          | 2/196 [00:32<51:00, 15.77s/it]  Predict en:   2%|▏         | 3/196 [00:45<46:33, 14.47s/it]Predict en:   2%|▏         | 4/196 [00:58<44:18, 13.85s/it]Predict en:   3%|▎         | 5/196 [01:11<43:01, 13.51s/it]Predict en:   3%|▎         | 6/196 [01:24<42:07, 13.30s/it]Predict en:   4%|▎         | 7/196 [01:37<41:32, 13.19s/it]Predict en:   4%|▍         | 8/196 [01:50<41:01, 13.09s/it]Predict en:   5%|▍         | 9/196 [02:03<40:38, 13.04s/it]Predict en:   5%|▌         | 10/196 [02:15<40:07, 12.94s/it]Predict en:   6%|▌         | 11/196 [02:28<39:32, 12.82s/it]Predict en:   6%|▌         | 12/196 [02:40<39:02, 12.73s/it]Predict en:   7%|▋         | 13/196 [02:53<38:36, 12.66s/it]Predict en:   7%|▋         | 14/196 [03:06<38:19, 12.63s/it]Predict en:   8%|▊         | 15/196 [03:18<38:02, 12.61s/it]Predict en:   8%|▊         | 16/196 [03:31<37:45, 12.58s/it]Predict en:   9%|▊         | 17/196 [03:43<37:29, 12.56s/it]Predict en:   9%|▉         | 18/196 [03:56<37:25, 12.61s/it]Predict en:  10%|▉         | 19/196 [04:08<37:05, 12.57s/it]Predict en:  10%|█         | 20/196 [04:21<36:42, 12.51s/it]Predict en:  11%|█         | 21/196 [04:33<36:25, 12.49s/it]Predict en:  11%|█         | 22/196 [04:46<36:13, 12.49s/it]Predict en:  12%|█▏        | 23/196 [04:58<36:04, 12.51s/it]Predict en:  12%|█▏        | 24/196 [05:11<35:54, 12.53s/it]Predict en:  13%|█▎        | 25/196 [05:23<35:43, 12.54s/it]Predict en:  13%|█▎        | 26/196 [05:36<35:32, 12.54s/it]Predict en:  14%|█▍        | 27/196 [05:48<35:19, 12.54s/it]Predict en:  14%|█▍        | 28/196 [06:01<35:08, 12.55s/it]Predict en:  15%|█▍        | 29/196 [06:14<34:55, 12.55s/it]Predict en:  15%|█▌        | 30/196 [06:26<34:49, 12.59s/it]Predict en:  16%|█▌        | 31/196 [06:39<34:40, 12.61s/it]Predict en:  16%|█▋        | 32/196 [06:51<34:19, 12.56s/it]Predict en:  17%|█▋        | 33/196 [07:04<34:01, 12.53s/it]Predict en:  17%|█▋        | 34/196 [07:17<33:59, 12.59s/it]Predict en:  18%|█▊        | 35/196 [07:29<33:46, 12.58s/it]Predict en:  18%|█▊        | 36/196 [07:42<33:36, 12.60s/it]Predict en:  19%|█▉        | 37/196 [07:54<33:21, 12.59s/it]Predict en:  19%|█▉        | 38/196 [08:07<33:09, 12.59s/it]Predict en:  20%|█▉        | 39/196 [08:20<33:06, 12.65s/it]Predict en:  20%|██        | 40/196 [08:32<32:51, 12.64s/it]Predict en:  21%|██        | 41/196 [08:45<32:37, 12.63s/it]Predict en:  21%|██▏       | 42/196 [08:57<32:15, 12.57s/it]Predict en:  22%|██▏       | 43/196 [09:10<31:55, 12.52s/it]Predict en:  22%|██▏       | 44/196 [09:22<31:37, 12.49s/it]Predict en:  23%|██▎       | 45/196 [09:35<31:24, 12.48s/it]Predict en:  23%|██▎       | 46/196 [09:47<31:26, 12.58s/it]Predict en:  24%|██▍       | 47/196 [10:00<31:14, 12.58s/it]Predict en:  24%|██▍       | 48/196 [10:13<31:02, 12.59s/it]Predict en:  25%|██▌       | 49/196 [10:25<30:50, 12.59s/it]Predict en:  26%|██▌       | 50/196 [10:39<31:12, 12.83s/it]Predict en:  26%|██▌       | 51/196 [10:52<31:10, 12.90s/it]Predict en:  27%|██▋       | 52/196 [11:05<31:04, 12.95s/it]Predict en:  27%|██▋       | 53/196 [11:18<30:58, 12.99s/it]Predict en:  28%|██▊       | 54/196 [11:31<30:51, 13.04s/it]Predict en:  28%|██▊       | 55/196 [11:44<30:40, 13.06s/it]Predict en:  29%|██▊       | 56/196 [11:57<30:29, 13.07s/it]Predict en:  29%|██▉       | 57/196 [12:10<30:27, 13.15s/it]Predict en:  30%|██▉       | 58/196 [12:23<30:07, 13.10s/it]Predict en:  30%|███       | 59/196 [12:36<29:34, 12.95s/it]Predict en:  31%|███       | 60/196 [12:49<29:07, 12.85s/it]Predict en:  31%|███       | 61/196 [13:02<29:11, 12.98s/it]Predict en:  32%|███▏      | 62/196 [13:15<28:54, 12.94s/it]Predict en:  32%|███▏      | 63/196 [13:28<28:33, 12.89s/it]Predict en:  33%|███▎      | 64/196 [13:40<28:04, 12.76s/it]Predict en:  33%|███▎      | 65/196 [13:53<27:41, 12.68s/it]Predict en:  34%|███▎      | 66/196 [14:05<27:26, 12.67s/it]Predict en:  34%|███▍      | 67/196 [14:18<27:06, 12.61s/it]Predict en:  35%|███▍      | 68/196 [14:30<26:50, 12.58s/it]Predict en:  35%|███▌      | 69/196 [14:43<26:35, 12.56s/it]Predict en:  36%|███▌      | 70/196 [14:55<26:24, 12.58s/it]Predict en:  36%|███▌      | 71/196 [15:08<26:08, 12.55s/it]Predict en:  37%|███▋      | 72/196 [15:20<25:51, 12.51s/it]Predict en:  37%|███▋      | 73/196 [15:33<25:36, 12.49s/it]Predict en:  38%|███▊      | 74/196 [15:45<25:21, 12.47s/it]Predict en:  38%|███▊      | 75/196 [15:57<25:08, 12.46s/it]Predict en:  39%|███▉      | 76/196 [16:10<24:55, 12.47s/it]Predict en:  39%|███▉      | 77/196 [16:22<24:42, 12.46s/it]Predict en:  40%|███▉      | 78/196 [16:35<24:29, 12.46s/it]Predict en:  40%|████      | 79/196 [16:47<24:17, 12.46s/it]Predict en:  41%|████      | 80/196 [17:00<24:05, 12.46s/it]Predict en:  41%|████▏     | 81/196 [17:12<23:53, 12.47s/it]Predict en:  42%|████▏     | 82/196 [17:25<23:49, 12.54s/it]Predict en:  42%|████▏     | 83/196 [17:37<23:34, 12.52s/it]Predict en:  43%|████▎     | 84/196 [17:50<23:20, 12.51s/it]Predict en:  43%|████▎     | 85/196 [18:02<23:07, 12.50s/it]Predict en:  44%|████▍     | 86/196 [18:15<23:01, 12.56s/it]Predict en:  44%|████▍     | 87/196 [18:28<22:47, 12.55s/it]Predict en:  45%|████▍     | 88/196 [18:40<22:32, 12.53s/it]Predict en:  45%|████▌     | 89/196 [18:53<22:18, 12.51s/it]Predict en:  46%|████▌     | 90/196 [19:05<22:06, 12.51s/it]Predict en:  46%|████▋     | 91/196 [19:18<21:52, 12.50s/it]Predict en:  47%|████▋     | 92/196 [19:30<21:39, 12.50s/it]Predict en:  47%|████▋     | 93/196 [19:43<21:28, 12.51s/it]Predict en:  48%|████▊     | 94/196 [19:55<21:14, 12.50s/it]Predict en:  48%|████▊     | 95/196 [20:08<21:04, 12.52s/it]Predict en:  49%|████▉     | 96/196 [20:20<20:55, 12.55s/it]Predict en:  49%|████▉     | 97/196 [20:33<20:53, 12.66s/it]Predict en:  50%|█████     | 98/196 [20:46<20:38, 12.64s/it]Predict en:  51%|█████     | 99/196 [20:59<20:46, 12.85s/it]Predict en:  51%|█████     | 100/196 [21:12<20:40, 12.93s/it]Predict en:  52%|█████▏    | 101/196 [21:25<20:18, 12.83s/it]Predict en:  52%|█████▏    | 102/196 [21:38<20:13, 12.91s/it]Predict en:  53%|█████▎    | 103/196 [21:51<20:11, 13.03s/it]Predict en:  53%|█████▎    | 104/196 [22:04<20:00, 13.05s/it]Predict en:  54%|█████▎    | 105/196 [22:17<19:48, 13.06s/it]Predict en:  54%|█████▍    | 106/196 [22:31<19:36, 13.07s/it]Predict en:  55%|█████▍    | 107/196 [22:44<19:24, 13.08s/it]Predict en:  55%|█████▌    | 108/196 [22:57<19:10, 13.08s/it]Predict en:  56%|█████▌    | 109/196 [23:09<18:50, 13.00s/it]Predict en:  56%|█████▌    | 110/196 [23:22<18:26, 12.87s/it]Predict en:  57%|█████▋    | 111/196 [23:35<18:03, 12.74s/it]Predict en:  57%|█████▋    | 112/196 [23:47<17:52, 12.77s/it]Predict en:  58%|█████▊    | 113/196 [24:00<17:35, 12.71s/it]Predict en:  58%|█████▊    | 114/196 [24:13<17:20, 12.69s/it]Predict en:  59%|█████▊    | 115/196 [24:25<17:06, 12.67s/it]Predict en:  59%|█████▉    | 116/196 [24:38<16:52, 12.66s/it]Predict en:  60%|█████▉    | 117/196 [24:51<16:48, 12.76s/it]Predict en:  60%|██████    | 118/196 [25:04<16:43, 12.87s/it]Predict en:  61%|██████    | 119/196 [25:17<16:36, 12.95s/it]Predict en:  61%|██████    | 120/196 [25:30<16:23, 12.94s/it]Predict en:  62%|██████▏   | 121/196 [25:43<16:10, 12.94s/it]Predict en:  62%|██████▏   | 122/196 [25:56<15:52, 12.87s/it]Predict en:  63%|██████▎   | 123/196 [26:08<15:31, 12.76s/it]Predict en:  63%|██████▎   | 124/196 [26:21<15:11, 12.67s/it]Predict en:  64%|██████▍   | 125/196 [26:33<14:56, 12.63s/it]Predict en:  64%|██████▍   | 126/196 [26:46<14:41, 12.59s/it]Predict en:  65%|██████▍   | 127/196 [26:58<14:27, 12.57s/it]Predict en:  65%|██████▌   | 128/196 [27:11<14:13, 12.55s/it]Predict en:  66%|██████▌   | 129/196 [27:23<14:00, 12.54s/it]Predict en:  66%|██████▋   | 130/196 [27:36<13:48, 12.55s/it]Predict en:  67%|██████▋   | 131/196 [27:48<13:34, 12.54s/it]Predict en:  67%|██████▋   | 132/196 [28:02<13:39, 12.81s/it]Predict en:  68%|██████▊   | 133/196 [28:15<13:32, 12.90s/it]Predict en:  68%|██████▊   | 134/196 [28:28<13:20, 12.91s/it]Predict en:  69%|██████▉   | 135/196 [28:40<13:02, 12.83s/it]Predict en:  69%|██████▉   | 136/196 [28:54<12:57, 12.96s/it]Predict en:  70%|██████▉   | 137/196 [29:07<12:49, 13.05s/it]Predict en:  70%|███████   | 138/196 [29:20<12:37, 13.06s/it]Predict en:  71%|███████   | 139/196 [29:33<12:24, 13.06s/it]Predict en:  71%|███████▏  | 140/196 [29:46<12:12, 13.08s/it]Predict en:  72%|███████▏  | 141/196 [29:59<11:58, 13.07s/it]Predict en:  72%|███████▏  | 142/196 [30:12<11:46, 13.07s/it]Predict en:  73%|███████▎  | 143/196 [30:25<11:33, 13.08s/it]Predict en:  73%|███████▎  | 144/196 [30:39<11:20, 13.09s/it]Predict en:  74%|███████▍  | 145/196 [30:51<10:59, 12.93s/it]Predict en:  74%|███████▍  | 146/196 [31:03<10:38, 12.78s/it]Predict en:  75%|███████▌  | 147/196 [31:16<10:21, 12.68s/it]Predict en:  76%|███████▌  | 148/196 [31:29<10:10, 12.71s/it]Predict en:  76%|███████▌  | 149/196 [31:41<09:55, 12.67s/it]Predict en:  77%|███████▋  | 150/196 [31:54<09:40, 12.62s/it]Predict en:  77%|███████▋  | 151/196 [32:06<09:27, 12.61s/it]Predict en:  78%|███████▊  | 152/196 [32:19<09:17, 12.67s/it]Predict en:  78%|███████▊  | 153/196 [32:32<09:04, 12.66s/it]Predict en:  79%|███████▊  | 154/196 [32:44<08:51, 12.65s/it]Predict en:  79%|███████▉  | 155/196 [32:57<08:38, 12.65s/it]Predict en:  80%|███████▉  | 156/196 [33:10<08:26, 12.66s/it]Predict en:  80%|████████  | 157/196 [33:22<08:13, 12.65s/it]Predict en:  81%|████████  | 158/196 [33:36<08:07, 12.84s/it]Predict en:  81%|████████  | 159/196 [33:49<07:55, 12.84s/it]Predict en:  82%|████████▏ | 160/196 [34:01<07:42, 12.86s/it]Predict en:  82%|████████▏ | 161/196 [34:14<07:28, 12.80s/it]Predict en:  83%|████████▎ | 162/196 [34:27<07:12, 12.71s/it]Predict en:  83%|████████▎ | 163/196 [34:40<07:05, 12.90s/it]Predict en:  84%|████████▎ | 164/196 [34:53<06:54, 12.96s/it]Predict en:  84%|████████▍ | 165/196 [35:06<06:43, 13.02s/it]Predict en:  85%|████████▍ | 166/196 [35:19<06:28, 12.95s/it]Predict en:  85%|████████▌ | 167/196 [35:32<06:14, 12.91s/it]Predict en:  86%|████████▌ | 168/196 [35:44<05:59, 12.84s/it]Predict en:  86%|████████▌ | 169/196 [35:57<05:46, 12.83s/it]Predict en:  87%|████████▋ | 170/196 [36:10<05:31, 12.76s/it]Predict en:  87%|████████▋ | 171/196 [36:23<05:18, 12.76s/it]Predict en:  88%|████████▊ | 172/196 [36:35<05:05, 12.71s/it]Predict en:  88%|████████▊ | 173/196 [36:49<04:56, 12.90s/it]Predict en:  89%|████████▉ | 174/196 [37:02<04:45, 12.97s/it]Predict en:  89%|████████▉ | 175/196 [37:15<04:33, 13.01s/it]Predict en:  90%|████████▉ | 176/196 [37:28<04:20, 13.04s/it]Predict en:  90%|█████████ | 177/196 [37:41<04:08, 13.08s/it]Predict en:  91%|█████████ | 178/196 [37:54<03:55, 13.09s/it]Predict en:  91%|█████████▏| 179/196 [38:08<03:44, 13.19s/it]Predict en:  92%|█████████▏| 180/196 [38:21<03:30, 13.16s/it]Predict en:  92%|█████████▏| 181/196 [38:34<03:18, 13.22s/it]Predict en:  93%|█████████▎| 182/196 [38:47<03:02, 13.03s/it]Predict en:  93%|█████████▎| 183/196 [38:59<02:48, 12.96s/it]Predict en:  94%|█████████▍| 184/196 [39:12<02:34, 12.84s/it]Predict en:  94%|█████████▍| 185/196 [39:25<02:21, 12.90s/it]Predict en:  95%|█████████▍| 186/196 [39:38<02:09, 12.90s/it]Predict en:  95%|█████████▌| 187/196 [39:51<01:56, 12.94s/it]Predict en:  96%|█████████▌| 188/196 [40:04<01:43, 12.92s/it]Predict en:  96%|█████████▋| 189/196 [40:17<01:30, 12.87s/it]Predict en:  97%|█████████▋| 190/196 [40:29<01:16, 12.76s/it]Predict en:  97%|█████████▋| 191/196 [40:42<01:03, 12.68s/it]Predict en:  98%|█████████▊| 192/196 [40:54<00:50, 12.62s/it]Predict en:  98%|█████████▊| 193/196 [41:07<00:37, 12.57s/it]Predict en:  99%|█████████▉| 194/196 [41:19<00:25, 12.54s/it]Predict en:  99%|█████████▉| 195/196 [41:32<00:12, 12.52s/it]Predict en: 100%|██████████| 196/196 [41:44<00:00, 12.50s/it]Predict en: 100%|██████████| 196/196 [41:44<00:00, 12.78s/it]
+
+--- Sample Predictions for sanity check ---
+
+PROMPT: <|user|> Classify the emotions of: '- That"s OWynn he"s sitting with.'
+<|assistant|> 
+GOLD: ['sadness', 'trust']
+PRED: ['surprise']
+
+PROMPT: <|user|> Classify the emotions of: 'The prosecutor will explain everything when you see him.'
+<|assistant|> 
+GOLD: ['joy']
+PRED: ['joy']
+
+PROMPT: <|user|> Classify the emotions of: 'All right, I'm coming in.'
+<|assistant|> 
+GOLD: ['sadness', 'trust']
+PRED: ['trust']
+
+PROMPT: <|user|> Classify the emotions of: 'No, it isn't. Because right now, I have to decide whether he should stay at the firm.'
+<|assistant|> 
+GOLD: ['disgust']
+PRED: ['joy']
+
+PROMPT: <|user|> Classify the emotions of: 'A little restraint?'
+<|assistant|> 
+GOLD: ['joy']
+PRED: ['joy']
+---------------------------------------------------
+
+ EN | N= 784 | micro-F1=0.3628 | Jaccard=0.2216
+
+Macro-avg over 1 languages (N=784): micro-F1=0.3628 | Jaccard=0.2216
+
+###############################################################################
+Hábrók Cluster
+Job 24823582 for user s5542332
+Finished at: Fri Oct 24 12:58:40 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 24823582
+Name                           : python_eval_model.sh
+User                           : s5542332
+Partition                      : gpushort
+Nodes                          : a100gpu6
+Number of Nodes                : 1
+Cores                          : 16
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-10-24T12:15:27
+Start                          : 2025-10-24T12:15:28
+End                            : 2025-10-24T12:58:36
+Reserved walltime              : 02:00:00
+Used walltime                  : 00:43:08
+Used CPU time                  : 00:42:08 (Efficiency:  6.11%)
+% User (Computation)           : 99.04%
+% System (I/O)                 :  0.96%
+Total memory reserved          : 10000M
+Maximum memory used            : 6.80G
+Requested GPUs                 : 2
+Allocated GPUs                 : a100=2
+Max GPU utilization            : 53%
+Max GPU memory used            : 7.88G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

@@ -13,11 +13,11 @@ if multilang:
     ADAPTER_PATH = "mistral_multi"
 else:
     LANGS = ["en"]
-    ADAPTER_PATH = "models/lora_mistral_finetune"
+    ADAPTER_PATH = "models/lora_mistral_combined/checkpoint-3000"
 DATA_ROOT = "data"
 BASE_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 BATCH_SIZE = 4
-MAX_NEW_TOKENS = 32
+MAX_NEW_TOKENS = 128
 ALLOWED_LABELS = ["joy","trust","fear","surprise","sadness","disgust","anger","anticipation"]
 STOP_STR = "<|endoftext|>"
 
@@ -44,6 +44,15 @@ try:
     tokenizer = AutoTokenizer.from_pretrained(ADAPTER_PATH, use_fast=True)
 except:
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, use_fast=True)
+    
+tokenizer.padding_side = "left"
+tokenizer.truncation_side = "left"
+
+# Ensure pad token is valid and synced with model
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token or "</s>"
+model.config.pad_token_id = tokenizer.pad_token_id
+model.generation_config.pad_token_id = tokenizer.pad_token_id
 
 # Ensure pad token
 if tokenizer.pad_token is None:
@@ -106,6 +115,8 @@ def decode_and_trim(full_ids):
 def predict_batch(prompts):
     tok = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True, max_length=512)
     tok = {k: v.to(model.device) for k, v in tok.items()}
+    
+    tok.pop("token_type_ids", None)
     with torch.no_grad():
         out = model.generate(
             **tok,
@@ -129,9 +140,10 @@ def evaluate_language(lang):
             obj = json.loads(line)
             rec = obj.get("text", "")
             p, g = parse_text_record(rec)
-            if p is None: 
+            if p is None:
                 continue
-            prompts.append(p); gold_lists.append(g)
+            prompts.append(p)
+            gold_lists.append(g)
 
     preds_lists = []
     for i in tqdm(range(0, len(prompts), BATCH_SIZE), desc=f"Predict {lang}"):
@@ -139,12 +151,21 @@ def evaluate_language(lang):
         outs = predict_batch(batch_prompts)
         preds_lists.extend([normalize_labels(o) for o in outs])
 
+    # sanity check
+    print("\n--- Sample Predictions for sanity check ---")
+    for p, g, o in zip(prompts[:5], gold_lists[:5], preds_lists[:5]):
+        print("\nPROMPT:", p)
+        print("GOLD:", g)
+        print("PRED:", o)
+    print("---------------------------------------------------\n")
+
     y_true = np.array([labels_to_multihot(g) for g in gold_lists])
     y_pred = np.array([labels_to_multihot(p) for p in preds_lists])
 
     micro_f1 = f1_score(y_true, y_pred, average="micro", zero_division=0)
     jacc = jaccard_score(y_true, y_pred, average="micro", zero_division=0)
     return {"language": lang, "n_examples": len(prompts), "micro_f1": micro_f1, "jaccard_micro": jacc}
+
 
 # --------- RUN ---------
 reports = []

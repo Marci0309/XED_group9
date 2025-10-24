@@ -1,0 +1,82 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.2.0 => GCCcore/11.3.0
+  2) XZ/5.4.4-GCCcore-13.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  3) binutils/2.40-GCCcore-13.2.0 => binutils/2.38-GCCcore-11.3.0
+  4) bzip2/1.0.8-GCCcore-13.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  5) zlib/1.2.13-GCCcore-13.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+Using device: cuda (NVIDIA H100 80GB HBM3 MIG 1g.10gb)
+Traceback (most recent call last):
+  File "/scratch/s5542332/XED_group9/pipeline/train_lora_llm.py", line 27, in <module>
+    dataset = load_dataset(
+              ^^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/load.py", line 1397, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/load.py", line 1137, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/load.py", line 913, in dataset_module_factory
+    ).get_module()
+      ^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/load.py", line 527, in get_module
+    data_files = DataFilesDict.from_patterns(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/data_files.py", line 701, in from_patterns
+    else DataFilesList.from_patterns(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/data_files.py", line 594, in from_patterns
+    resolve_pattern(
+  File "/scratch/s5542332/XED_group9/.venv/LLM/lib/python3.11/site-packages/datasets/data_files.py", line 383, in resolve_pattern
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/scratch/s5542332/XED_group9/data/combined/train.jsonl'
+
+###############################################################################
+Hábrók Cluster
+Job 24808643 for user s5542332
+Finished at: Thu Oct 23 16:34:45 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 24808643
+Name                           : python_train.sh
+User                           : s5542332
+Partition                      : digitallabmedium
+Nodes                          : dl-h100gpu1
+Number of Nodes                : 1
+Cores                          : 2
+Number of Tasks                : 1
+State                          : FAILED  
+Submit                         : 2025-10-23T16:31:22
+Start                          : 2025-10-23T16:31:23
+End                            : 2025-10-23T16:34:40
+Reserved walltime              : 06:00:00
+Used walltime                  : 00:03:17
+Used CPU time                  : 00:00:24 (Efficiency:  5.98%)
+% User (Computation)           : 60.79%
+% System (I/O)                 : 39.21%
+Total memory reserved          : 10000M
+Maximum memory used            : 1.12G
+Requested GPUs                 : 2
+Allocated GPUs                 : 2
+Max GPU utilization            : 0%
+Max GPU memory used            : 0.00 
+Hints and tips      :
+ 1) You are running on a GPU node without actually using the GPU, please fix this.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

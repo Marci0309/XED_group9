@@ -34,13 +34,12 @@ def load_tsv(path, lang):
     df["labels"] = df["labels"].apply(lambda x: str(x))  # keep as string
     # Convert numbers to emotion words
     df["labels"] = df["labels"].apply(convert_labels)
-    # Turn into LLM-friendly format
+    # Turn into LLM-friendly format, exclude 'labels' from final output
     df["text"] = df.apply(
         lambda r: f"<|user|> Classify the emotions of: '{r['text']}'\n<|assistant|> {r['labels']} \n<|endoftext|>",
         axis=1
     )
-    df = df[["text", "labels"]]  # keep only text and labels columns
-    df["language"] = lang  # add the language column
+    df = df[["text"]]  # Keep only the 'text' column, exclude 'labels'
     return df
 
 def split_dataset(ds, seed=42):
@@ -75,7 +74,7 @@ out_dir = "data/combined"
 os.makedirs(out_dir, exist_ok=True)
 
 for split_name, split_data in splits.items():
-    outfile = os.path.join(out_dir, f"combined_{split_name}.jsonl")
+    outfile = os.path.join(out_dir, f"{split_name}.jsonl")
     split_data.to_json(outfile, orient="records", force_ascii=False, lines=True)
     print(f"  Saved {split_name} to {outfile}")
 

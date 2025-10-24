@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
-#SBATCH --mem=8000
+#SBATCH --gres=gpu:2
+#SBATCH --mem=10000
 module purge
 module load Python/3.11.5-GCCcore-13.2.0
 
