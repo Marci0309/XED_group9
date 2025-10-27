@@ -1,0 +1,9 @@
+Running LoRA fine-tuning on v100v2gpu9
+Using device: cuda
+Loading model: mistralai/Mistral-7B-Instruct-v0.1
+
+ Loading test datasets...
+
+ Evaluating on single-language dataset...
+
+ Evaluating strategy: zero-shot on 784 samples

@@ -23,7 +23,9 @@ warnings.filterwarnings("ignore", message="Detected kernel version")
 #  DEVICE SETUP
 # ============================================================
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f" Using device: {device} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
+print(f"Using device: {device}")
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+
 
 # ============================================================
 #  LOAD DATASET ONCE
@@ -88,9 +90,9 @@ for tag, model_name in models_to_train.items():
     # Model
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="auto",
         quantization_config=bnb_config,
         torch_dtype=torch.bfloat16,
+        device_map="auto",  # force everything onto the single GPU
     )
 
     model.config.pad_token_id = tokenizer.pad_token_id
@@ -118,7 +120,6 @@ for tag, model_name in models_to_train.items():
     model.gradient_checkpointing_enable()
     model.enable_input_require_grads()
     model.print_trainable_parameters()
-    model.to(device)
 
     # Training arguments
     training_args = TrainingArguments(
@@ -129,7 +130,7 @@ for tag, model_name in models_to_train.items():
         save_steps=400,
         logging_steps=50,
         learning_rate=2e-4,
-        per_device_train_batch_size=1,   # safe default for 7B models
+        per_device_train_batch_size=1,
         per_device_eval_batch_size=1,
         gradient_accumulation_steps=16,
         num_train_epochs=3,
@@ -138,7 +139,7 @@ for tag, model_name in models_to_train.items():
         lr_scheduler_type="cosine",
         bf16=torch.cuda.is_bf16_supported(),
         fp16=not torch.cuda.is_bf16_supported(),
-        tf32=True,
+        tf32=False,
         optim="paged_adamw_8bit",
         gradient_checkpointing=True,
         save_total_limit=2,
