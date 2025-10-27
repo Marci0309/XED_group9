@@ -1,4 +1,12 @@
+"""
+Fine-tune multiple Mistral-size models with LoRA + 4-bit quantization.
+Plug-and-play: just drop your dataset JSONL files into /data/en and run.
+"""
+
+import os
 import torch
+import warnings
+from datasets import load_dataset
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -8,37 +16,37 @@ from transformers import (
     DataCollatorForLanguageModeling,
 )
 from peft import LoraConfig, get_peft_model
-from datasets import load_dataset
-import os
-import warnings
+
 warnings.filterwarnings("ignore", message="Detected kernel version")
 
-# Ensure GPU is used
+# ============================================================
+#  DEVICE SETUP
+# ============================================================
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Using device: {device} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
+print(f" Using device: {device} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
 
-# ------------------------------
-# Load dataset once
-# ------------------------------
+# ============================================================
+#  LOAD DATASET ONCE
+# ============================================================
 dataset = load_dataset("json", data_files={
     "train": "data/en/train.jsonl",
     "validation": "data/en/validation.jsonl",
-    "test": "data/en/test.jsonl"
+    "test": "data/en/test.jsonl",
 })
 
-# ------------------------------
-# Define models to fine-tune
-# ------------------------------
+# ============================================================
+#  MODEL CHOICES
+# ============================================================
 models_to_train = {
-    "mistral": "mistralai/Mistral-7B-Instruct-v0.1",
-    "falcon": "tiiuae/Falcon3-7B-Base",
-    "llama2": "meta-llama/Llama-3.1-8B",
-    "pythia": "EleutherAI/pythia-6.9b"
+    "mistral_7b": "mistralai/Mistral-7B-Instruct-v0.1",
+    "mixtral": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "ministral_3b": "mistralai/Ministral-3B-v0.1",
+    "mistral_tiny": "mistralai/Mistral-3B-Instruct-v0.1"
 }
 
-# ------------------------------
-# Shared configurations
-# ------------------------------
+# ============================================================
+#  SHARED CONFIGS
+# ============================================================
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=True,
@@ -47,41 +55,47 @@ bnb_config = BitsAndBytesConfig(
 )
 
 def tokenize_function(examples, tokenizer):
+    # Combine text + label into one supervised sequence
+    full_texts = [
+        f"Classify the emotions of: {t}\nAnswer: {l}"
+        for t, l in zip(examples["text"], examples["label"])
+    ]
     return tokenizer(
-        examples["text"],
+        full_texts,
         truncation=True,
         padding="max_length",
         max_length=512,
     )
 
-# ------------------------------
-# Train all models sequentially
-# ------------------------------
+
+# ============================================================
+#  TRAIN ALL MODELS
+# ============================================================
 for tag, model_name in models_to_train.items():
-    print(f"\n==== Fine-tuning model: {model_name} ====")
+    print(f"\n==============================")
+    print(f"🧠 Fine-tuning model: {model_name}")
+    print(f"==============================")
 
     # Output directory
-    output_dir = f"models/lora_{tag}_finetune"
+    output_dir = f"models/{tag}_lora_finetune"
     os.makedirs(output_dir, exist_ok=True)
 
-    # --- Load tokenizer ---
+    # Tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    # --- Load model (on GPU with 4-bit quantization) ---
+    # Model
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        quantization_config=bnb_config,
         device_map="auto",
+        quantization_config=bnb_config,
         torch_dtype=torch.bfloat16,
     )
 
-    # --- Ensure padding tokens are configured after loading model ---
     model.config.pad_token_id = tokenizer.pad_token_id
-    model.generation_config.pad_token_id = tokenizer.pad_token_id
 
-    # --- Tokenize data ---
+    # Tokenize data
     tokenized_datasets = dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
@@ -89,7 +103,7 @@ for tag, model_name in models_to_train.items():
     )
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-    # --- LoRA configuration ---
+    # LoRA setup
     lora_config = LoraConfig(
         r=16,
         lora_alpha=32,
@@ -100,38 +114,37 @@ for tag, model_name in models_to_train.items():
     )
 
     model = get_peft_model(model, lora_config)
-    model.enable_input_require_grads()
     model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
     model.print_trainable_parameters()
 
-    # --- Training arguments ---
+    # Training arguments
     training_args = TrainingArguments(
         output_dir=output_dir,
         eval_strategy="steps",
-        eval_steps=250,
+        eval_steps=200,
         save_strategy="steps",
-        save_steps=500,
+        save_steps=400,
         logging_steps=50,
         learning_rate=2e-4,
-        per_device_train_batch_size=2,
-        per_device_eval_batch_size=2,
-        gradient_accumulation_steps=8,
-        num_train_epochs=4,
+        per_device_train_batch_size=1,   # safe default for 7B models
+        per_device_eval_batch_size=1,
+        gradient_accumulation_steps=16,
+        num_train_epochs=3,
         warmup_ratio=0.05,
         weight_decay=0.01,
         lr_scheduler_type="cosine",
         bf16=torch.cuda.is_bf16_supported(),
         fp16=not torch.cuda.is_bf16_supported(),
         tf32=True,
-        gradient_checkpointing=True,
         optim="paged_adamw_8bit",
+        gradient_checkpointing=True,
         save_total_limit=2,
         report_to="none",
         dataloader_num_workers=2,
-        ddp_find_unused_parameters=False,
     )
 
-    # --- Trainer setup ---
+    # Trainer
     trainer = Trainer(
         model=model,
         args=training_args,
@@ -141,15 +154,15 @@ for tag, model_name in models_to_train.items():
         tokenizer=tokenizer,
     )
 
-    # --- Train model ---
+    # Train
     trainer.train()
 
-    # --- Save model ---
-    model.save_pretrained(output_dir, create_model_card=False)
+    # Save LoRA adapter
+    model.save_pretrained(output_dir, safe_serialization=True)
     tokenizer.save_pretrained(output_dir)
 
-    # --- Evaluate model ---
+    # Evaluate
     results = trainer.evaluate(tokenized_datasets["test"])
-    print(f"\n Test Results for {model_name}: {results}")
+    print(f"\n Test Results for {tag}: {results}")
 
-print("\n All 4 models have been fine-tuned and evaluated successfully on GPU.")
+print("\n All Mistral models fine-tuned successfully!")
