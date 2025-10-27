@@ -73,7 +73,7 @@ def tokenize_function(examples, tokenizer):
 # ============================================================
 for tag, model_name in models_to_train.items():
     print(f"\n==============================")
-    print(f"🧠 Fine-tuning model: {model_name}")
+    print(f" Fine-tuning model: {model_name}")
     print(f"==============================")
 
     # Output directory
@@ -99,8 +99,9 @@ for tag, model_name in models_to_train.items():
     tokenized_datasets = dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
-        remove_columns=["text"],
+        remove_columns=["text", "label"],
     )
+
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
     # LoRA setup
@@ -117,6 +118,7 @@ for tag, model_name in models_to_train.items():
     model.gradient_checkpointing_enable()
     model.enable_input_require_grads()
     model.print_trainable_parameters()
+    model.to(device)
 
     # Training arguments
     training_args = TrainingArguments(
