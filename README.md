@@ -1,5 +1,5 @@
 # Project structure
-'''bash
+```bash
 ├── data
 ├── habrok_outputs
 ├── jobs
@@ -31,4 +31,4 @@
     ├── test_model.py
     ├── train_lora_llm.py
     └── train_prompting.py
-'''
+```
