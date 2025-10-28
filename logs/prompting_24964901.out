@@ -1,4 +1,4 @@
-Running LoRA fine-tuning on dl-h100gpu1
+Running LoRA fine-tuning on v100v2gpu12
 Using device: cuda
 Loading model: mistralai/Mistral-7B-Instruct-v0.1
 

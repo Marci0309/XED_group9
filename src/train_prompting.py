@@ -1,20 +1,10 @@
-"""
-Evaluate Mistral-7B-Instruct using multiple prompting strategies:
-    - Zero-shot prompting
-    - Few-shot prompting
-    - Instruction-based prompting
-
-Evaluation datasets:
-    - Single-language (e.g., English)
-    - Multi-language (combined)
-"""
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 from tqdm import tqdm
 import evaluate
 import os
+import json
 
 # ============================================================
 # CONFIGURATION
@@ -62,8 +52,8 @@ def build_few_shot_prompt(text, examples):
 def custom_instruction_prompt(text):
     """Explicitly guide the model with stronger task instructions."""
     return (
-        f"<s>[INST] You are a precise emotion classifier. Identify all emotions in the sentence based on pluchiks 8 basic emotions return"
-        f"as comma-separated values from: joy, trust, fear, surprise, sadness, disgust, anger, anticipation.\n\n"
+        f"<s>[INST] You are a precise emotion classifier. Identify all emotions in the sentence based on Plutchik's 8 basic emotions and return"
+        f" as comma-separated values from: joy, trust, fear, surprise, sadness, disgust, anger, anticipation.\n\n"
         f"Sentence: '{text}' [/INST]"
     )
 
@@ -80,12 +70,9 @@ def generate_response(prompt):
             temperature=0.0,
             do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
-            use_cache=False,
+            use_cache=False,  # Ensures no caching of past states to save memory
         )
     output_text = tokenizer.decode(output_tokens[0], skip_special_tokens=True)
-    # Extract assistant-like answer if formatted
-    if "<|assistant|>" in output_text:
-        output_text = output_text.split("<|assistant|>")[-1]
     return output_text.strip().lower()
 
 # ============================================================
@@ -149,7 +136,6 @@ results["multi_instruct"] = evaluate_strategy(dataset_multi, "instruction", cust
 # ============================================================
 # SAVE RESULTS
 # ============================================================
-import json
 with open("results/prompting_results.json", "w") as f:
     json.dump(results, f, indent=2)
 
