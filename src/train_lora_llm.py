@@ -40,10 +40,10 @@ dataset = load_dataset("json", data_files={
 #  MODEL CHOICES
 # ============================================================
 models_to_train = {
-    "mistral_7b": "mistralai/Mistral-7B-Instruct-v0.1",
+    #"mistral_7b": "mistralai/Mistral-7B-Instruct-v0.1",
     "mixtral": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "ministral_3b": "mistralai/Ministral-3B-v0.1",
-    "mistral_tiny": "mistralai/Mistral-3B-Instruct-v0.1"
+    #"ministral_3b": "mistralai/Ministral-3B-v0.1",
+    #"mistral_tiny": "mistralai/Mistral-3B-Instruct-v0.1"
 }
 
 # ============================================================
