@@ -36,7 +36,7 @@ print(f"Loading model: {MODEL_NAME}")
 # LOAD MODEL & TOKENIZER
 # ============================================================
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.bfloat16, low_cpu_mem_usage=True)
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16, low_cpu_mem_usage=True)
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 model.config.pad_token_id = tokenizer.pad_token_id

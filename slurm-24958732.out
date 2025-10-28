@@ -1,0 +1,65 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.2.0 => GCCcore/11.3.0
+  2) XZ/5.4.4-GCCcore-13.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  3) binutils/2.40-GCCcore-13.2.0 => binutils/2.38-GCCcore-11.3.0
+  4) bzip2/1.0.8-GCCcore-13.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  5) zlib/1.2.13-GCCcore-13.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading base model...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00,  9.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00, 11.64s/it]
+Loading LoRA adapter...
+Predict en: 0it [00:00, ?it/s]Predict en: 0it [00:00, ?it/s]
+
+--- Sample Predictions for sanity check ---
+---------------------------------------------------
+
+ EN | N=   0 | micro-F1=0.0000 | Jaccard=0.0000
+
+Macro-avg over 1 languages (N=0): micro-F1=0.0000 | Jaccard=0.0000
+
+###############################################################################
+Hábrók Cluster
+Job 24958732 for user s5542332
+Finished at: Mon Oct 27 23:44:53 CET 2025
+
+Job details:
+============
+
+Job ID                         : 24958732
+Name                           : python_eval_model.sh
+User                           : s5542332
+Partition                      : digitallabmedium
+Nodes                          : dl-h100gpu1
+Number of Nodes                : 1
+Cores                          : 2
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-10-27T23:44:02
+Start                          : 2025-10-27T23:44:03
+End                            : 2025-10-27T23:44:48
+Reserved walltime              : 02:00:00
+Used walltime                  : 00:00:45
+Used CPU time                  : 00:00:26 (Efficiency: 28.45%)
+% User (Computation)           : 69.99%
+% System (I/O)                 : 30.01%
+Total memory reserved          : 10000M
+Maximum memory used            : 7.97G
+Requested GPUs                 : 1
+Allocated GPUs                 : 1
+Max GPU utilization            : 0%
+Max GPU memory used            : 4.35G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
