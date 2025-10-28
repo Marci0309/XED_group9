@@ -1,6 +1,7 @@
 # Project structure
 ```bash
 ├── data
+├── !OriginalData
 ├── habrok_outputs
 ├── jobs
 │   ├── python_eval_model.sh
@@ -16,11 +17,6 @@
 ├── notebooks
 │   ├── huggingface_guide.ipynb
 │   └── PEFT_Tutorial.ipynb
-├── !OriginalData
-│   ├── en-projections.tsv
-│   ├── hu-projections.tsv
-│   ├── nl-projections.tsv
-│   └── ro-projections.tsv
 ├── README.md
 ├── requirements.txt
 ├── results
