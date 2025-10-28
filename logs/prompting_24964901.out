@@ -7,3 +7,9 @@ Loading model: mistralai/Mistral-7B-Instruct-v0.1
  Evaluating on single-language dataset...
 
  Evaluating strategy: zero-shot on 784 samples
+Accuracy (zero-shot): 0.008
+
+ Evaluating strategy: few-shot on 784 samples
+Accuracy (few-shot): 0.293
+
+ Evaluating strategy: instruction on 784 samples
