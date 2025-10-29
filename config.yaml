@@ -20,7 +20,6 @@ EMOTION_ANALYSIS:
     - nl
     - hu
     - ro
-    - combined
 
 
 # ============================================================
@@ -44,9 +43,29 @@ LORA:
 
 
 # ============================================================
-#  PROMPT-TUNING (OPTIONAL)
+#  PROMPTING EVALUATION (ZERO-SHOT / FEW-SHOT / INSTRUCTION)
 # ============================================================
 PROMPTING:
-  PROMPT_TUNING: true
-  PROMPT_TUNING_MODEL:
-    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
+  ENABLE_PROMPTING: true
+  MODEL_NAME: "mistralai/Mistral-7B-Instruct-v0.1"
+  MAX_NEW_TOKENS: 50
+  DEVICE: null  # leave as null to auto-detect CUDA or CPU
+
+  INSTRUCTION_TEXT: >
+    You are a precise emotion classifier. Identify all emotions in the
+    sentence based on Plutchik's 8 basic emotions and return them as
+    comma-separated values from: joy, trust, fear, surprise, sadness,
+    disgust, anger, anticipation.
+
+  # Intro text shown before few-shot examples
+  FEW_SHOT_INTRO: >
+    You are an emotion classifier. Here are examples:
+
+  # Few-shot examples for the model
+  FEW_SHOT_EXAMPLES:
+    - text: "I can't believe this happened!"
+      label: "surprise"
+    - text: "I'm so happy for you!"
+      label: "joy, trust"
+    - text: "This is so unfair."
+      label: "anger"
