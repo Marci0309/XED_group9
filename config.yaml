@@ -1,0 +1,52 @@
+# ============================================================
+#  GENERAL SETTINGS
+# ============================================================
+GENERAL:
+  DATA_DIR: "!OriginalData"
+  OUTPUT_DIR: "data"
+  PLOTS_DIR: "plots"
+  MODELS_DIR: "models"
+  SEED: 42
+  TEST_SIZE: 0.2
+
+
+# ============================================================
+#  EMOTION ANALYSIS
+# ============================================================
+EMOTION_ANALYSIS:
+  ENABLE_PLOTTING: true
+  LANGUAGES:
+    - en
+    - nl
+    - hu
+    - ro
+    - combined
+
+
+# ============================================================
+#  LORA FINE-TUNING CONFIGURATION
+# ============================================================
+LORA:
+  LORA_FINETUNE: false
+  LORA_MODELS:
+    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
+    mixtral: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    ministral_3b: "mistralai/Ministral-3B-v0.1"
+    mistral_tiny: "mistralai/Mistral-3B-Instruct-v0.1"
+  LORA_RANK: 16
+  LORA_ALPHA: 32
+  LORA_DROPOUT: 0.05
+  NUM_EPOCHS: 3
+  BATCH_SIZE: 1
+  GRAD_ACCUM_STEPS: 16
+  LEARNING_RATE: 2e-4
+  DEVICE_IDS: "0"
+
+
+# ============================================================
+#  PROMPT-TUNING (OPTIONAL)
+# ============================================================
+PROMPTING:
+  PROMPT_TUNING: true
+  PROMPT_TUNING_MODEL:
+    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"

@@ -36,6 +36,9 @@ The goal is to use Lora finetuning and prompt engineering to familiarize an exis
 For this task we use models of the Mistral family for funetuning and loading these models from HuggingFace
 
 # How to run
-PLacethe .tsv files accuired from https://github.com/Helsinki-NLP/XED into the !OriginalData folder
-Config the .yaml configuration to meet the your required training and evaluation methods.
-Run main.py
+1. PLace the .tsv files accuired from https://github.com/Helsinki-NLP/XED into the !OriginalData folder
+
+2. Config the .yaml configuration to meet the your required training and evaluation methods.
+
+3. Run main.py
+
