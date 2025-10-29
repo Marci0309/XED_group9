@@ -40,5 +40,5 @@ For this task we use models of the Mistral family for funetuning and loading the
 
 2. Config the .yaml configuration to meet the your required training and evaluation methods.
 
-3. Run main.py
+3. Run python main.py
 
