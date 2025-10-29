@@ -28,3 +28,14 @@
     ├── train_lora_llm.py
     └── train_prompting.py
 ```
+
+# The project
+
+This project aims to fine tune existing LLMs on the dataset Helsinki-NLP/XED. 
+The goal is to use Lora finetuning and prompt engineering to familiarize an existing LLM with the data such that itcan accurately predict the labels in multiple languages.
+For this task we use models of the Mistral family for funetuning and loading these models from HuggingFace
+
+# How to run
+PLacethe .tsv files accuired from https://github.com/Helsinki-NLP/XED into the !OriginalData folder
+Config the .yaml configuration to meet the your required training and evaluation methods.
+Run main.py
