@@ -1,23 +1,3 @@
-"""
-LoRA Fine-Tuning Pipeline for Mistral-family models (4-bit quantized)
----------------------------------------------------------------------
-Usage:
-    from finetune_lora import LoraFineTuner
-
-    trainer = LoraFineTuner(
-        data_paths={
-            "train": "data/en/train.jsonl",
-            "validation": "data/en/validation.jsonl",
-            "test": "data/en/test.jsonl"
-        },
-        models={
-            "mixtral": "mistralai/Mixtral-8x7B-Instruct-v0.1"
-        }
-    )
-
-    trainer.run_all()  # fine-tunes all models
-"""
-
 import os
 import torch
 import warnings
@@ -72,7 +52,6 @@ class LoraFineTuner:
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"Using device: {self.device}")
 
-        # 4-bit quantization config
         self.bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_use_double_quant=True,
@@ -80,7 +59,6 @@ class LoraFineTuner:
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
 
-        # Load dataset once
         self.dataset = self._load_dataset()
 
     # ============================================================
@@ -113,12 +91,10 @@ class LoraFineTuner:
         out_dir = os.path.join(self.output_dir, f"{tag}_lora_finetune")
         os.makedirs(out_dir, exist_ok=True)
 
-        # Tokenizer
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
 
-        # Model
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
             quantization_config=self.bnb_config,
@@ -127,14 +103,12 @@ class LoraFineTuner:
         )
         model.config.pad_token_id = tokenizer.pad_token_id
 
-        # Tokenize data
         tokenized = self.dataset.map(
             lambda x: self._tokenize_function(x, tokenizer),
             batched=True,
             remove_columns=["text", "label"],
         )
 
-        # LoRA setup
         lora_config = LoraConfig(
             r=16,
             lora_alpha=32,
@@ -148,11 +122,9 @@ class LoraFineTuner:
         model.gradient_checkpointing_enable()
         model.enable_input_require_grads()
         model.print_trainable_parameters()
-
-        # Collator
+        
         data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-        # Training arguments
         args = TrainingArguments(
             output_dir=out_dir,
             eval_strategy="steps",
@@ -178,7 +150,6 @@ class LoraFineTuner:
             dataloader_num_workers=2,
         )
 
-        # Trainer
         trainer = Trainer(
             model=model,
             args=args,
@@ -188,7 +159,6 @@ class LoraFineTuner:
             tokenizer=tokenizer,
         )
 
-        # Train
         trainer.train()
 
         # Save LoRA adapter
@@ -212,8 +182,3 @@ class LoraFineTuner:
             all_results[tag] = results
         print("\nAll models fine-tuned successfully!")
         return all_results
-
-
-# ============================================================
-# Example usage (put in separate script)
-# ============================================================

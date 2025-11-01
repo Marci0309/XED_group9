@@ -94,7 +94,7 @@ def main():
                 ),
             few_shot_examples=promt_cfg.get("FEW_SHOT_EXAMPLES", None),
         )
-        prompt_trainer.evaluate_all()
+        prompt_trainer.run()
         heading("Prompting Evaluation Complete", char="=", color="green", pad=1)
 
 

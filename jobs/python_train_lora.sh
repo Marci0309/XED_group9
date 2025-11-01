@@ -32,4 +32,4 @@ export PYTHONUNBUFFERED=1
 # Run training
 # -----------------------------
 echo "Running LoRA fine-tuning on $(hostname)"
-python -u src/train_lora_llm.py
+python -u main.py

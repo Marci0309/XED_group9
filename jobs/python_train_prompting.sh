@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=prompting
-#SBATCH --time=05:00:00
+#SBATCH --time=08:00:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
@@ -32,4 +32,4 @@ export PYTHONUNBUFFERED=1
 # Run training
 # -----------------------------
 echo "Running LoRA fine-tuning on $(hostname)"
-python -u src/train_prompting.py
+python -u main.py

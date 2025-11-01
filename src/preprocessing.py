@@ -3,7 +3,6 @@ import pandas as pd
 from datasets import Dataset, DatasetDict
 
 class EmotionDataPreprocessor:
-    # Number → Plutchik emotion mapping
     NUM_TO_EMO = {
         "1": "joy",
         "2": "trust",
@@ -55,7 +54,6 @@ class EmotionDataPreprocessor:
         
         df = pd.read_csv(path, sep="\t", header=None, names=["text", "labels"])
         df["labels"] = df["labels"].apply(self._to_str).apply(self.convert_labels)
-        # LLM-friendly single-field records
         df["text"] = df.apply(
             lambda r: (
                 f"<|user|> Classify the emotions of: '{r['text']}'\n"
@@ -63,7 +61,6 @@ class EmotionDataPreprocessor:
             ),
             axis=1
         )
-        # only keep the formatted text column
         df = df[["text"]]
         return df
 

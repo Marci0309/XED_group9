@@ -1,0 +1,162 @@
+Running LoRA fine-tuning on a100gpu3
+================================================================================
+
+[1;36m                             Loading configuration                              [0m
+
+================================================================================
+================================================================================
+
+[1;32m                             Configuration settings                             [0m
+
+================================================================================
+EMOTION_ANALYSIS:
+  ENABLE_PLOTTING: true
+  LANGUAGES:
+  - en
+  - nl
+  - hu
+  - ro
+GENERAL:
+  DATA_DIR: '!OriginalData'
+  MODELS_DIR: models
+  OUTPUT_DIR: data
+  PLOTS_DIR: plots
+  SEED: 42
+  TEST_SIZE: 0.2
+LORA:
+  BATCH_SIZE: 1
+  DEVICE_IDS: '0'
+  GRAD_ACCUM_STEPS: 16
+  LEARNING_RATE: 5e-4
+  LORA_ALPHA: 32
+  LORA_DROPOUT: 0.05
+  LORA_FINETUNE: false
+  LORA_MODELS:
+    ministral_3b: mistralai/Ministral-3B-v0.1
+    mistral_tiny: mistralai/Mistral-3B-Instruct-v0.1
+  LORA_RANK: 16
+  NUM_EPOCHS: 4
+PROMPTING:
+  DEVICE: null
+  ENABLE_PROMPTING: true
+  FEW_SHOT_EXAMPLES:
+  - label: surprise
+    text: I can't believe this happened!
+  - label: joy, trust
+    text: I'm so happy for you!
+  - label: anger
+    text: This is so unfair.
+  FEW_SHOT_INTRO: 'You are an emotion classifier. Here are examples:
+
+    '
+  INSTRUCTION_TEXT: 'You are a precise emotion classifier. Identify all emotions in
+    the sentence based on Plutchik''s 8 basic emotions and return them as comma-separated
+    values from: joy, trust, fear, surprise, sadness, disgust, anger, anticipation.
+
+    '
+  MAX_NEW_TOKENS: 50
+  MODEL_NAME: mistralai/Mistral-7B-Instruct-v0.1
+
+================================================================================
+
+[1;32m                             Analyzing emotion data                             [0m
+
+================================================================================
+Loaded dataset: !OriginalData/en-projections.tsv (7834 rows)
+Counted 8 unique emotions
+Saved plot to: plots/emotion_distribution_en.png
+Loaded dataset: !OriginalData/nl-projections.tsv (5334 rows)
+Counted 8 unique emotions
+Saved plot to: plots/emotion_distribution_nl.png
+Loaded dataset: !OriginalData/hu-projections.tsv (5778 rows)
+Counted 8 unique emotions
+Saved plot to: plots/emotion_distribution_hu.png
+Loaded dataset: !OriginalData/ro-projections.tsv (9475 rows)
+Counted 8 unique emotions
+Saved plot to: plots/emotion_distribution_ro.png
+Saved emotion distribution plots to 'plots/'
+================================================================================
+
+[1;36m                           Emotion Data Preprocessing                           [0m
+
+================================================================================
+Processing en from !OriginalData/en-projections.tsv ...
+  Saved train → data/en/train.jsonl
+  Saved validation → data/en/validation.jsonl
+  Saved test → data/en/test.jsonl
+Processing hu from !OriginalData/hu-projections.tsv ...
+  Saved train → data/hu/train.jsonl
+  Saved validation → data/hu/validation.jsonl
+  Saved test → data/hu/test.jsonl
+Processing nl from !OriginalData/nl-projections.tsv ...
+  Saved train → data/nl/train.jsonl
+  Saved validation → data/nl/validation.jsonl
+  Saved test → data/nl/test.jsonl
+Processing ro from !OriginalData/ro-projections.tsv ...
+  Saved train → data/ro/train.jsonl
+  Saved validation → data/ro/validation.jsonl
+  Saved test → data/ro/test.jsonl
+================================================================================
+
+[1;32m                             Preprocessing Complete                             [0m
+
+================================================================================
+================================================================================
+
+[1;31m                    LoRA fine-tuning disabled in config.yaml                    [0m
+
+================================================================================
+================================================================================
+
+[1;36m                        Evaluating Prompting Strategies                         [0m
+
+================================================================================
+Using device: cuda
+Loading model: mistralai/Mistral-7B-Instruct-v0.1
+
+Loading test datasets...
+
+Evaluating on single-language dataset...
+
+Evaluating strategy: zero-shot on 784 samples
+
+###############################################################################
+Hábrók Cluster
+Job 25031953 for user s5542332
+Finished at: Thu Oct 30 17:46:11 CET 2025
+
+Job details:
+============
+
+Job ID                         : 25031953
+Name                           : lora_mixtral
+User                           : s5542332
+Partition                      : gpumedium
+Nodes                          : a100gpu3
+Number of Nodes                : 1
+Cores                          : 8
+Number of Tasks                : 1
+State                          : FAILED  
+Submit                         : 2025-10-30T17:43:38
+Start                          : 2025-10-30T17:45:37
+End                            : 2025-10-30T17:46:07
+Reserved walltime              : 1-00:00:00
+Used walltime                  :   00:00:30
+Used CPU time                  :   00:00:19 (Efficiency:  7.87%)
+% User (Computation)           : 80.20%
+% System (I/O)                 : 19.80%
+Total memory reserved          : 32G
+Maximum memory used            : 616.73M
+Requested GPUs                 : a100=1
+Allocated GPUs                 : a100=1
+Max GPU utilization            : 0%
+Max GPU memory used            : 0.00 
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

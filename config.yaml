@@ -28,17 +28,15 @@ EMOTION_ANALYSIS:
 LORA:
   LORA_FINETUNE: false
   LORA_MODELS:
-    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
-    mixtral: "mistralai/Mixtral-8x7B-Instruct-v0.1"
     ministral_3b: "mistralai/Ministral-3B-v0.1"
     mistral_tiny: "mistralai/Mistral-3B-Instruct-v0.1"
   LORA_RANK: 16
   LORA_ALPHA: 32
   LORA_DROPOUT: 0.05
-  NUM_EPOCHS: 3
+  NUM_EPOCHS: 4
   BATCH_SIZE: 1
   GRAD_ACCUM_STEPS: 16
-  LEARNING_RATE: 2e-4
+  LEARNING_RATE: 5e-4
   DEVICE_IDS: "0"
 
 

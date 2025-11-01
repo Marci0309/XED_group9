@@ -136,12 +136,41 @@ class PromptTrainer:
         few_shot_examples=None,
         few_shot_intro=None,
     ):
+        """
+        Evaluate a prompting strategy (zero-shot, few-shot, or instruction-based)
+        on a given dataset. Supports parsing from JSONL files formatted as:
+        {
+            "text": "<|user|> Classify the emotions of: '...' <|assistant|> joy, sadness <|endoftext|>"
+        }
+        """
         preds, refs = [], []
         print(f"\nEvaluating strategy: {name} on {len(dataset)} samples")
 
         for example in tqdm(dataset):
-            text = example["text"]
-            label = example["label"].lower().strip()
+            raw = example["text"]
+
+            # --- Parse input and label from formatted string ---
+            try:
+                if "<|assistant|>" in raw:
+                    user_part, assistant_part = raw.split("<|assistant|>", 1)
+                else:
+                    user_part, assistant_part = raw, ""
+
+                if "Classify the emotions of:" in user_part:
+                    text = user_part.split("Classify the emotions of:")[-1]
+                    text = text.replace("<|user|>", "").strip(" :'\n")
+                else:
+                    text = user_part.strip()
+                label = (
+                    assistant_part.split("<|endoftext|>")[0]
+                    .strip()
+                    .lower()
+                    .replace("\n", "")
+                )
+
+            except Exception as e:
+                print(f"⚠️ Could not parse example: {raw[:80]}... ({e})")
+                text, label = raw, "unknown"
 
             if name == "few-shot":
                 prompt = self.build_few_shot_prompt(
@@ -156,9 +185,10 @@ class PromptTrainer:
             preds.append(pred)
             refs.append(label)
 
-        acc = sum([r in p for p, r in zip(preds, refs)]) / len(refs)
+        acc = sum([any(r.strip() in p for r in refs[i].split(",")) for i, p in enumerate(preds)]) / len(refs)
         print(f"Accuracy ({name}): {acc:.3f}")
         return acc
+
 
     # ============================================================
     #  LOAD DATASETS
@@ -223,7 +253,6 @@ class PromptTrainer:
             lambda text: self.build_instruction_prompt(text, custom_instruction),
         )
 
-        # Save results
         result_path = os.path.join(self.output_dir, "prompting_results.json")
         with open(result_path, "w") as f:
             json.dump(results, f, indent=2)

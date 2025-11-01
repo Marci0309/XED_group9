@@ -6,11 +6,9 @@ import os
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
-# Base model and adapter paths
 base_model_name = "mistralai/Mistral-7B-Instruct-v0.1"
-adapter_path = "models/mistral_7b_lora_finetune"  # your fine-tuned adapter folder
+adapter_path = "models/mistral_7b_lora_finetune"
 
-# 4-bit config for GPU loading (optional, saves VRAM)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=True,
@@ -32,8 +30,8 @@ model.eval()
 
 # Tokenizer setup
 tokenizer = AutoTokenizer.from_pretrained(adapter_path)
-tokenizer.eos_token = "<|endoftext|>"  # Set <|endoftext|> as eos token
-tokenizer.eos_token_id = tokenizer.convert_tokens_to_ids(tokenizer.eos_token)  # Get token ID for <|endoftext|>
+tokenizer.eos_token = "<|endoftext|>"
+tokenizer.eos_token_id = tokenizer.convert_tokens_to_ids(tokenizer.eos_token)
 
 print("Model and tokenizer loaded successfully.\n")
 

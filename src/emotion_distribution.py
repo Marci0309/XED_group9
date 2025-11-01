@@ -32,7 +32,7 @@ class EmotionDistribution:
     def convert_labels(self, label_str: str) -> str:
         """Convert comma-separated numbers into comma-separated emotion words."""
         numbers = [n.strip() for n in str(label_str).split(",")]
-        emotions = [self.NUM_TO_EMO.get(n, n) for n in numbers if n]  # skip empty
+        emotions = [self.NUM_TO_EMO.get(n, n) for n in numbers if n]
         return ", ".join(emotions)
 
     def load_data(self):

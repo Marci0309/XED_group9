@@ -39,7 +39,6 @@ print("Loading LoRA adapter...")
 model = PeftModel.from_pretrained(base, ADAPTER_PATH)
 model.eval()
 
-# tokenizer: prefer adapter; fallback to base
 try:
     tokenizer = AutoTokenizer.from_pretrained(ADAPTER_PATH, use_fast=True)
 except:
@@ -47,18 +46,15 @@ except:
     
 tokenizer.padding_side = "left"
 tokenizer.truncation_side = "left"
-
-# Ensure pad token is valid and synced with model
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token or "</s>"
 model.config.pad_token_id = tokenizer.pad_token_id
 model.generation_config.pad_token_id = tokenizer.pad_token_id
 
-# Ensure pad token
+
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token or "</s>"
 
-# Precompute the token id sequence for STOP_STR
 stop_ids = tokenizer.encode(STOP_STR, add_special_tokens=False)
 
 class StopOnTokens(StoppingCriteria):
@@ -68,7 +64,7 @@ class StopOnTokens(StoppingCriteria):
         self.stop = stop_sequence_ids
         self.k = len(self.stop)
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs):
-        if input_ids.shape[1] < self.k:  # not enough tokens generated yet
+        if input_ids.shape[1] < self.k:
             return False
         return torch.equal(input_ids[0, -self.k:], torch.tensor(self.stop, device=input_ids.device))
 
@@ -86,12 +82,11 @@ def normalize_labels(s: str):
 def parse_text_record(rec_text: str):
     """Extract (prompt_without_answer, gold_labels_list) from training-style 'text'."""
 
-    # Split at assistant marker
     if "<|assistant|>" not in rec_text:
         return None, None
     left, right = rec_text.split("<|assistant|>", 1)
     right = right.strip()
-    # cut at first STOP_STR occurrence if present
+
     if STOP_STR in right:
         right = right.split(STOP_STR, 1)[0]
     gold_raw = right.strip()
@@ -104,10 +99,8 @@ def labels_to_multihot(labels):
 
 def decode_and_trim(full_ids):
     txt = tokenizer.decode(full_ids, skip_special_tokens=False)
-    # keep only the assistant continuation
     if "<|assistant|>" in txt:
         txt = txt.split("<|assistant|>", 1)[1]
-    # hard trim at STOP_STR if present
     if STOP_STR in txt:
         txt = txt.split(STOP_STR, 1)[0]
     return txt.strip()
@@ -124,7 +117,7 @@ def predict_batch(prompts):
             do_sample=False,
             temperature=None,
             pad_token_id=tokenizer.pad_token_id,
-            stopping_criteria=stopper,   # << stop at <|endoftext|> (even if multi-token)
+            stopping_criteria=stopper,
         )
     gens = []
     for i in range(len(prompts)):
@@ -167,15 +160,15 @@ def evaluate_language(lang):
     return {"language": lang, "n_examples": len(prompts), "micro_f1": micro_f1, "jaccard_micro": jacc}
 
 
-# --------- RUN ---------
-reports = []
-for lang in LANGS:
-    rep = evaluate_language(lang)
-    print(f"{lang.upper():>3} | N={rep['n_examples']:4d} | micro-F1={rep['micro_f1']:.4f} | Jaccard={rep['jaccard_micro']:.4f}")
-    reports.append(rep)
+if __name__ == "__main__":
+    reports = []
+    for lang in LANGS:
+        rep = evaluate_language(lang)
+        print(f"{lang.upper():>3} | N={rep['n_examples']:4d} | micro-F1={rep['micro_f1']:.4f} | Jaccard={rep['jaccard_micro']:.4f}")
+        reports.append(rep)
 
-if reports:
-    mf1 = np.mean([r["micro_f1"] for r in reports])
-    mj  = np.mean([r["jaccard_micro"] for r in reports])
-    total = sum([r["n_examples"] for r in reports])
-    print(f"\nMacro-avg over {len(reports)} languages (N={total}): micro-F1={mf1:.4f} | Jaccard={mj:.4f}")
+    if reports:
+        mf1 = np.mean([r["micro_f1"] for r in reports])
+        mj  = np.mean([r["jaccard_micro"] for r in reports])
+        total = sum([r["n_examples"] for r in reports])
+        print(f"\nMacro-avg over {len(reports)} languages (N={total}): micro-F1={mf1:.4f} | Jaccard={mj:.4f}")
