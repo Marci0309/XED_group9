@@ -14,20 +14,23 @@ GENERAL:
 #  EMOTION ANALYSIS
 # ============================================================
 EMOTION_ANALYSIS:
-  ENABLE_PLOTTING: true
+  ENABLE_PLOTTING: false
   LANGUAGES:
     - en
     - nl
     - hu
     - ro
+    - combined
 
 
 # ============================================================
 #  LORA FINE-TUNING CONFIGURATION
 # ============================================================
 LORA:
-  LORA_FINETUNE: false
+  LORA_FINETUNE: true
   LORA_MODELS:
+    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
+    mixtral_8x7b: "mistralai/Mixtral-8x7B-v0.1"
     ministral_3b: "mistralai/Ministral-3B-v0.1"
     mistral_tiny: "mistralai/Mistral-3B-Instruct-v0.1"
   LORA_RANK: 16
@@ -44,9 +47,9 @@ LORA:
 #  PROMPTING EVALUATION (ZERO-SHOT / FEW-SHOT / INSTRUCTION)
 # ============================================================
 PROMPTING:
-  ENABLE_PROMPTING: true
+  ENABLE_PROMPTING: false
   MODEL_NAME: "mistralai/Mistral-7B-Instruct-v0.1"
-  MAX_NEW_TOKENS: 50
+  MAX_NEW_TOKENS: 64
   DEVICE: null  # leave as null to auto-detect CUDA or CPU
 
   INSTRUCTION_TEXT: >

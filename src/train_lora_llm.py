@@ -14,7 +14,7 @@ from peft import LoraConfig, get_peft_model
 
 
 class LoraFineTuner:
-    """Fine-tunes multiple Mistral-size LLMs using LoRA adapters and 4-bit quantization."""
+    """Fine-tunes multiple Mistral-size LLMs using LoRA adapters and 4-bit quantization per language."""
 
     def __init__(
         self,
@@ -29,13 +29,13 @@ class LoraFineTuner:
     ):
         """
         Args:
-            data_paths (dict): dict with keys train/validation/test → file paths.
+            data_paths (dict): dict with language keys (e.g., 'en', 'es') mapping to JSON paths.
             models (dict): dict of {tag: model_name} to train.
-            output_dir (str): Base directory to save all model outputs.
-            num_epochs (int): Number of epochs to train each model.
+            output_dir (str): Base directory to save model outputs.
+            num_epochs (int): Number of epochs to train.
             batch_size (int): Per-device batch size.
             grad_accum_steps (int): Gradient accumulation steps.
-            learning_rate (float): Learning rate for fine-tuning.
+            learning_rate (float): Learning rate.
             device_ids (str): GPUs to use, e.g. "0" or "0,1".
         """
         self.data_paths = data_paths
@@ -59,16 +59,14 @@ class LoraFineTuner:
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
 
-        self.dataset = self._load_dataset()
-
     # ============================================================
     #  DATASET
     # ============================================================
-    def _load_dataset(self):
-        """Load dataset from JSONL paths (train/validation/test)."""
-        print("Loading dataset...")
-        dataset = load_dataset("json", data_files=self.data_paths)
-        print("Dataset loaded successfully.")
+    def _load_dataset(self, lang: str):
+        """Load dataset for a specific language."""
+        print(f"\nLoading {lang.upper()} dataset...")
+        dataset = load_dataset("json", data_files=self.data_paths[lang])
+        print(f"Loaded {lang.upper()} dataset successfully.")
         return dataset
 
     @staticmethod
@@ -83,12 +81,12 @@ class LoraFineTuner:
     # ============================================================
     #  SINGLE MODEL TRAINING
     # ============================================================
-    def _train_single_model(self, tag: str, model_name: str):
+    def _train_single_model(self, tag: str, model_name: str, lang: str, dataset):
         print(f"\n==============================")
-        print(f" Fine-tuning model: {model_name}")
+        print(f" Fine-tuning {model_name} on {lang.upper()}")
         print(f"==============================")
 
-        out_dir = os.path.join(self.output_dir, f"{tag}_lora_finetune")
+        out_dir = os.path.join(self.output_dir, tag, f"{lang}_lora_finetune")
         os.makedirs(out_dir, exist_ok=True)
 
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -103,7 +101,7 @@ class LoraFineTuner:
         )
         model.config.pad_token_id = tokenizer.pad_token_id
 
-        tokenized = self.dataset.map(
+        tokenized = dataset.map(
             lambda x: self._tokenize_function(x, tokenizer),
             batched=True,
             remove_columns=["text", "label"],
@@ -122,12 +120,12 @@ class LoraFineTuner:
         model.gradient_checkpointing_enable()
         model.enable_input_require_grads()
         model.print_trainable_parameters()
-        
+
         data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
         args = TrainingArguments(
             output_dir=out_dir,
-            eval_strategy="steps",
+            evaluation_strategy="steps",
             eval_steps=200,
             save_strategy="steps",
             save_steps=400,
@@ -142,7 +140,6 @@ class LoraFineTuner:
             lr_scheduler_type="cosine",
             bf16=torch.cuda.is_bf16_supported(),
             fp16=not torch.cuda.is_bf16_supported(),
-            tf32=False,
             optim="paged_adamw_8bit",
             gradient_checkpointing=True,
             save_total_limit=2,
@@ -161,24 +158,29 @@ class LoraFineTuner:
 
         trainer.train()
 
-        # Save LoRA adapter
         model.save_pretrained(out_dir, safe_serialization=True)
         tokenizer.save_pretrained(out_dir)
 
-        # Evaluate
         results = trainer.evaluate(tokenized["test"])
-        print(f"\nTest Results for {tag}: {results}")
+        print(f"\nTest Results for {tag} ({lang.upper()}): {results}")
 
         return results
 
     # ============================================================
-    #  RUN ALL MODELS
+    #  RUN ALL MODELS / LANGUAGES
     # ============================================================
     def run_all(self):
-        """Fine-tune all models in the dictionary."""
+        """Fine-tune all models for each available language separately."""
         all_results = {}
+
         for tag, model_name in self.models.items():
-            results = self._train_single_model(tag, model_name)
-            all_results[tag] = results
-        print("\nAll models fine-tuned successfully!")
+            model_results = {}
+            for lang in self.data_paths.keys():
+                dataset = self._load_dataset(lang)
+                results = self._train_single_model(tag, model_name, lang, dataset)
+                model_results[lang] = results
+
+            all_results[tag] = model_results
+
+        print("\nAll models fine-tuned successfully for all languages!")
         return all_results

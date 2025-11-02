@@ -10,14 +10,13 @@ import json
 class PromptTrainer:
     """
     Evaluate prompting strategies (zero-shot, few-shot, and instruction-based)
-    for emotion classification tasks using Mistral-family models.
+    for emotion classification tasks across multiple languages using Mistral-family models.
     """
 
     def __init__(
         self,
         model_name: str = "mistralai/Mistral-7B-Instruct-v0.1",
-        data_single: str = "data/en/test.jsonl",
-        data_multi: str = "data/combined_simple/test.jsonl",
+        data_dirs: dict | None = None,
         max_new_tokens: int = 50,
         device: str | None = None,
         output_dir: str = "results",
@@ -33,18 +32,17 @@ class PromptTrainer:
         """
         Args:
             model_name: Hugging Face model name (e.g., Mistral-7B)
-            data_single: Path to single-language test data
-            data_multi: Path to multi-language test data
+            data_dirs: dict with language keys mapping to test file paths, e.g.
+                       {"en": "data/en/test.jsonl", "nl": "data/nl/test.jsonl"}
             max_new_tokens: Max tokens to generate per response
             device: "cuda" or "cpu" (auto-detected if None)
-            output_dir: Directory for result JSON
-            instruction_text: Base instruction text for the instruction prompt
+            output_dir: Directory for result JSONs
+            instruction_text: Instruction text for instruction-based prompting
             few_shot_intro: Introductory text preceding few-shot examples
             few_shot_examples: List of dicts [{'text': ..., 'label': ...}]
         """
         self.model_name = model_name
-        self.data_single = data_single
-        self.data_multi = data_multi
+        self.data_dirs = data_dirs or {"en": "data/en/test.jsonl"}
         self.max_new_tokens = max_new_tokens
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.output_dir = output_dir
@@ -85,13 +83,7 @@ class PromptTrainer:
     def build_zero_shot_prompt(self, text: str) -> str:
         return f"<s>[INST] Classify the emotions of: '{text}' [/INST]"
 
-    def build_few_shot_prompt(
-        self,
-        text: str,
-        examples: list[dict] | None = None,
-        intro_text: str | None = None,
-    ) -> str:
-        """Build a few-shot prompt with examples and customizable intro."""
+    def build_few_shot_prompt(self, text: str, examples=None, intro_text=None) -> str:
         examples = examples or self.few_shot_examples
         intro_text = intro_text or self.few_shot_intro
         demo_text = "\n".join(
@@ -102,10 +94,7 @@ class PromptTrainer:
             f"{demo_text}\n\nNow classify the emotions of: '{text}' [/INST]"
         )
 
-    def build_instruction_prompt(
-        self, text: str, custom_instruction: str | None = None
-    ) -> str:
-        """Build an instruction-based prompt with an optional custom instruction."""
+    def build_instruction_prompt(self, text: str, custom_instruction=None) -> str:
         instruction = custom_instruction or self.instruction_text
         return f"<s>[INST] {instruction}\n\nSentence: '{text}' [/INST]"
 
@@ -128,28 +117,12 @@ class PromptTrainer:
     # ============================================================
     #  EVALUATION FUNCTION
     # ============================================================
-    def evaluate_strategy(
-        self,
-        dataset,
-        name: str,
-        prompt_fn,
-        few_shot_examples=None,
-        few_shot_intro=None,
-    ):
-        """
-        Evaluate a prompting strategy (zero-shot, few-shot, or instruction-based)
-        on a given dataset. Supports parsing from JSONL files formatted as:
-        {
-            "text": "<|user|> Classify the emotions of: '...' <|assistant|> joy, sadness <|endoftext|>"
-        }
-        """
+    def evaluate_strategy(self, dataset, name, prompt_fn, few_shot_examples=None, few_shot_intro=None):
         preds, refs = [], []
         print(f"\nEvaluating strategy: {name} on {len(dataset)} samples")
 
         for example in tqdm(dataset):
             raw = example["text"]
-
-            # --- Parse input and label from formatted string ---
             try:
                 if "<|assistant|>" in raw:
                     user_part, assistant_part = raw.split("<|assistant|>", 1)
@@ -161,6 +134,7 @@ class PromptTrainer:
                     text = text.replace("<|user|>", "").strip(" :'\n")
                 else:
                     text = user_part.strip()
+
                 label = (
                     assistant_part.split("<|endoftext|>")[0]
                     .strip()
@@ -185,83 +159,57 @@ class PromptTrainer:
             preds.append(pred)
             refs.append(label)
 
-        acc = sum([any(r.strip() in p for r in refs[i].split(",")) for i, p in enumerate(preds)]) / len(refs)
+        acc = sum(
+            [any(r.strip() in p for r in refs[i].split(",")) for i, p in enumerate(preds)]
+        ) / len(refs)
         print(f"Accuracy ({name}): {acc:.3f}")
         return acc
 
-
     # ============================================================
-    #  LOAD DATASETS
+    #  RUN ON ONE DATASET
     # ============================================================
-    def load_datasets(self):
-        print("\nLoading test datasets...")
-        dataset_single = load_dataset("json", data_files=self.data_single)["train"]
-        dataset_multi = load_dataset("json", data_files=self.data_multi)["train"]
-        return dataset_single, dataset_multi
-
-    # ============================================================
-    #  RUN FULL EVALUATION
-    # ============================================================
-    def run(
-        self,
-        custom_instruction: str | None = None,
-        few_shot_intro: str | None = None,
-        few_shot_examples: list[dict] | None = None,
-    ):
-        dataset_single, dataset_multi = self.load_datasets()
-        results = {
-            "config": {
-                "instruction_text": custom_instruction or self.instruction_text,
-                "few_shot_intro": few_shot_intro or self.few_shot_intro,
-                "few_shot_examples": few_shot_examples or self.few_shot_examples,
-            }
-        }
-
-        # --- Single-language ---
-        print("\nEvaluating on single-language dataset...")
-        results["single_zero"] = self.evaluate_strategy(
-            dataset_single, "zero-shot", self.build_zero_shot_prompt
-        )
-        results["single_few"] = self.evaluate_strategy(
-            dataset_single,
+    def _run_on_dataset(self, dataset, lang, custom_instruction=None, few_shot_intro=None, few_shot_examples=None):
+        results = {}
+        results["zero-shot"] = self.evaluate_strategy(dataset, "zero-shot", self.build_zero_shot_prompt)
+        results["few-shot"] = self.evaluate_strategy(
+            dataset,
             "few-shot",
             self.build_few_shot_prompt,
             few_shot_examples=few_shot_examples or self.few_shot_examples,
             few_shot_intro=few_shot_intro or self.few_shot_intro,
         )
-        results["single_instruct"] = self.evaluate_strategy(
-            dataset_single,
+        results["instruction"] = self.evaluate_strategy(
+            dataset,
             "instruction",
             lambda text: self.build_instruction_prompt(text, custom_instruction),
         )
-
-        # --- Multi-language ---
-        print("\nEvaluating on multi-language dataset...")
-        results["multi_zero"] = self.evaluate_strategy(
-            dataset_multi, "zero-shot", self.build_zero_shot_prompt
-        )
-        results["multi_few"] = self.evaluate_strategy(
-            dataset_multi,
-            "few-shot",
-            self.build_few_shot_prompt,
-            few_shot_examples=few_shot_examples or self.few_shot_examples,
-            few_shot_intro=few_shot_intro or self.few_shot_intro,
-        )
-        results["multi_instruct"] = self.evaluate_strategy(
-            dataset_multi,
-            "instruction",
-            lambda text: self.build_instruction_prompt(text, custom_instruction),
-        )
-
-        result_path = os.path.join(self.output_dir, "prompting_results.json")
+        
+        result_path = os.path.join(self.output_dir, f"prompt_results_{lang}.json")
         with open(result_path, "w") as f:
             json.dump(results, f, indent=2)
-
-        print("\n===== Final Summary =====")
-        for k, v in results.items():
-            if k != "config":
-                print(f"{k}: {v:.3f}")
-
-        print(f"\nResults saved to: {result_path}")
+        print(f" Saved results for {lang} → {result_path}")
         return results
 
+    # ============================================================
+    #  RUN FULL MULTILINGUAL EVALUATION
+    # ============================================================
+    def run(self, custom_instruction=None, few_shot_intro=None, few_shot_examples=None):
+        all_results = {}
+        for lang, path in self.data_dirs.items():
+            print(f"\n Evaluating on {lang.upper()} dataset: {path}")
+            dataset = load_dataset("json", data_files=path)["train"]
+            results = self._run_on_dataset(
+                dataset,
+                lang,
+                custom_instruction,
+                few_shot_intro,
+                few_shot_examples,
+            )
+            all_results[lang] = results
+
+        # Save combined summary
+        summary_path = os.path.join(self.output_dir, "prompting_results_all.json")
+        with open(summary_path, "w") as f:
+            json.dump(all_results, f, indent=2)
+        print(f"\n All language results saved to: {summary_path}")
+        return all_results

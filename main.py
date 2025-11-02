@@ -19,8 +19,9 @@ def main():
 
     general_cfg = cfg["GENERAL"]
     emotion_cfg = cfg["EMOTION_ANALYSIS"]
+    language_cfg = cfg["LANGUAGES"]
     lora_cfg = cfg["LORA"]
-    promt_cfg = cfg["PROMPTING"]
+    prompt_cfg = cfg["PROMPTING"]
 
     os.makedirs(general_cfg["OUTPUT_DIR"], exist_ok=True)
     os.makedirs(general_cfg["PLOTS_DIR"], exist_ok=True)
@@ -33,7 +34,9 @@ def main():
         heading("Analyzing emotion data", char="=", color="green", pad=1)
         for lang in emotion_cfg.get("LANGUAGES", []):
             input_path = os.path.join(general_cfg["DATA_DIR"], f"{lang}-projections.tsv")
-            output_path = os.path.join(general_cfg["PLOTS_DIR"], f"emotion_distribution_{lang}.png")
+            output_path = os.path.join(
+                general_cfg["PLOTS_DIR"], f"emotion_distribution_{lang}.png"
+            )
             EmotionDistribution(input_path, output_path).plot_distribution(save=True)
         print(f"Saved emotion distribution plots to '{general_cfg['PLOTS_DIR']}/'")
 
@@ -55,13 +58,19 @@ def main():
     # ============================================================
     if lora_cfg.get("LORA_FINETUNE", False):
         heading("Training model(s) with LoRA", char="=", color="cyan", pad=1)
+        languages = emotion_cfg.get("LANGUAGES", [])
+        data_paths = {}
+        for lang in languages:
+            data_paths[lang] = {
+                "train": os.path.join(general_cfg["OUTPUT_DIR"], lang, "train.jsonl"),
+                "validation": os.path.join(general_cfg["OUTPUT_DIR"], lang, "validation.jsonl"),
+                "test": os.path.join(general_cfg["OUTPUT_DIR"], lang, "test.jsonl"),
+            }
+
+        print(f"Detected language datasets: {list(data_paths.keys())}")
 
         trainer = LoraFineTuner(
-            data_paths={
-                "train": os.path.join(general_cfg["OUTPUT_DIR"], "en/train.jsonl"),
-                "validation": os.path.join(general_cfg["OUTPUT_DIR"], "en/validation.jsonl"),
-                "test": os.path.join(general_cfg["OUTPUT_DIR"], "en/test.jsonl"),
-            },
+            data_paths=data_paths,
             models=lora_cfg["LORA_MODELS"],
             output_dir=general_cfg["MODELS_DIR"],
             num_epochs=lora_cfg["NUM_EPOCHS"],
@@ -74,29 +83,35 @@ def main():
         heading("LoRA Fine-tuning Complete", char="=", color="green", pad=1)
     else:
         heading("LoRA fine-tuning disabled in config.yaml", char="=", color="red", pad=1)
-        
-    if promt_cfg.get("ENABLE_PROMPTING", False):
+
+    # ============================================================
+    #  PROMPTING EVALUATION
+    # ============================================================
+    if prompt_cfg.get("ENABLE_PROMPTING", False):
         heading("Evaluating Prompting Strategies", char="=", color="cyan", pad=1)
 
+        # build paths from config languages
+        languages = emotion_cfg.get("LANGUAGES", [])
+        data_dirs = {
+            lang: os.path.join(general_cfg["OUTPUT_DIR"], lang, "test.jsonl") for lang in languages
+        }
+
         prompt_trainer = PromptTrainer(
-            model_name=promt_cfg["MODEL_NAME"],
-            data_single=os.path.join(general_cfg["OUTPUT_DIR"], "en/test.jsonl"),
-            data_multi=os.path.join(general_cfg["OUTPUT_DIR"], "combined/test.jsonl"),
-            max_new_tokens=promt_cfg["MAX_NEW_TOKENS"],
-            device=promt_cfg.get("DEVICE", None),
+            model_name=prompt_cfg["MODEL_NAME"],
+            data_dirs=data_dirs,
+            max_new_tokens=prompt_cfg["MAX_NEW_TOKENS"],
+            device=prompt_cfg.get("DEVICE", None),
             output_dir=general_cfg["MODELS_DIR"],
-            instruction_text=promt_cfg.get(
-                "INSTRUCTION_TEXT"
-                ),
-            few_shot_intro=promt_cfg.get(
+            instruction_text=prompt_cfg["INSTRUCTION_TEXT"],
+            few_shot_intro=prompt_cfg.get(
                 "FEW_SHOT_INTRO",
                 "You are an emotion classifier. Here are examples:",
-                ),
-            few_shot_examples=promt_cfg.get("FEW_SHOT_EXAMPLES", None),
+            ),
+            few_shot_examples=prompt_cfg.get("FEW_SHOT_EXAMPLES", None),
         )
         prompt_trainer.run()
-        heading("Prompting Evaluation Complete", char="=", color="green", pad=1)
 
+        heading("Prompting Evaluation Complete", char="=", color="green", pad=1)
 
 if __name__ == "__main__":
     main()
