@@ -5,6 +5,9 @@ from tqdm import tqdm
 import evaluate
 import os
 import json
+from sklearn.metrics import f1_score, jaccard_score
+import numpy as np
+import shutil
 
 
 class PromptTrainer:
@@ -53,6 +56,12 @@ class PromptTrainer:
             {"text": "I'm so happy for you!", "label": "joy"},
             {"text": "This is so unfair.", "label": "anger"},
         ]
+        
+        # Clear Hugging Face cache to free up space in between prompting runs
+        hf_cache = os.getenv("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
+        if os.path.exists(hf_cache):
+            print(f"Clearing Hugging Face cache at {hf_cache}")
+            shutil.rmtree(hf_cache, ignore_errors=True)
 
         os.makedirs(self.output_dir, exist_ok=True)
 
@@ -117,8 +126,21 @@ class PromptTrainer:
     # ============================================================
     #  EVALUATION FUNCTION
     # ============================================================
-    def evaluate_strategy(self, dataset, name, prompt_fn, few_shot_examples=None, few_shot_intro=None):
+    def evaluate_strategy(
+        self,
+        dataset,
+        name,
+        prompt_fn,
+        few_shot_examples=None,
+        few_shot_intro=None,
+    ):
+        """
+        Evaluate a prompting strategy using micro-F1 and Jaccard similarity.
+        Supports multi-label emotion classification.
+        """
+
         preds, refs = [], []
+        all_labels = ["joy", "trust", "fear", "surprise", "sadness", "disgust", "anger", "anticipation"]
         print(f"\nEvaluating strategy: {name} on {len(dataset)} samples")
 
         for example in tqdm(dataset):
@@ -141,7 +163,6 @@ class PromptTrainer:
                     .lower()
                     .replace("\n", "")
                 )
-
             except Exception as e:
                 print(f"⚠️ Could not parse example: {raw[:80]}... ({e})")
                 text, label = raw, "unknown"
@@ -159,11 +180,22 @@ class PromptTrainer:
             preds.append(pred)
             refs.append(label)
 
-        acc = sum(
-            [any(r.strip() in p for r in refs[i].split(",")) for i, p in enumerate(preds)]
-        ) / len(refs)
-        print(f"Accuracy ({name}): {acc:.3f}")
-        return acc
+        # helper function to compute multi-label binary vectors
+        def to_binary_vector(label_str):
+            label_set = set([x.strip() for x in label_str.split(",") if x.strip()])
+            return [1 if lbl in label_set else 0 for lbl in all_labels]
+
+        y_true = np.array([to_binary_vector(r) for r in refs])
+        y_pred = np.array([to_binary_vector(p) for p in preds])
+
+        micro_f1 = f1_score(y_true, y_pred, average="micro", zero_division=0)
+        jaccard = jaccard_score(y_true, y_pred, average="samples", zero_division=0)
+
+        print(f"Micro-F1 ({name}): {micro_f1:.3f}")
+        print(f"Jaccard  ({name}): {jaccard:.3f}")
+
+        return {"micro_f1": float(micro_f1), "jaccard": float(jaccard)}
+
 
     # ============================================================
     #  RUN ON ONE DATASET

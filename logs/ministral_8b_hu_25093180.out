@@ -1,0 +1,135 @@
+Running LoRA fine-tuning on dl-h100gpu1
+================================================================================
+
+[1;36m                             Loading configuration                              [0m
+
+================================================================================
+================================================================================
+
+[1;32m                             Configuration settings                             [0m
+
+================================================================================
+EMOTION_ANALYSIS:
+  ENABLE_PLOTTING: false
+  LANGUAGES:
+  - hu
+GENERAL:
+  DATA_DIR: '!OriginalData'
+  MODELS_DIR: models
+  OUTPUT_DIR: data
+  PLOTS_DIR: plots
+  SEED: 42
+  TEST_SIZE: 0.2
+LORA:
+  BATCH_SIZE: 1
+  DEVICE_IDS: '0'
+  GRAD_ACCUM_STEPS: 16
+  LEARNING_RATE: 0.0005
+  LORA_ALPHA: 32
+  LORA_DROPOUT: 0.05
+  LORA_FINETUNE: true
+  LORA_MODELS:
+    ministral_8b: mistralai/Ministral-8B-Instruct-2410
+  LORA_RANK: 16
+  NUM_EPOCHS: 4
+PROMPTING:
+  DEVICE: null
+  ENABLE_PROMPTING: false
+  FEW_SHOT_EXAMPLES:
+  - label: surprise
+    text: I can't believe this happened!
+  - label: joy, trust
+    text: I'm so happy for you!
+  - label: anger
+    text: This is so unfair.
+  FEW_SHOT_INTRO: 'You are an emotion classifier. Here are examples:
+
+    '
+  INSTRUCTION_TEXT: 'You are a precise emotion classifier. Identify all emotions in
+    the sentence based on Plutchik''s 8 basic emotions and return them as comma-separated
+    values from: joy, trust, fear, surprise, sadness, disgust, anger, anticipation.
+
+    '
+  MAX_NEW_TOKENS: 64
+  MODEL_NAME: mistralai/Mistral-7B-Instruct-v0.1
+
+================================================================================
+
+[1;36m                           Emotion Data Preprocessing                           [0m
+
+================================================================================
+Processing en from !OriginalData/en-projections.tsv ...
+  Saved train → data/en/train.jsonl
+  Saved validation → data/en/validation.jsonl
+  Saved test → data/en/test.jsonl
+Processing hu from !OriginalData/hu-projections.tsv ...
+  Saved train → data/hu/train.jsonl
+  Saved validation → data/hu/validation.jsonl
+  Saved test → data/hu/test.jsonl
+Processing nl from !OriginalData/nl-projections.tsv ...
+  Saved train → data/nl/train.jsonl
+  Saved validation → data/nl/validation.jsonl
+  Saved test → data/nl/test.jsonl
+Processing ro from !OriginalData/ro-projections.tsv ...
+  Saved train → data/ro/train.jsonl
+  Saved validation → data/ro/validation.jsonl
+  Saved test → data/ro/test.jsonl
+================================================================================
+
+[1;32m                             Preprocessing Complete                             [0m
+
+================================================================================
+================================================================================
+
+[1;36m                          Training model(s) with LoRA                           [0m
+
+================================================================================
+Detected language datasets: ['hu']
+Clearing Hugging Face cache at /home5/s5542332/.cache/huggingface
+Using device: cuda
+
+Loading HU dataset...
+Loaded HU dataset successfully.
+
+==============================
+Fine-tuning mistralai/Ministral-8B-Instruct-2410 on HU
+==============================
+trainable params: 15,335,424 || all params: 8,035,143,680 || trainable%: 0.1909
+{'loss': 3.5885, 'grad_norm': 3.6419098377227783, 'learning_rate': 0.0004224137931034483, 'epoch': 0.17}
+{'loss': 2.8108, 'grad_norm': 2.8399932384490967, 'learning_rate': 0.0004982817961310335, 'epoch': 0.35}
+{'loss': 2.8348, 'grad_norm': 4.343141555786133, 'learning_rate': 0.0004915737759172988, 'epoch': 0.52}
+{'loss': 2.7972, 'grad_norm': 4.8213701248168945, 'learning_rate': 0.00047993010925973667, 'epoch': 0.69}
+{'eval_loss': 2.7373900413513184, 'eval_runtime': 129.4255, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 4.466, 'epoch': 0.69}
+{'loss': 2.8469, 'grad_norm': 4.192012310028076, 'learning_rate': 0.00046358869044845917, 'epoch': 0.87}
+{'loss': 2.7421, 'grad_norm': 3.4238064289093018, 'learning_rate': 0.0004428833945712598, 'epoch': 1.04}
+{'loss': 2.5558, 'grad_norm': 5.384023189544678, 'learning_rate': 0.0004182372560389582, 'epoch': 1.21}
+{'loss': 2.6082, 'grad_norm': 3.900111198425293, 'learning_rate': 0.00039015382547719313, 'epoch': 1.38}
+{'eval_loss': 2.6744306087493896, 'eval_runtime': 130.1932, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 4.44, 'epoch': 1.38}
+{'loss': 2.593, 'grad_norm': 3.061889171600342, 'learning_rate': 0.0003592068815738883, 'epoch': 1.56}
+{'loss': 2.5451, 'grad_norm': 4.295197486877441, 'learning_rate': 0.0003260287080818795, 'epoch': 1.73}
+{'loss': 2.5815, 'grad_norm': 3.7275867462158203, 'learning_rate': 0.0002912971754918137, 'epoch': 1.9}
+{'loss': 2.4251, 'grad_norm': 3.477552890777588, 'learning_rate': 0.0002557218913124774, 'epoch': 2.08}
+{'eval_loss': 2.645451307296753, 'eval_runtime': 130.494, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 4.429, 'epoch': 2.08}
+{'loss': 2.2626, 'grad_norm': 2.980351209640503, 'learning_rate': 0.0002200297019251932, 'epoch': 2.25}
+{'loss': 2.2583, 'grad_norm': 3.508941173553467, 'learning_rate': 0.00018494984222705538, 'epoch': 2.42}
+{'loss': 2.2338, 'grad_norm': 3.386950731277466, 'learning_rate': 0.00015119903647388034, 'epoch': 2.6}
+{'loss': 2.2262, 'grad_norm': 2.8735482692718506, 'learning_rate': 0.00011946685473079378, 'epoch': 2.77}
+{'eval_loss': 2.5919642448425293, 'eval_runtime': 130.2922, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 4.436, 'epoch': 2.77}
+{'loss': 2.2025, 'grad_norm': 3.1618683338165283, 'learning_rate': 9.040162411600408e-05, 'epoch': 2.94}
+{'loss': 1.9794, 'grad_norm': 3.215857744216919, 'learning_rate': 6.459718268820836e-05, 'epoch': 3.11}
+{'loss': 1.8662, 'grad_norm': 2.8178412914276123, 'learning_rate': 4.2580746611845274e-05, 'epoch': 3.29}
+{'loss': 1.8484, 'grad_norm': 3.148038864135742, 'learning_rate': 2.4802138488782237e-05, 'epoch': 3.46}
+{'eval_loss': 2.679898262023926, 'eval_runtime': 129.5442, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 4.462, 'epoch': 3.46}
+{'loss': 1.8386, 'grad_norm': 3.6811020374298096, 'learning_rate': 1.1624596934740578e-05, 'epoch': 3.63}
+{'loss': 1.8342, 'grad_norm': 2.314988613128662, 'learning_rate': 3.3173551720046267e-06, 'epoch': 3.81}
+{'loss': 1.86, 'grad_norm': 3.341341972351074, 'learning_rate': 5.014026680322248e-08, 'epoch': 3.98}
+{'train_runtime': 14022.9571, 'train_samples_per_second': 1.318, 'train_steps_per_second': 0.082, 'train_loss': 2.4029053000017844, 'epoch': 4.0}
+
+Test Results for ministral_8b (HU): {'eval_loss': 2.616307020187378, 'eval_runtime': 129.6983, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 4.456, 'epoch': 4.0}
+
+All models fine-tuned successfully for all languages!
+================================================================================
+
+[1;32m                           LoRA Fine-tuning Complete                            [0m
+
+================================================================================

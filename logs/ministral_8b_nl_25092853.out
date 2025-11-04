@@ -1,0 +1,178 @@
+Running LoRA fine-tuning on dl-h100gpu1
+================================================================================
+
+[1;36m                             Loading configuration                              [0m
+
+================================================================================
+================================================================================
+
+[1;32m                             Configuration settings                             [0m
+
+================================================================================
+EMOTION_ANALYSIS:
+  ENABLE_PLOTTING: false
+  LANGUAGES:
+  - nl
+GENERAL:
+  DATA_DIR: '!OriginalData'
+  MODELS_DIR: models
+  OUTPUT_DIR: data
+  PLOTS_DIR: plots
+  SEED: 42
+  TEST_SIZE: 0.2
+LORA:
+  BATCH_SIZE: 1
+  DEVICE_IDS: '0'
+  GRAD_ACCUM_STEPS: 16
+  LEARNING_RATE: 0.0005
+  LORA_ALPHA: 32
+  LORA_DROPOUT: 0.05
+  LORA_FINETUNE: true
+  LORA_MODELS:
+    ministral_8b: mistralai/Ministral-8B-Instruct-2410
+  LORA_RANK: 16
+  NUM_EPOCHS: 4
+PROMPTING:
+  DEVICE: null
+  ENABLE_PROMPTING: false
+  FEW_SHOT_EXAMPLES:
+  - label: surprise
+    text: I can't believe this happened!
+  - label: joy, trust
+    text: I'm so happy for you!
+  - label: anger
+    text: This is so unfair.
+  FEW_SHOT_INTRO: 'You are an emotion classifier. Here are examples:
+
+    '
+  INSTRUCTION_TEXT: 'You are a precise emotion classifier. Identify all emotions in
+    the sentence based on Plutchik''s 8 basic emotions and return them as comma-separated
+    values from: joy, trust, fear, surprise, sadness, disgust, anger, anticipation.
+
+    '
+  MAX_NEW_TOKENS: 64
+  MODEL_NAME: mistralai/Mistral-7B-Instruct-v0.1
+
+================================================================================
+
+[1;36m                           Emotion Data Preprocessing                           [0m
+
+================================================================================
+Processing en from !OriginalData/en-projections.tsv ...
+  Saved train → data/en/train.jsonl
+  Saved validation → data/en/validation.jsonl
+  Saved test → data/en/test.jsonl
+Processing hu from !OriginalData/hu-projections.tsv ...
+  Saved train → data/hu/train.jsonl
+  Saved validation → data/hu/validation.jsonl
+  Saved test → data/hu/test.jsonl
+Processing nl from !OriginalData/nl-projections.tsv ...
+  Saved train → data/nl/train.jsonl
+  Saved validation → data/nl/validation.jsonl
+  Saved test → data/nl/test.jsonl
+Processing ro from !OriginalData/ro-projections.tsv ...
+  Saved train → data/ro/train.jsonl
+  Saved validation → data/ro/validation.jsonl
+  Saved test → data/ro/test.jsonl
+================================================================================
+
+[1;32m                             Preprocessing Complete                             [0m
+
+================================================================================
+================================================================================
+
+[1;36m                          Training model(s) with LoRA                           [0m
+
+================================================================================
+Detected language datasets: ['nl']
+Clearing Hugging Face cache at /home5/s5542332/.cache/huggingface
+Using device: cuda
+
+Loading NL dataset...
+Loaded NL dataset successfully.
+
+==============================
+Fine-tuning mistralai/Ministral-8B-Instruct-2410 on NL
+==============================
+trainable params: 15,335,424 || all params: 8,035,143,680 || trainable%: 0.1909
+{'loss': 3.4215, 'grad_norm': 2.791963815689087, 'learning_rate': 0.0004537037037037037, 'epoch': 0.19}
+{'loss': 2.6624, 'grad_norm': 3.3292653560638428, 'learning_rate': 0.000497574198380352, 'epoch': 0.37}
+{'loss': 2.7054, 'grad_norm': 5.348759174346924, 'learning_rate': 0.0004892491320274545, 'epoch': 0.56}
+{'loss': 2.6362, 'grad_norm': 3.5627248287200928, 'learning_rate': 0.00047519418540646673, 'epoch': 0.75}
+{'eval_loss': 2.6175522804260254, 'eval_runtime': 120.4457, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 4.425, 'epoch': 0.75}
+{'loss': 2.6815, 'grad_norm': 2.8620715141296387, 'learning_rate': 0.0004557459664734141, 'epoch': 0.94}
+{'loss': 2.5222, 'grad_norm': 3.301117181777954, 'learning_rate': 0.00043137024898040887, 'epoch': 1.12}
+{'loss': 2.4699, 'grad_norm': 6.030478477478027, 'learning_rate': 0.00040265081745991774, 'epoch': 1.31}
+{'loss': 2.4759, 'grad_norm': 4.661359786987305, 'learning_rate': 0.0003702754859181421, 'epoch': 1.5}
+{'eval_loss': 2.574234962463379, 'eval_runtime': 120.8418, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 4.411, 'epoch': 1.5}
+{'loss': 2.468, 'grad_norm': 4.218554973602295, 'learning_rate': 0.0003350196250818308, 'epoch': 1.69}
+{'loss': 2.437, 'grad_norm': 3.476073980331421, 'learning_rate': 0.00029772759271156827, 'epoch': 1.87}
+{'loss': 2.3569, 'grad_norm': 2.9247381687164307, 'learning_rate': 0.0002592925117149471, 'epoch': 2.06}
+{'loss': 2.1347, 'grad_norm': 3.042037010192871, 'learning_rate': 0.00022063488036227976, 'epoch': 2.25}
+{'eval_loss': 2.578559637069702, 'eval_runtime': 121.349, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 4.392, 'epoch': 2.25}
+{'loss': 2.1757, 'grad_norm': 4.237105369567871, 'learning_rate': 0.000182680526877985, 'epoch': 2.43}
+{'loss': 2.1479, 'grad_norm': 3.0991532802581787, 'learning_rate': 0.00014633843638261438, 'epoch': 2.62}
+{'loss': 2.134, 'grad_norm': 2.8967652320861816, 'learning_rate': 0.00011247898121760935, 'epoch': 2.81}
+{'loss': 2.1209, 'grad_norm': 2.5059542655944824, 'learning_rate': 8.191307602409795e-05, 'epoch': 3.0}
+{'eval_loss': 2.508039712905884, 'eval_runtime': 121.2396, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 4.396, 'epoch': 3.0}
+{'loss': 1.7896, 'grad_norm': 3.6685895919799805, 'learning_rate': 5.53727567997051e-05, 'epoch': 3.18}
+{'loss': 1.7888, 'grad_norm': 2.5414397716522217, 'learning_rate': 3.3493649053890325e-05, 'epoch': 3.37}
+{'loss': 1.773, 'grad_norm': 3.035072088241577, 'learning_rate': 1.679974493949363e-05, 'epoch': 3.56}
+{'loss': 1.7631, 'grad_norm': 2.5180070400238037, 'learning_rate': 5.690853939508078e-06, 'epoch': 3.75}
+{'eval_loss': 2.626314163208008, 'eval_runtime': 120.1681, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 4.435, 'epoch': 3.75}
+{'loss': 1.7698, 'grad_norm': 2.750466823577881, 'learning_rate': 4.3302765797423313e-07, 'epoch': 3.93}
+{'train_runtime': 13058.1759, 'train_samples_per_second': 1.307, 'train_steps_per_second': 0.082, 'train_loss': 2.297294639916009, 'epoch': 4.0}
+
+Test Results for ministral_8b (NL): {'eval_loss': 2.6193721294403076, 'eval_runtime': 120.9442, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 4.415, 'epoch': 4.0}
+
+All models fine-tuned successfully for all languages!
+================================================================================
+
+[1;32m                           LoRA Fine-tuning Complete                            [0m
+
+================================================================================
+
+###############################################################################
+Hábrók Cluster
+Job 25092853 for user s5542332
+Finished at: Mon Nov  3 14:39:42 CET 2025
+
+Job details:
+============
+
+Job ID                         : 25092853
+Name                           : ministral_8b_nl
+User                           : s5542332
+Partition                      : digitallablong
+Nodes                          : dl-h100gpu1
+Number of Nodes                : 1
+Cores                          : 16
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-11-03T10:58:26
+Start                          : 2025-11-03T10:58:27
+End                            : 2025-11-03T14:39:38
+Reserved walltime              : 1-00:00:00
+Used walltime                  :   03:41:11
+Used CPU time                  :   03:40:39 (Efficiency:  6.23%)
+% User (Computation)           : 69.64%
+% System (I/O)                 : 30.36%
+Total memory reserved          : 32G
+Maximum memory used            : 17.74G
+Requested GPUs                 : 1
+Allocated GPUs                 : 1
+Max GPU utilization            : 0%
+Max GPU memory used            : 7.01G
+Hints and tips      :
+ 1) You are running on a GPU node without actually using the GPU, please fix this.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

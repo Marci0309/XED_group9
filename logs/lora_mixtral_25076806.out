@@ -125,3 +125,71 @@ Evaluating strategy: few-shot on 784 samples
 Accuracy (few-shot): 0.719
 
 Evaluating strategy: instruction on 784 samples
+Accuracy (instruction): 1.000
+
+Evaluating on multi-language dataset...
+
+Evaluating strategy: zero-shot on 2843 samples
+Accuracy (zero-shot): 0.036
+
+Evaluating strategy: few-shot on 2843 samples
+Accuracy (few-shot): 0.711
+
+Evaluating strategy: instruction on 2843 samples
+Accuracy (instruction): 1.000
+
+===== Final Summary =====
+single_zero: 0.031
+single_few: 0.719
+single_instruct: 1.000
+multi_zero: 0.036
+multi_few: 0.711
+multi_instruct: 1.000
+
+Results saved to: models/prompting_results.json
+================================================================================
+
+[1;32m                         Prompting Evaluation Complete                          [0m
+
+================================================================================
+
+###############################################################################
+Hábrók Cluster
+Job 25076806 for user s5542332
+Finished at: Sun Nov  2 13:15:30 CET 2025
+
+Job details:
+============
+
+Job ID                         : 25076806
+Name                           : lora_mixtral
+User                           : s5542332
+Partition                      : gpumedium
+Nodes                          : a100gpu3
+Number of Nodes                : 1
+Cores                          : 8
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-11-02T10:11:05
+Start                          : 2025-11-02T10:11:06
+End                            : 2025-11-02T13:15:26
+Reserved walltime              : 1-00:00:00
+Used walltime                  :   03:04:20
+Used CPU time                  :   03:03:16 (Efficiency: 12.43%)
+% User (Computation)           : 97.69%
+% System (I/O)                 :  2.32%
+Total memory reserved          : 32G
+Maximum memory used            : 1.37G
+Requested GPUs                 : 1
+Allocated GPUs                 : a100=1
+Max GPU utilization            : 100%
+Max GPU memory used            : 24.94G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

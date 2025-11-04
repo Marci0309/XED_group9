@@ -2,6 +2,7 @@ from src.preprocessing import EmotionDataPreprocessor
 from src.emotion_distribution import EmotionDistribution
 from src.train_lora_llm import LoraFineTuner
 from src.train_prompting import PromptTrainer
+from src.eval_model import LoRAModelEvaluator
 from utils.utils import heading
 import yaml
 import os
@@ -19,9 +20,9 @@ def main():
 
     general_cfg = cfg["GENERAL"]
     emotion_cfg = cfg["EMOTION_ANALYSIS"]
-    language_cfg = cfg["LANGUAGES"]
     lora_cfg = cfg["LORA"]
     prompt_cfg = cfg["PROMPTING"]
+    eval_cfg = cfg.get("EVALUATION")
 
     os.makedirs(general_cfg["OUTPUT_DIR"], exist_ok=True)
     os.makedirs(general_cfg["PLOTS_DIR"], exist_ok=True)
@@ -83,6 +84,26 @@ def main():
         heading("LoRA Fine-tuning Complete", char="=", color="green", pad=1)
     else:
         heading("LoRA fine-tuning disabled in config.yaml", char="=", color="red", pad=1)
+    
+            
+    #  ============================================================
+    # MODEL EVALUATION
+    #  ============================================================
+    if eval_cfg.get("ENABLED", False):
+        evaluator = LoRAModelEvaluator(
+            base_model=eval_cfg["BASE_MODEL"],
+            adapter_path=eval_cfg["ADAPTER_PATH"],
+            batch_size=eval_cfg["BATCH_SIZE"],
+            max_new_tokens=eval_cfg["MAX_NEW_TOKENS"],
+        )
+        results = evaluator.evaluate(
+            data_root=general_cfg["OUTPUT_DIR"],
+            langs=emotion_cfg.get("LANGUAGES", [])
+        )
+        
+        print("Evaluation Results:")
+        print(results)
+        
 
     # ============================================================
     #  PROMPTING EVALUATION

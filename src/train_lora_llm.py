@@ -1,6 +1,7 @@
 import os
 import torch
 import warnings
+import shutil
 from datasets import load_dataset
 from transformers import (
     AutoModelForCausalLM,
@@ -46,6 +47,11 @@ class LoraFineTuner:
         self.grad_accum_steps = grad_accum_steps
         self.learning_rate = learning_rate
 
+        hf_cache = os.getenv("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
+        if os.path.exists(hf_cache):
+            print(f"Clearing Hugging Face cache at {hf_cache}")
+            shutil.rmtree(hf_cache, ignore_errors=True)
+
         os.environ["CUDA_VISIBLE_DEVICES"] = device_ids
         warnings.filterwarnings("ignore", message="Detected kernel version")
 
@@ -60,7 +66,7 @@ class LoraFineTuner:
         )
 
     # ============================================================
-    #  DATASET
+    #  DATASET LOADING
     # ============================================================
     def _load_dataset(self, lang: str):
         """Load dataset for a specific language."""
@@ -69,21 +75,53 @@ class LoraFineTuner:
         print(f"Loaded {lang.upper()} dataset successfully.")
         return dataset
 
+    # ============================================================
+    #  TOKENIZATION FUNCTION
+    # ============================================================
     @staticmethod
     def _tokenize_function(examples, tokenizer):
-        """Combine text and labels into model-ready sequences."""
-        full_texts = [
-            f"Classify the emotions of: {t}\nAnswer: {l}"
-            for t, l in zip(examples["text"], examples["label"])
-        ]
-        return tokenizer(full_texts, truncation=True, padding="max_length", max_length=512)
+        """
+        Converts OpenAI-style text format into trainable sequences.
+        Example input:
+            {"text": "<|user|> Classify the emotions of: 'I love this!'\n<|assistant|> joy <|endoftext|>"}
+        """
+        processed_texts = []
+
+        for t in examples["text"]:
+            try:
+                if "<|assistant|>" in t:
+                    user_part, assistant_part = t.split("<|assistant|>", 1)
+                    user_text = (
+                        user_part.replace("<|user|>", "")
+                        .replace("Classify the emotions of:", "")
+                        .strip(" :'\n")
+                    )
+                    label = (
+                        assistant_part.split("<|endoftext|>")[0]
+                        .strip()
+                        .replace("\n", "")
+                    )
+                else:
+                    user_text, label = t, "unknown"
+                full_text = f"Classify the emotions of: {user_text}\nAnswer: {label}"
+                processed_texts.append(full_text)
+            except Exception as e:
+                print(f"⚠️ Could not parse example: {t[:80]}... ({e})")
+                processed_texts.append(t)
+
+        return tokenizer(
+            processed_texts,
+            truncation=True,
+            padding="max_length",
+            max_length=512,
+        )
 
     # ============================================================
     #  SINGLE MODEL TRAINING
     # ============================================================
     def _train_single_model(self, tag: str, model_name: str, lang: str, dataset):
         print(f"\n==============================")
-        print(f" Fine-tuning {model_name} on {lang.upper()}")
+        print(f"Fine-tuning {model_name} on {lang.upper()}")
         print(f"==============================")
 
         out_dir = os.path.join(self.output_dir, tag, f"{lang}_lora_finetune")
@@ -104,7 +142,7 @@ class LoraFineTuner:
         tokenized = dataset.map(
             lambda x: self._tokenize_function(x, tokenizer),
             batched=True,
-            remove_columns=["text", "label"],
+            remove_columns=["text"],
         )
 
         lora_config = LoraConfig(
@@ -125,7 +163,7 @@ class LoraFineTuner:
 
         args = TrainingArguments(
             output_dir=out_dir,
-            evaluation_strategy="steps",
+            eval_strategy="steps",
             eval_steps=200,
             save_strategy="steps",
             save_steps=400,

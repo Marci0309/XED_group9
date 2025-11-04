@@ -17,30 +17,51 @@ EMOTION_ANALYSIS:
   ENABLE_PLOTTING: false
   LANGUAGES:
     - en
-    - nl
-    - hu
-    - ro
-    - combined
+    #- nl
+    #- hu
+    #- ro
+    #- combined
 
 
 # ============================================================
 #  LORA FINE-TUNING CONFIGURATION
 # ============================================================
 LORA:
-  LORA_FINETUNE: true
+  LORA_FINETUNE: false
   LORA_MODELS:
-    mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
-    mixtral_8x7b: "mistralai/Mixtral-8x7B-v0.1"
-    ministral_3b: "mistralai/Ministral-3B-v0.1"
-    mistral_tiny: "mistralai/Mistral-3B-Instruct-v0.1"
+    ministral_8b: "mistralai/Ministral-8B-Instruct-2410"
+    #mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
+    #mixtral_8x7b: "mistralai/Mixtral-8x7B-v0.1"
+    #voxtral: "mistralai/Voxtral-Mini-3B-2507"
   LORA_RANK: 16
   LORA_ALPHA: 32
   LORA_DROPOUT: 0.05
   NUM_EPOCHS: 4
   BATCH_SIZE: 1
   GRAD_ACCUM_STEPS: 16
-  LEARNING_RATE: 5e-4
+  LEARNING_RATE: 5.0e-4
   DEVICE_IDS: "0"
+
+# ============================================================
+# EVALUATION CONFIGURATION
+# ============================================================
+
+EVALUATION:
+  ENABLED: true
+  BASE_MODEL: # only enable one at the time 
+    ministral_8b: "mistralai/Ministral-8B-Instruct-2410" 
+    #mistral_7b: "mistralai/Mistral-7B-Instruct-v0.1"
+    #mixtral_8x7b: "mistralai/Mixtral-8x7B-v0.1"
+    #voxtral: "mistralai/Voxtral-Mini-3B-2507"
+  ADAPTHER_PATH: "models/ministral_8b/nl_lora_finetune/checkpoint-1200"
+  LANGUAGE: 
+    - nl
+    #- en
+    #- hu
+    #- ro
+    #- combined
+  BATCH_SIZE: 16
+  MAX_NEW_TOKENS: 64
 
 
 # ============================================================

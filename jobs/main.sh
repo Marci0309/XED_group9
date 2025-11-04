@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=Running_main
-#SBATCH --time=48:00:00
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
+#SBATCH --job-name=ministral_8b_nl
+#SBATCH --time=24:00:00
+#SBATCH --partition=digitallab
+#SBATCH --gpus-per-node=h100_80gb_hbm3_1g.10gb:1
 #SBATCH --mem=32G
 #SBATCH --cpus-per-task=16
 #SBATCH --output=logs/%x_%j.out
